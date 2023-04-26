@@ -1,16 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
+using RoslynCSharp;
 
 public class ButtonScript : MonoBehaviour
 {
-    public TMP_Text text;
-    public GameObject capsule;
+    public InputField Script;
 
-    public void ChangeColor()
+    public void ExecuteScript()
     {
-        text.text = "Arschnase";
-        capsule.GetComponent<MeshRenderer>().material.color = Color.blue;
+        ScriptDomain domain = ScriptDomain.CreateDomain("MyTestDomain", true);
+        ScriptType type = domain.CompileAndLoadMainSource(Script.text);
+        ScriptProxy proxy = type.CreateInstance(gameObject);
+
+        proxy.Call("Start");
     }
 }
