@@ -21,7 +21,4 @@ public class RobotScript: MonoBehaviour
     {
         gameObject.transform.Translate(Vector3.forward * 0.1f * Time.deltaTime);
     }
-
-THIS IS WRONG!
-
 }
