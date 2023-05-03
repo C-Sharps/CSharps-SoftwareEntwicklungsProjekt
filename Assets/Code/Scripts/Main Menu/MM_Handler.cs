@@ -81,7 +81,7 @@ public class MM_Handler : MonoBehaviour
     void Update()
     {
         // slowly change the rotation of main camera over time
-        Camera.main.transform.Rotate(0, 0.001f, 0);
+        Camera.main.transform.Rotate(0, 0.04f, 0);
     }
     
     private void StartGame()
