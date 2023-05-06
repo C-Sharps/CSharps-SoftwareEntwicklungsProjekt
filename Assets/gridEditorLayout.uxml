@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/GridEditorUSS.uss?fileID=7433441132597879392&amp;guid=832b23e0c02adf84094b72a03cab95b5&amp;type=3#GridEditorUSS" />
+    <uie:PropertyField label="Grid" binding-path="gridObject" focusable="false" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+    <uie:Vector2IntField label="Grid Size" binding-path="gridSize" />
+    <uie:Vector3Field label="Origin Position" binding-path="origin" style="align-items: flex-start;" />
+    <ui:Foldout text="Cell Dimensions">
+        <uie:FloatField label="Cell Size X" value="42,2" binding-path="cellSizeX" />
+        <uie:FloatField label="Cell Size Y" value="42,2" binding-path="cellSizeY" style="height: 19px;" />
+        <uie:FloatField label="Cell Size Z" value="42,2" />
+    </ui:Foldout>
+    <uie:EnumField label="Orientation" value="Center" binding-path="orientation" />
+    <ui:Toggle label="Use Grid Labeling?" binding-path="useLabels" value="false" />
+    <ui:Button text="Generate Grid" display-tooltip-when-elided="true" binding-path="generateGrid" />
+</ui:UXML>

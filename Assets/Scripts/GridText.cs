@@ -6,15 +6,8 @@ using UnityEngine.UIElements;
 
 public class GridText : MonoBehaviour
 {
-    public Grid grid;
-    public TMP_Text gridLabel;
-    public int sizeX;
-    public int sizeY;
-
-    void Awake()
+    public static void setGridText(Grid grid, Canvas canvas, TMP_Text gridLabel, int sizeX, int sizeY)
     {
-        GameObject canvas = grid.transform.Find("Canvas").gameObject;
-
         for (int y = 0; y < sizeY; y++)
         {
             for (int x = 0; x < sizeX; x++)
