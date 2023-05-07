@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:IMGUIContainer name="container">
+        <ui:DropdownField label="Primitive Type" index="0" choices="Cube,Sphere,Capsule,Cylinder,Plane,Quad" name="primitiveSelector" />
+        <ui:TextField picking-mode="Ignore" label="Name" text="filler text" name="gameObjectName" />
+        <ui:Toggle label="Is Active" name="IsActive" />
+        <ui:Button text="Create" display-tooltip-when-elided="true" name="create" />
+    </ui:IMGUIContainer>
+</ui:UXML>
