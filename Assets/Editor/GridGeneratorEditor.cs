@@ -8,23 +8,9 @@ using UnityEngine.UIElements;
 public class GridGeneratorEditor : EditorWindow
 
 {
-    private PropertyField gridObject;
-    private Vector2IntField gridSizeField;
-    private Vector3Field originField;
-    private PropertyField tileSpriteField;
-    private FloatField cellSizeXField;
-    private FloatField cellSizeYField;
-    private FloatField cellSizeZField;
-    private EnumField orientationField;
-    private Toggle useGridLabelToggle;
     private Button gridGeneratorButton;
-
     private GridGenerator gridGenerator;
 
-    void OnAwake()
-    {
-        gridGenerator ??= new GridGenerator();
-    }
 
     [MenuItem("Tools/Grid Generator")]
     public static void ShowWindow()
@@ -39,6 +25,13 @@ public class GridGeneratorEditor : EditorWindow
         var layout = visualTree.Instantiate();
         rootVisualElement.Add(layout);
 
+        // Initialize a gridGenerator object and 
+        gridGenerator = ScriptableObject.CreateInstance<GridGenerator>();
+        SerializedObject so = new SerializedObject(gridGenerator);
+        BindingExtensions.Bind(rootVisualElement, so);
+
+        // Not used any longer: Binding the rootVisualElement does the trick!
+        /*
         gridObject = rootVisualElement.Query<PropertyField>("gridObject");
         gridSizeField = rootVisualElement.Query<Vector2IntField>("gridSizeField");
         originField = rootVisualElement.Query<Vector3Field>("originField");
@@ -48,12 +41,8 @@ public class GridGeneratorEditor : EditorWindow
         cellSizeZField = rootVisualElement.Query<FloatField>("cellSizeZField");
         orientationField = rootVisualElement.Query<EnumField>("orientationField");
         useGridLabelToggle = rootVisualElement.Query<Toggle>("useGridLabelToggle");
+        */
         gridGeneratorButton = rootVisualElement.Query<Button>("gridGeneratorButton");
-        gridGeneratorButton.clicked += Generate;
-    }
-
-    private void Generate()
-    {
-        gridGenerator.GenerateGrid();
+        gridGeneratorButton.clicked += gridGenerator.GenerateGrid;
     }
 }

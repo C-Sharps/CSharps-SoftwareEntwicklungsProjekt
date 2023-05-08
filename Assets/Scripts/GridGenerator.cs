@@ -10,6 +10,7 @@ public class GridGenerator : ScriptableObject
 {
     public string gridName;
     private GameObject gridObject;
+    [SerializeField]
     private Grid grid;
     public Sprite tileSprite;
     private Tilemap tilemap;
@@ -19,18 +20,10 @@ public class GridGenerator : ScriptableObject
     public float cellSizeX = 1f;
     public float cellSizeY = 1f;
     public bool useLabels;
-    private Canvas canvas;
-    public TMP_Text gridLabel;
-    public delegate void Function();
-    public Function generateGrid;
+    private TMP_Text gridLabel;
 
-    public void GenerateGrid()
+    public void GenerateGrid() 
     {
-        if (gridObject != null)
-        {
-            Object.Destroy(gridObject);
-        }
-
         if (gridName.NullIfEmpty().IsUnityNull())
         {
             gridName = "Grid";
@@ -45,8 +38,10 @@ public class GridGenerator : ScriptableObject
 
         if (useLabels)
         {
-            canvas = grid.AddComponent<Canvas>();
-            SetGridText();
+            GameObject canvasObject = new GameObject("Canvas", typeof(Canvas));
+            canvasObject.transform.SetParent(gridObject.transform);
+            Canvas canvas = canvasObject.GetComponent<Canvas>();
+            SetGridText(canvas);
         }
 
         if (tileSprite != null)
@@ -57,7 +52,7 @@ public class GridGenerator : ScriptableObject
 
     public enum GridOrientation { XZ, XY, YZ };
 
-    private Quaternion GetRotationForOrientation(GridOrientation orientation)
+    private static Quaternion GetRotationForOrientation(GridOrientation orientation)
     {
         switch (orientation)
         {
@@ -68,8 +63,11 @@ public class GridGenerator : ScriptableObject
         }
     }
 
-    public void SetGridText()
+    public void SetGridText(Canvas canvas)
     {
+
+        TMP_Text gridLabel = Resources.Load<TMP_Text>("Assets/Prefabs/GridLabel");
+
         for (int y = 0; y < gridSize.y; y++)
         {
             for (int x = 0; x < gridSize.x; x++)
@@ -85,7 +83,7 @@ public class GridGenerator : ScriptableObject
     private void FillGridWithTiles()
     {
         tilemap = gridObject.AddComponent<Tilemap>();
-        Tile tile = ScriptableObject.CreateInstance<Tile>();
+        Tile tile = CreateInstance<Tile>();
         tile.sprite = tileSprite;
 
         for (int y = 0; y < gridSize.y; y++)
