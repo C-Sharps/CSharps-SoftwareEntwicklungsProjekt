@@ -11,8 +11,7 @@ public class MM_Handler : MonoBehaviour
   
     void Start()
     {
-        transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = _gameNames[Random.Range(0, _gameNames.Length)];
-        
+      
         // set the button functions
         transform.GetChild(1).GetComponent<Button>().onClick.AddListener(StartGame);
         transform.GetChild(3).GetComponent<Button>().onClick.AddListener(Application.Quit);
