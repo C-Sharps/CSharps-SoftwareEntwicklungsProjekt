@@ -3,9 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="4ebb3dd6-bf99-4025-9b10-ae0e377797f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/SpaceLamp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/SpaceLamp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/1 - Ship Deck.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/1 - Ship Deck.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/LessonButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/LessonButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/InGameCodeEditor/InGameCodeEditor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/InGameCodeEditor/InGameCodeEditor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/Planets of the Solar System 3D/Materials/URP_Uranus_Lod.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/Planets of the Solar System 3D/Materials/URP_Uranus_Lod.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/1 - Ship Deck.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/1 - Ship Deck.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/Ship Deck.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/Ship Deck.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilderData.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilderData/ProBuilderPreferences.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilderData/ProBuilderPreferences.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +30,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/CircuitBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/SpaceLamp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Your Robot/LogicChecker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,6 +105,13 @@
       <workItem from="1682516053308" duration="307000" />
       <workItem from="1682537691932" duration="62000" />
       <workItem from="1682573644716" duration="5041000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1683537096976" duration="2283000" />
+      <workItem from="1683612543346" duration="1348000" />
+      <workItem from="1683723778395" duration="2382000" />
+      <workItem from="1683796173391" duration="1875000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
