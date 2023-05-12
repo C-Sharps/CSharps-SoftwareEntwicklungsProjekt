@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ebb3dd6-bf99-4025-9b10-ae0e377797f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Compiler.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Compiler/CodeCompiler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Compiler/CodeCompiler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Compiler/CustomDynamicDriver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Compiler/CustomDynamicDriver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Compiler/CustomReportPrinter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Compiler/CustomReportPrinter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Demo/CompileTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Demo/CompileTest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Demo/SetDemoText.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Demo/SetDemoText.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TutorialSceneScripts/ButtonScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TutorialSceneScripts/ButtonScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/External/InGameCodeEditor/CompatibilityDemo/RoslynCSharp_IntegrationDemo.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/External/RoslynCSharp/Plugin/System-ValueTuple_CompatibilityPackage.unitypackage.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/board_nodes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/board_nodes.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/UI/Second_Title.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/UI/Second_Title.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/board_nodes.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/board_nodes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/board_ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/board_ui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Main Menu/MM_Handler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Main Menu/MM_Handler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/0 - Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/0 - Main Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/1 - Ship Deck.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/1 - Ship Deck.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/CircuitBoard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/LessonButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/SpaceLamp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,22 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Rekzai\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Rekzai\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Rekzai\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Rekzai\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Rekzai\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Rekzai\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe" />
@@ -94,6 +95,10 @@
       <option name="presentableId" value="Default" />
       <updated>1682516050588</updated>
       <workItem from="1682516053308" duration="307000" />
+      <workItem from="1682537691932" duration="62000" />
+      <workItem from="1682573644716" duration="5041000" />
+      <workItem from="1683537096976" duration="2283000" />
+      <workItem from="1683612543346" duration="1348000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Editor.meta
 guid: 63de026f2e20c50449b76331b62cd105
+========
+guid: 2d1ce6d5c28c3e0468a9b53d0eb6de28
+>>>>>>>> main:Assets/Art.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
