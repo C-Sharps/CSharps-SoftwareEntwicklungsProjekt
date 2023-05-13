@@ -12,7 +12,7 @@ public class GridGenerator : ScriptableObject
     private GameObject gridObject;
     [SerializeField]
     private Grid grid;
-    public Sprite tileSprite;
+    public Tile tileAsset;
     public Vector3 origin;
     public GridOrientation orientation;
     public Vector2Int gridSize = Vector2Int.one;
@@ -63,7 +63,7 @@ public class GridGenerator : ScriptableObject
             CreateTilemap();
         }
 
-        if (tileSprite != null)
+        if (tileAsset != null)
         {
             FillGridWithTiles();
         }
@@ -110,15 +110,13 @@ public class GridGenerator : ScriptableObject
 
     private void FillGridWithTiles()
     {
-        Tile tile = CreateInstance<Tile>();
-        tile.sprite = tileSprite;
         Tilemap tilemap = gridObject.GetComponentInChildren<Tilemap>();
 
         for (int y = 0; y < gridSize.y; y++)
         {
             for (int x = 0; x < gridSize.x; x++)
             {
-                tilemap.SetTile(new Vector3Int(x, y), tile);
+                tilemap.SetTile(new Vector3Int(x, y), Instantiate<Tile>(tileAsset));
             }
         }
     }

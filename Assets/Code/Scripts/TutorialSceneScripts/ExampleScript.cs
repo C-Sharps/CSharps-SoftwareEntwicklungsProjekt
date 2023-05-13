@@ -1,9 +1,8 @@
-using System.Collections;
-using System.ComponentModel;
 using UnityEngine;
 
 public class ExampleScript : MonoBehaviour
-{ 
+{
+    #pragma warning disable CS0414
     int integer;
     float floatVar;
     double doubleVar;
