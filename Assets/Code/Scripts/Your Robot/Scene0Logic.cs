@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using RoslynCSharp;
 
 public class Scene0Logic : MonoBehaviour
 {
@@ -14,11 +15,21 @@ public class Scene0Logic : MonoBehaviour
     public TMPro.TMP_InputField editorInput;
     public TextMeshProUGUI highlightedText;
 
-
+    public GameObject RobotObject;
+    
+    public AssemblyReferenceAsset[] assemblyReferences;
+    private ScriptDomain _domain = null;
+    
     private void Start()
     {
         editorInput.text = robotSource;
         
+        // Create the domain
+        _domain = ScriptDomain.CreateDomain("RobotDomain", true);
+
+        // Add assembly references
+        foreach (AssemblyReferenceAsset reference in assemblyReferences)
+            _domain.RoslynCompilerService.ReferenceAssemblies.Add(reference);
     }
 
     public void OnChangeTab(int id)
@@ -59,11 +70,12 @@ public class Scene0Logic : MonoBehaviour
 
         editorInput.interactable = id != 0;
     }
-
+    
     public void OnExecute()
     {
-        var input = "";
-        
+ 
+        ScriptType type = _domain.CompileAndLoadMainSource(editorInput.text, ScriptSecurityMode.UseSettings, assemblyReferences );
+        ScriptProxy proxy = type.CreateInstance(gameObject);
     }
 
 }
