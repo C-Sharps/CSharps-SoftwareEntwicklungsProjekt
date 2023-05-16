@@ -29,6 +29,7 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         // call the event
         FindObjectOfType<LessonManager>().onLessonHover.Invoke(_id, true);
+       
     }
 
     public void OnPointerExit(PointerEventData eventData)
