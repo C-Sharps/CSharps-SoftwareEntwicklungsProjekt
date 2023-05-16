@@ -32,50 +32,17 @@ public class Scene0Logic : MonoBehaviour
             _domain.RoslynCompilerService.ReferenceAssemblies.Add(reference);
     }
 
-    public void OnChangeTab(int id)
+    public void OnChangeTab(int id) 
     {
-        editorInput.text = id == 0 ? @"public class Robot : MonoBehaviour, EVA
-{
-    // Robot Parts
-    public Head Head;
-    public Body Body;
-    public Arm LeftArm;
-    public Arm RightArm;
-    public Leg LeftLeg;
-    public Leg RightLeg;
-    private Color
-
-    public Robot(Color32 Color)
-    {
-        _color = Color; 
-    }
-}" : mainSource;
-        
-        highlightedText.text = id == 0 ? @"public class Robot : MonoBehaviour, EVA
-{
-    // Robot Parts
-    public Head Head;
-    public Body Body;
-    public Arm LeftArm;
-    public Arm RightArm;
-    public Leg LeftLeg;
-    public Leg RightLeg;
-    private Color
-
-    public Robot(Color32 Color)
-    {
-        _color = Color; 
-    }
-}" : mainSource;
-
+        //mainSource = id == 0 ? editorInput.text : mainSource;
+        editorInput.text = id == 0 ? robotSource : mainSource;
+        highlightedText.text = id == 0 ? robotSource : mainSource;
         editorInput.interactable = id != 0;
     }
     
     public void OnExecute()
     {
- 
-        ScriptType type = _domain.CompileAndLoadMainSource(editorInput.text, ScriptSecurityMode.UseSettings, assemblyReferences );
-        ScriptProxy proxy = type.CreateInstance(gameObject);
+        Robot myRobot = new Robot(Color.green);
     }
 
 }

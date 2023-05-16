@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ebb3dd6-bf99-4025-9b10-ae0e377797f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Your Robot/Robot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RIVET_1A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RIVET_1A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Robot_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Robot_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Your Robot/DemoRobot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Your Robot/DemoRobot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Your Robot/Robot.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Your Robot/Scene0Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Your Robot/Scene0Logic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/Planets of the Solar System 3D/Materials/URP_Venus_2k.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/Planets of the Solar System 3D/Materials/URP_Venus_2k.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/RoslynCSharp/AssemblyReferences/assemblysharp.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/RoslynCSharp/AssemblyReferences/assemblysharp.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/2 - Your Robot.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/2 - Your Robot.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/CircuitBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/LessonButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Ship Deck/SpaceLamp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Your Robot/DemoRobot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Your Robot/Robot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Scripts/Your Robot/Scene0Logic.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -103,6 +111,7 @@
       <workItem from="1683537096976" duration="2283000" />
       <workItem from="1683612543346" duration="1348000" />
       <workItem from="1684055158184" duration="4120000" />
+      <workItem from="1684225905179" duration="3132000" />
     </task>
     <servers />
   </component>
