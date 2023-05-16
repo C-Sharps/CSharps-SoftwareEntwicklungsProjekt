@@ -42,7 +42,8 @@ public class Scene0Logic : MonoBehaviour
     
     public void OnExecute()
     {
-        Robot myRobot = new Robot(Color.green);
+        ScriptType type = _domain.CompileAndLoadMainSource(editorInput.text, ScriptSecurityMode.UseSettings, assemblyReferences );
+        type.CreateInstance(gameObject);
     }
 
 }
