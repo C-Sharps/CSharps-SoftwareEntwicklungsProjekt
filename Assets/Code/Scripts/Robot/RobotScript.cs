@@ -39,7 +39,7 @@ public class RobotScript: MonoBehaviour
     [SerializeField]
     private GameObject[] InteractableObjects;
 
-    [SerializeField]
+    //[SerializeField]
     private GameObject IsHolding;
     //Moves Robot by Lerping between start and end position
     IEnumerator _Move(float x, float y)
@@ -91,17 +91,18 @@ public class RobotScript: MonoBehaviour
     }
 
 
-    IEnumerator _PutDown(GameObject Parent) {
-        Debug.Log("Put");
-        Debug.Log(IsHolding);
+    IEnumerator _PutDown(GameObject Robot) {
+ 
         if(IsHolding!=null) {
-            Vector3 P = IsHolding.transform.position;
+            
+            Vector3 P = transform.position;
 
-            P.x = (float) Mathf.Floor((float)(IsHolding.transform.position.x + .5))+.5f;
-            P.z = (float) Mathf.Floor((float)(IsHolding.transform.position.y + .5))+.5f;
-
-            IsHolding.transform.position = P;
+            //TODO : Abhängig von Roboter richtung machen
+            P.x = Mathf.Floor((P.x + 1f)); 
+           
             IsHolding.transform.parent = null;
+            IsHolding.transform.position = P;
+
         }
         yield return null;
     }
@@ -115,14 +116,12 @@ public class RobotScript: MonoBehaviour
     }
 
     public void PutDown(){
-        Tasks.Enqueue(_PutDown(IsHolding));
+        Tasks.Enqueue(_PutDown(gameObject));
     }
 
     //utility functions to allow the player to Check Robot status and add tasks in update accordingly
     public bool isExecutingCommand() {return isRunning;}
     public int remainingCommands() {return Tasks.Count;}
-
-    
 
 
     public void Update() {

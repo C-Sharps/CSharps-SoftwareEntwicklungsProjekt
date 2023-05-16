@@ -16,14 +16,13 @@ public class Robot : RobotScript
     void Start()
     {
         // Give the robot commands here
-        Move(Direction.North);
-        Move(Direction.North);
-        Move(Direction.North);
         Pickup();
+        Move(Direction.North);
         Move(Direction.East);
         PutDown();
-        Move(Direction.East);
-        Move(Direction.South);
+        Move(Direction.North);
+        Move(Direction.North);
+        Move(Direction.North);
 
     }
 
@@ -32,9 +31,6 @@ public class Robot : RobotScript
     
     void Update() {
         base.Update(); // Required for the robot to execute commands, do not remove
-
-    
-
 
     }
 }
