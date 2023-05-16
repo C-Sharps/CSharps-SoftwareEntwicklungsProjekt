@@ -9,12 +9,12 @@ public class Lesson11GameManager : AbstractGameManager
     TileBase intactTile;
 
     private void Start()
-    {
-        PlayLession();
+    { 
+        PlayLesson();
     }
 
     // Assert that all tiles are repaired (equaling the intactTile field).
-    public sealed override bool AssertLessionTargetComplete()
+    public sealed override bool AssertLessonTargetComplete()
     {
         Tilemap tilemap = GameObject.Find("Grid").GetComponentInChildren<Tilemap>();
         Debug.Log(intactTile);
@@ -27,7 +27,7 @@ public class Lesson11GameManager : AbstractGameManager
             {
                 Debug.Log( "(" + x + ", " + y + ")" );
                 TileBase tile = tilemap.GetTile(new Vector3Int(x, y));
-                if ( !(tile.GetType() == intactTile.GetType()) ) {
+                if ( !(tile == intactTile) ) {
                     Debug.Log("Tile on (" + x + ", " + y + ") not an intact tile!");
                     return false;
                 }

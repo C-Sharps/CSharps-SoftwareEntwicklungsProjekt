@@ -8,20 +8,20 @@ using UnityEngine.Assertions;
 public abstract class AbstractGameManager : MonoBehaviour
 {
     // Use this method to assert that the lession was successfully completed by the player
-    public abstract bool AssertLessionTargetComplete();
+    public abstract bool AssertLessonTargetComplete();
 
     // This method should be triggered by the "Run" button in the scene UI
-    protected void PlayLession()
+    protected void PlayLesson()
     {
         ExecutePlayerCode();
 
-        if (AssertLessionTargetComplete())
+        if (AssertLessonTargetComplete())
         {
-            ShowLessonCompleteWindow();
+            OnLessonComplete();
         }
         else
         {
-            ShowLessonFailedWindow();
+            OnLessonFailed();
         }
     }
 
@@ -30,13 +30,13 @@ public abstract class AbstractGameManager : MonoBehaviour
         Debug.Log("In ExecutePlayerCode()");
     }
 
-    private void ShowLessonCompleteWindow()
+    private void OnLessonComplete()
     {
-        Debug.Log("In ShowLessonCompleteWindow()");
+        Debug.Log("In OnLessonComplete()");
     }
 
-    private void ShowLessonFailedWindow()
+    private void OnLessonFailed()
     {
-        Debug.Log("In ShowLessonFailedWindow()");
+        Debug.Log("In OnLessonFailed()");
     }
 }

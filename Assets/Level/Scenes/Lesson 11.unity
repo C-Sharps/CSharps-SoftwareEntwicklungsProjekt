@@ -6166,6 +6166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 911735377}
   - component: {fileID: 911735376}
+  - component: {fileID: 911735378}
   m_Layer: 0
   m_Name: GameManagerHolder
   m_TagString: Untagged
@@ -6185,8 +6186,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c59b47c60d7554a458b5e81d9c68d013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 12, y: 6}
-  intactTile: {fileID: 11400000, guid: 50c2896dd7c4ca44f9a206bd81337707, type: 2}
 --- !u!4 &911735377
 Transform:
   m_ObjectHideFlags: 0
@@ -6202,6 +6201,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &911735378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911735375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39778987cec96d44be573ed0db60b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridSize: {x: 12, y: 6}
+  intactTile: {fileID: 11400000, guid: 50c2896dd7c4ca44f9a206bd81337707, type: 2}
 --- !u!114 &940564971
 MonoBehaviour:
   m_ObjectHideFlags: 0
