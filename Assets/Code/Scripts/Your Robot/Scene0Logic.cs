@@ -1,49 +1,21 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Code.Scripts;
 using TMPro;
 using UnityEngine;
 using RoslynCSharp;
 
-public class Scene0Logic : MonoBehaviour
+public class Scene0Logic : SceneLogic
 {
-    [TextArea(3, 10)]
-    public string robotSource = "";
-    [TextArea(3, 10)]
-    public string mainSource = "";
     
-    public TMPro.TMP_InputField editorInput;
-    public TextMeshProUGUI highlightedText;
-
-    public GameObject RobotObject;
-    
-    public AssemblyReferenceAsset[] assemblyReferences;
-    private ScriptDomain _domain = null;
-    
-    private void Start()
+    public void Update()
     {
-        editorInput.text = robotSource;
-        
-        // Create the domain
-        _domain = ScriptDomain.CreateDomain("RobotDomain", true);
-
-        // Add assembly references
-        foreach (AssemblyReferenceAsset reference in assemblyReferences)
-            _domain.RoslynCompilerService.ReferenceAssemblies.Add(reference);
+        // ToDo: Not performant, should be done with events
+        var robot = GameObject.FindGameObjectWithTag("Player");
+        if (robot != null && lessonObjectives[0].isCompleted == false)
+        {
+            CompleteObjective(0);
+        }
     }
-
-    public void OnChangeTab(int id) 
-    {
-        //mainSource = id == 0 ? editorInput.text : mainSource;
-        editorInput.text = id == 0 ? robotSource : mainSource;
-        highlightedText.text = id == 0 ? robotSource : mainSource;
-        editorInput.interactable = id != 0;
-    }
-    
-    public void OnExecute()
-    {
-        ScriptType type = _domain.CompileAndLoadMainSource(editorInput.text, ScriptSecurityMode.UseSettings, assemblyReferences );
-        type.CreateInstance(gameObject);
-    }
-
 }
