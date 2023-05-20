@@ -4,24 +4,23 @@ using UnityEngine;
 using UnityEngine.PlayerLoop;
 
 
-public class Direction {
-    public int x;
-    public int y;
-    
-    public Direction(int x,int y) {
-        this.x = x;
-        this.y = y;
-    }
+// public class Direction {
+//     public int x;
+//     public int y;
+//     
+//     public Direction(int x,int y) {
+//         this.x = x;
+//         this.y = y;
+//     }
+// 
+//     public static Direction North = new Direction(1,0);
+//     public static Direction South = new Direction(-1,0);
+//     public static Direction East = new Direction(0,-1);
+//     public static Direction West = new Direction(0,1);
+// }
 
-    public static Direction North = new Direction(1,0);
-    public static Direction South = new Direction(-1,0);
-    public static Direction East = new Direction(0,-1);
-    public static Direction West = new Direction(0,1);
 
-}
-
-
-public class RobotScript: MonoBehaviour
+public class RobotScriptLegacy: MonoBehaviour
 {
 
 
