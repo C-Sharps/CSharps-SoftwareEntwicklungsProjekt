@@ -6,6 +6,9 @@ TagManager:
   tags:
   - TrackingObject
   - Planets
+  - HL_Text
+  - Editor_InputField
+  - Objective_Container
   layers:
   - Default
   - TransparentFX
