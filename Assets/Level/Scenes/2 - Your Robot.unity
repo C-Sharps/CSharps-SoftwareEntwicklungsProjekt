@@ -1200,8 +1200,8 @@ MonoBehaviour:
       new object, \r\n        // simply write the following expression: \r\n\r\n       
       // className objectName (you can choose this one) = new className(parameters)\r\n       
       // You can try following Colors: Color.green, Color.blue, Color.green, Color.black\r\n\r\n       
-      // Try it out yourself and feel free to look back at your blueprint.\r\n   
-      }\r\n}"
+      // Try it out yourself and feel free to look back at your blueprint.\r\n\tRobot
+      newRobot = new Robot(Color.red);   \n }\r\n}"
     interactable: 1
   lessonObjectives:
   - objectiveDescription: Create your own Robot using the Robot.class
