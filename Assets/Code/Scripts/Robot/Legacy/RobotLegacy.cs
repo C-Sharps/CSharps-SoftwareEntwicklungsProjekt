@@ -2,16 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Robot : RobotScript
+public class RobotLegacy : RobotScriptLegacy
 {
-    /*
-    Body Body;
-    Legs Legs;
-    Arm LeftArm;
-    Arm RightArm;
-    Head Head;
-    */
+    
+    public Body Body;
+    public Leg Leg;
+    public Arm LeftArm;
+    public Arm RightArm;
+    public Head Head;
 
+    public RobotLegacy(){
+        Body = new Body();
+        Leg = new Leg();
+        LeftArm = new Arm();
+        RightArm = new Arm();
+        Head = new Head();
+
+        Debug.Log("Test");
+    }
 
     void Start()
     {
@@ -28,7 +36,6 @@ public class Robot : RobotScript
 
     // Update is called once per frame
     // Ensure any Commads given in Update Are only given once to avoid loops
-    
     void Update() {
         base.Update(); // Required for the robot to execute commands, do not remove
 
