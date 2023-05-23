@@ -1203,6 +1203,10 @@ MonoBehaviour:
       // Try it out yourself and feel free to look back at your blueprint.\r\n   
       }\r\n}"
     interactable: 1
+  - className: Arm.class
+    classSource: "using UnityEngine;\r\n\r\npublic class Arm : MonoBehaviour\r\n{\r\n 
+      public void pickup() {\n}\n}"
+    interactable: 1
   lessonObjectives:
   - objectiveDescription: Create your own Robot using the Robot.class
     isCompleted: 0
