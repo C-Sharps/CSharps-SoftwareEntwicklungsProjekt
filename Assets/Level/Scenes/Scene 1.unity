@@ -1175,14 +1175,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lessonClasses:
   - className: Robot.class
-    classSource: "public class Robot : MonoBehaviour, EVA\r\n{\r\n    // Hey, Atlas
-      here! This is what's know as a 'class'. \r\n    // Think of it as your robot's
-      blueprint.\r\n    // You can use this blueprint to make yourself a robot! \r\n   
-      // I have restricted access to this file for now,\r\n    // as you don't need
-      to change anything yet.\r\n\r\n\r\n    // Robot Parts (We'll talk about them
-      later...)\r\n    public Head Head;\r\n    public Body Body;\r\n    public Arm
-      LeftArm;\r\n    public Arm RightArm;\r\n    public Leg LeftLeg;\r\n    public
-      Leg RightLeg;\r\n    private Color\r\n\r\n    // This is a method, basically
+    classSource: "public class Robot : MonoBehaviour, EVA\r\n{\r\n\t// You're probably
+      thinking: \"Hey, coding is pretty ez! I'm gonna be the next \xC8longa'ted M\xF9sket
+      (he was a famous person in the old days).\"\r\n\t// !!!WRONG!!!\r\n\t// Coding
+      is much more complicated than you think, but do not worry, most things have
+      already been done before and can just be implemented.\r\n\t// For exsample:
+      Robot.class\r\n\t// This class was already implemented and you just used it
+      to make a new object. Classes are not always finished and ready to be used,
+      they can even be build from ZERO,\r\n\t// but that is something we will discuss
+      when we need to make something custom.\r\n    \r\n\t// Let us talk about the
+      specifics for a second. Do you remember what your Robot looked like?\r\n\t//
+      A head on top of a body with two arms and legs.\r\n\t// These parts are classes
+      themselfs! The were implemented into the Robot.class to make him modular.\r\n\t//
+      This means we could take them out to remove their functions, but we probably
+      should not.\r\n\r\n\t// On the topic of functions, in C# they are also called
+      methods. These code block contain a series of statements. A program causes
+      the statements to be executed by calling the method and specifying any required
+      method arguments. \r\n\t// In C#, every executed instruction is performed in
+      the context of a method. The only thing definied in Robot.class is the \r\n\t//
+      public Robot(Color32 Color) {...}\r\n\t// method. This is something special,
+      notice how it's name is the same as the Robot.class?\r\n\t// That is only the
+      case for constructors, or methods that when called upon instanciate a new object.\r\n\t//
+      (Instanciuate means create for nerds)\r\n\t// The parts in () are what's known
+      as parameters, they are what needs to be provided when calling the method.\r\n\t//
+      These inputs can be used inside of the method, for exsample: Color is used
+      to change the robots color attribute. \r\n\r\n\t// You might also have noticed
+      these weird keywords like \"public\" and \"void\".\r\n\t// These are socalled
+      access and return types. We will talk about these later, when we start to make
+      the robot do stuff and go places.\n\r\n\r\n    // Robot Parts (We'll talk about
+      them later...)\r\n    public Head Head;\r\n    public Body Body;\r\n    public
+      Arm LeftArm;\r\n    public Arm RightArm;\r\n    public Leg LeftLeg;\r\n   
+      public Leg RightLeg;\r\n    private Color\r\n\r\n    // This is a method, basically
       a move or function your Robot can do.\r\n    // You can tell it's a method
       by looking at it's name: \r\n    // Robot(). Every function has a () at the
       end,\r\n    // where you can define parameters, or inputs your method needs
@@ -1200,12 +1223,14 @@ MonoBehaviour:
       new object, \r\n        // simply write the following expression: \r\n\r\n       
       // className objectName (you can choose this one) = new className(parameters)\r\n       
       // You can try following Colors: Color.green, Color.blue, Color.green, Color.black\r\n\r\n       
-      // Try it out yourself and feel free to look back at your blueprint.\r\n   
-      }\r\n}"
-    interactable: 0
+      // Try it out yourself and feel free to look back at your blueprint.\r\n       
+      Robot r = new Robot(Color.red);\n }\r\n}"
+    interactable: 1
   lessonObjectives: []
   assemblyReferences:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: fe24fc97048e2974787cc8d5328fa171, type: 2}
+  - {fileID: 11400000, guid: 49e9f5d6abb77204793f81ae256f8b86, type: 2}
+  - {fileID: 11400000, guid: facc3a8f1ebbaa046948d9a4289e42f0, type: 2}
 --- !u!1 &1120737954
 GameObject:
   m_ObjectHideFlags: 0
