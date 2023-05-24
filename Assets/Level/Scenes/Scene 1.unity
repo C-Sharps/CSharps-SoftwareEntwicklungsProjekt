@@ -1176,43 +1176,45 @@ MonoBehaviour:
   lessonClasses:
   - className: Robot.class
     classSource: "public class Robot : MonoBehaviour, EVA\r\n{\r\n\t// You're probably
-      thinking: \"Hey, coding is pretty ez! I'm gonna be the next \xC8longa'ted M\xF9sket
-      (he was a famous person in the old days).\"\r\n\t// !!!WRONG!!!\r\n\t// Coding
-      is much more complicated than you think, but do not worry, most things have
-      already been done before and can just be implemented.\r\n\t// For exsample:
-      Robot.class\r\n\t// This class was already implemented and you just used it
-      to make a new object. Classes are not always finished and ready to be used,
-      they can even be build from ZERO,\r\n\t// but that is something we will discuss
-      when we need to make something custom.\r\n    \r\n\t// Let us talk about the
-      specifics for a second. Do you remember what your Robot looked like?\r\n\t//
-      A head on top of a body with two arms and legs.\r\n\t// These parts are classes
-      themselfs! The were implemented into the Robot.class to make him modular.\r\n\t//
-      This means we could take them out to remove their functions, but we probably
-      should not.\r\n\r\n\t// On the topic of functions, in C# they are also called
-      methods. These code block contain a series of statements. A program causes
-      the statements to be executed by calling the method and specifying any required
-      method arguments. \r\n\t// In C#, every executed instruction is performed in
-      the context of a method. The only thing definied in Robot.class is the \r\n\t//
-      public Robot(Color32 Color) {...}\r\n\t// method. This is something special,
-      notice how it's name is the same as the Robot.class?\r\n\t// That is only the
-      case for constructors, or methods that when called upon instanciate a new object.\r\n\t//
-      (Instanciuate means create for nerds)\r\n\t// The parts in () are what's known
-      as parameters, they are what needs to be provided when calling the method.\r\n\t//
-      These inputs can be used inside of the method, for exsample: Color is used
-      to change the robots color attribute. \r\n\r\n\t// You might also have noticed
-      these weird keywords like \"public\" and \"void\".\r\n\t// These are socalled
-      access and return types. We will talk about these later, when we start to make
-      the robot do stuff and go places.\n\r\n\r\n    // Robot Parts (We'll talk about
-      them later...)\r\n    public Head Head;\r\n    public Body Body;\r\n    public
-      Arm LeftArm;\r\n    public Arm RightArm;\r\n    public Leg LeftLeg;\r\n   
-      public Leg RightLeg;\r\n    private Color\r\n\r\n    // This is a method, basically
-      a move or function your Robot can do.\r\n    // You can tell it's a method
-      by looking at it's name: \r\n    // Robot(). Every function has a () at the
-      end,\r\n    // where you can define parameters, or inputs your method needs
-      to work. \r\n    // In this case it's a constructor, a method that can create
-      a new object from a class.\r\n    // Click on the Main.class to continue, \r\n   
-      // after making yourself familiar with this class, especially the Robot() method.\r\n   
-      public Robot(Color32 Color)\r\n    {\r\n        _color = Color; \r\n    }\r\n}"
+      thinking: \r\n    // \"Hey, coding is pretty ez! I'm gonna be the next \xC8longa'ted
+      M\xF9sket.\"\r\n    // (he was a famous person in the old days)\r\n\r\n\t//
+      !!!WRONG!!!\r\n\r\n\t// Coding is much more complicated than you think, but
+      do not worry,\r\n    // most things have already been done before and can just
+      be implemented.\r\n\t// For exsample: Robot.class\r\n\t// This class was already
+      implemented and you just used it to make a new object.\r\n    // Classes are
+      not always finished and ready to be used,\r\n    // they can even be build
+      from ZERO,\r\n\t// but that is something we will discuss when we need to make
+      something custom.\r\n    \r\n\t// Let us talk about the specifics for a second.
+      Do you remember what your Robot looked like?\r\n\t// A head on top of a body
+      with two arms and legs.\r\n\t// These parts are classes themselfs!\r\n    //
+      The were implemented into the Robot.class to make him modular.\r\n\t// This
+      means we could take them out to remove their functions, but we probably should
+      not.\r\n\r\n\t// On the topic of functions, in C# they are also called methods.\r\n   
+      // These code block contain a series of statements.\r\n    // A program causes
+      the statements to be executed by calling the method\r\n    // and specifying
+      any required method arguments. \r\n\t// In C#, every executed instruction is
+      performed in the context of a method.\r\n    // The only thing definied in
+      Robot.class is the \r\n\t// public Robot(Color32 Color) {...}\r\n\t// method.
+      This is something special, notice how it's name is the same as the Robot.class?\r\n\t//
+      That is only the case for constructors, or methods that when called upon instanciate
+      a new object.\r\n\t// (Instanciuate means create for nerds)\r\n\t// The parts
+      in () are what's known as parameters,\r\n    // they are what needs to be provided
+      when calling the method.\r\n\t// These inputs can be used inside of the method,
+      for exsample:\r\n    // Color is used to change the robots color attribute.
+      \r\n\r\n\t// You might also have noticed these weird keywords like \"public\"
+      and \"void\".\r\n\t// These are socalled access and return types. We will talk
+      about these later,\r\n    // when we start to make the robot do stuff and go
+      places...\r\n\r\n\r\n    // Robot Parts (We'll talk about them later...)\r\n   
+      public Head Head;\r\n    public Body Body;\r\n    public Arm LeftArm;\r\n   
+      public Arm RightArm;\r\n    public Leg LeftLeg;\r\n    public Leg RightLeg;\r\n   
+      private Color\r\n\r\n    // This is a method, basically a move or function
+      your Robot can do.\r\n    // You can tell it's a method by looking at it's
+      name: \r\n    // Robot(). Every function has a () at the end,\r\n    // where
+      you can define parameters, or inputs your method needs to work. \r\n    //
+      In this case it's a constructor, a method that can create a new object from
+      a class.\r\n    // Click on the Main.class to continue, \r\n    // after making
+      yourself familiar with this class, especially the Robot() method.\r\n    public
+      Robot(Color32 Color)\r\n    {\r\n        _color = Color; \r\n    }\r\n}"
     interactable: 0
   - className: Main.class
     classSource: "using UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\r\n   
