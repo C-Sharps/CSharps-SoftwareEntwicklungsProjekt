@@ -1204,31 +1204,27 @@ MonoBehaviour:
       \r\n\r\n\t// You might also have noticed these weird keywords like \"public\"
       and \"void\".\r\n\t// These are socalled access and return types. We will talk
       about these later,\r\n    // when we start to make the robot do stuff and go
-      places...\r\n\r\n\r\n    // Robot Parts (We'll talk about them later...)\r\n   
-      public Head Head;\r\n    public Body Body;\r\n    public Arm LeftArm;\r\n   
-      public Arm RightArm;\r\n    public Leg LeftLeg;\r\n    public Leg RightLeg;\r\n   
-      private Color\r\n\r\n    // This is a method, basically a move or function
-      your Robot can do.\r\n    // You can tell it's a method by looking at it's
-      name: \r\n    // Robot(). Every function has a () at the end,\r\n    // where
-      you can define parameters, or inputs your method needs to work. \r\n    //
-      In this case it's a constructor, a method that can create a new object from
-      a class.\r\n    // Click on the Main.class to continue, \r\n    // after making
-      yourself familiar with this class, especially the Robot() method.\r\n    public
-      Robot(Color32 Color)\r\n    {\r\n        _color = Color; \r\n    }\r\n}"
+      places...\r\n\r\n    public Head Head;\r\n    public Body Body;\r\n    public
+      Arm LeftArm;\r\n    public Arm RightArm;\r\n    public Leg LeftLeg;\r\n   
+      public Leg RightLeg;\r\n    private Color\r\n\r\n    public Robot(Color32 Color)\r\n   
+      {\r\n        _color = Color; \r\n    }\r\n}"
     interactable: 0
   - className: Main.class
-    classSource: "using UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\r\n   
-      // This is where the magic happens. \r\n    // Whenever you click the start
-      button, \r\n    // the code below will be executed. Now let's get to it!\r\n   
-      public void Start()\r\n    {\r\n        // Let's build your first robot. Remember
-      that Robot() function? \r\n        // We're going to use it here. To make a
-      new object, \r\n        // simply write the following expression: \r\n\r\n       
-      // className objectName (you can choose this one) = new className(parameters)\r\n       
-      // You can try following Colors: Color.green, Color.blue, Color.green, Color.black\r\n\r\n       
-      // Try it out yourself and feel free to look back at your blueprint.\r\n       
-      Robot r = new Robot(Color.red);\n }\r\n}"
+    classSource: "using UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\n\t//
+      This is also a class, but in C# the Main.class and Main(string[] args) method
+      are a special case.\n\t// They are called uppon when the code gets run and
+      should entail everything you want to run or call\n\t// when starting your program.\n\t\t\r\n   
+      public void Start()\r\n    {\r\n\r\t// You already know what this function
+      does, now you know why it does them.\n\t// You call the Robot(Color32 color)
+      method and instanciate a new Robot object.\n\t\n\n\t\tRobot r = new Robot(Color.red);\n\n\t//
+      What is that thing before the = you ask? Oh boy you are as clueless as they
+      come.\n\t// We will cover that in a second, for now, why don't you instanciate
+      10 robots while i try to create\n\t// a scenario to help you understand the
+      concept of *variables*.\n }\r\n}"
     interactable: 1
-  lessonObjectives: []
+  lessonObjectives:
+  - objectiveDescription: Create 10 Robots.
+    isCompleted: 0
   assemblyReferences:
   - {fileID: 11400000, guid: fe24fc97048e2974787cc8d5328fa171, type: 2}
   - {fileID: 11400000, guid: 49e9f5d6abb77204793f81ae256f8b86, type: 2}
