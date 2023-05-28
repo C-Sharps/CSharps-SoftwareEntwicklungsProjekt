@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Level/Scenes/Scene 1.unity.meta
+guid: d5ec3eb7a196430419a34339f9172e8a
+========
 guid: 66d562ab22546d3458f111835ba5753f
 folderAsset: yes
+>>>>>>>> main:Assets/Code/Scripts/Robot.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

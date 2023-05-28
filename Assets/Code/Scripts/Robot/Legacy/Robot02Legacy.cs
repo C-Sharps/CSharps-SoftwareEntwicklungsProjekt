@@ -1,4 +1,5 @@
-using Unity.Burst.Intrinsics;using UnityEngine;
+using Unity.Burst.Intrinsics;
+using UnityEngine;
 
 public class Robot : MonoBehaviour
 {
@@ -10,4 +11,3 @@ public class Robot : MonoBehaviour
         Robot.transform.Rotate(0f, 180f, 0f);
     }
 }
-
