@@ -9,6 +9,7 @@ using System.Linq;
 
 public class Scene0Logic : SceneLogic
 {
+    /*
     GameObject[] robots;
     public void Update()
     {
@@ -23,5 +24,20 @@ public class Scene0Logic : SceneLogic
         {
             CompleteObjective(1);
         }
+    }
+    */
+
+    GameObject[] robots;
+    public void Update()
+    {
+        // ToDo: Not performant, should be done with events
+        robots = GameObject.FindGameObjectsWithTag("Player");
+        if (robots.Length >= 10 && lessonObjectives[0].isCompleted == false)
+        {
+            
+            CompleteObjective(0);
+        }
+
+        print(robots);
     }
 }
