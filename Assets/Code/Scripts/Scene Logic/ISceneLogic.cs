@@ -10,8 +10,8 @@ namespace Code.Scripts
 {
     public class SceneLogic : MonoBehaviour
     {
-        public List<Structures.LessonClasses> lessonClasses = new List<Structures.LessonClasses>();
-        public List<Structures.LessonObjective> lessonObjectives = new List<Structures.LessonObjective>();
+        public List<LessonClass> lessonClasses = new List<LessonClass>();
+        public List<LessonObjective> lessonObjectives = new List<LessonObjective>();
         
         private int _currentTab;
         private TMP_InputField _codeEditorInputField;
