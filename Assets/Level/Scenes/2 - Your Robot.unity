@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0040844, g: 0.01938004, b: 0.03076338, a: 1}
+  m_IndirectSpecularColor: {r: 0.004074199, g: 0.019367827, b: 0.030757796, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1189,7 +1189,7 @@ MonoBehaviour:
       to work. \r\n    // In this case it's a constructor, a method that can create
       a new object from a class.\r\n    // Click on the Main.class to continue, \r\n   
       // after making yourself familiar with this class, especially the Robot() method.\r\n   
-      public Robot(Color32 Color)\r\n    {\r\n        _color = Color; \r\n    }\r\n}"
+      public Robot(Color color)\r\n    {\r\n        this.color = color; \r\n    }\r\n}"
     interactable: 0
   - className: Main.class
     classSource: "using UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\r\n   

@@ -405,8 +405,9 @@ GameObject:
   - component: {fileID: 17958927}
   - component: {fileID: 17958926}
   - component: {fileID: 17958925}
+  - component: {fileID: 17958928}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (3, 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -491,6 +492,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17958923}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &17958928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17958923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &24387600
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,8 +652,9 @@ GameObject:
   - component: {fileID: 27800796}
   - component: {fileID: 27800795}
   - component: {fileID: 27800794}
+  - component: {fileID: 27800797}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (6, 1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -724,6 +739,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27800792}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &27800797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27800792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &30992751
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,8 +764,9 @@ GameObject:
   - component: {fileID: 30992755}
   - component: {fileID: 30992754}
   - component: {fileID: 30992753}
+  - component: {fileID: 30992756}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (7, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -822,6 +851,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30992751}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &30992756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30992751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1001 &54916614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -895,8 +937,9 @@ GameObject:
   - component: {fileID: 61954852}
   - component: {fileID: 61954851}
   - component: {fileID: 61954850}
+  - component: {fileID: 61954853}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (9, 3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -981,6 +1024,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61954848}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &61954853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61954848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &87143221
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,8 +1184,9 @@ GameObject:
   - component: {fileID: 90353374}
   - component: {fileID: 90353373}
   - component: {fileID: 90353372}
+  - component: {fileID: 90353375}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (2, 1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1214,6 +1271,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90353370}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &90353375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90353370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &161320467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,8 +1701,9 @@ GameObject:
   - component: {fileID: 244833007}
   - component: {fileID: 244833006}
   - component: {fileID: 244833005}
+  - component: {fileID: 244833008}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (0, 3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1717,6 +1788,76 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244833003}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &244833008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244833003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
+--- !u!1001 &260104955
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 773187244}
+    m_Modifications:
+    - target: {fileID: 5381246701886711716, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_Name
+      value: Broken Solar Panel (7, 3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.5000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
 --- !u!1 &296958259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,8 +1870,9 @@ GameObject:
   - component: {fileID: 296958263}
   - component: {fileID: 296958262}
   - component: {fileID: 296958261}
+  - component: {fileID: 296958264}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (5, 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1815,6 +1957,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296958259}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &296958264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296958259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &309130204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,8 +2117,9 @@ GameObject:
   - component: {fileID: 317693766}
   - component: {fileID: 317693765}
   - component: {fileID: 317693764}
+  - component: {fileID: 317693767}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (0, 1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2048,104 +2204,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317693762}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &328179042
-GameObject:
+--- !u!114 &317693767
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 328179043}
-  - component: {fileID: 328179046}
-  - component: {fileID: 328179045}
-  - component: {fileID: 328179044}
-  m_Layer: 0
-  m_Name: Solar Panel(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &328179043
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328179042}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 7.5, y: -0.0000004768373, z: 3.5000024}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 773187244}
-  m_RootOrder: 37
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!64 &328179044
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328179042}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_GameObject: {fileID: 317693762}
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &328179045
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328179042}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1ea14720d8caecd418f166e26512455e, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &328179046
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328179042}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &373135177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2158,8 +2229,9 @@ GameObject:
   - component: {fileID: 373135181}
   - component: {fileID: 373135180}
   - component: {fileID: 373135179}
+  - component: {fileID: 373135182}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (5, 4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2244,6 +2316,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373135177}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &373135182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373135177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &387464426
 GameObject:
   m_ObjectHideFlags: 0
@@ -2256,8 +2341,9 @@ GameObject:
   - component: {fileID: 387464430}
   - component: {fileID: 387464429}
   - component: {fileID: 387464428}
+  - component: {fileID: 387464431}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (2, 4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2342,6 +2428,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387464426}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &387464431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387464426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &406470288
 GameObject:
   m_ObjectHideFlags: 0
@@ -2477,6 +2576,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406470288}
   m_CullTransparentMesh: 1
+--- !u!1001 &434685026
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 773187244}
+    m_Modifications:
+    - target: {fileID: 5381246701886711716, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_Name
+      value: Broken Solar Panel (2, 3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.5000014
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
 --- !u!1 &446780038
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,8 +2645,9 @@ GameObject:
   - component: {fileID: 446780042}
   - component: {fileID: 446780041}
   - component: {fileID: 446780040}
+  - component: {fileID: 446780043}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (3, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2575,6 +2732,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446780038}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &446780043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446780038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &449681682
 GameObject:
   m_ObjectHideFlags: 0
@@ -2587,8 +2757,9 @@ GameObject:
   - component: {fileID: 449681686}
   - component: {fileID: 449681685}
   - component: {fileID: 449681684}
+  - component: {fileID: 449681687}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (7, 4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2673,6 +2844,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449681682}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &449681687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449681682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &504232678
 GameObject:
   m_ObjectHideFlags: 0
@@ -3225,8 +3409,9 @@ GameObject:
   - component: {fileID: 604160183}
   - component: {fileID: 604160182}
   - component: {fileID: 604160181}
+  - component: {fileID: 604160184}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (9, 1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3311,6 +3496,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604160179}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &604160184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604160179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &627595989
 GameObject:
   m_ObjectHideFlags: 0
@@ -3458,8 +3656,9 @@ GameObject:
   - component: {fileID: 629308192}
   - component: {fileID: 629308191}
   - component: {fileID: 629308190}
+  - component: {fileID: 629308193}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (8, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3544,6 +3743,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629308188}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &629308193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629308188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &693318449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3556,8 +3768,9 @@ GameObject:
   - component: {fileID: 693318453}
   - component: {fileID: 693318452}
   - component: {fileID: 693318451}
+  - component: {fileID: 693318454}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (4, 4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3642,6 +3855,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693318449}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &693318454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693318449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &693816684
 GameObject:
   m_ObjectHideFlags: 0
@@ -4032,8 +4258,9 @@ GameObject:
   - component: {fileID: 751575995}
   - component: {fileID: 751575994}
   - component: {fileID: 751575993}
+  - component: {fileID: 751575996}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (4, 3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4118,6 +4345,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751575991}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &751575996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751575991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &773187243
 GameObject:
   m_ObjectHideFlags: 0
@@ -4160,11 +4400,11 @@ Transform:
   - {fileID: 1568612412}
   - {fileID: 90353371}
   - {fileID: 1168919620}
-  - {fileID: 2076611374}
+  - {fileID: 2014950070}
   - {fileID: 857570055}
   - {fileID: 27800793}
   - {fileID: 980452483}
-  - {fileID: 985552310}
+  - {fileID: 1237829750}
   - {fileID: 604160180}
   - {fileID: 901891153}
   - {fileID: 1250515193}
@@ -4178,12 +4418,12 @@ Transform:
   - {fileID: 1934865728}
   - {fileID: 244833004}
   - {fileID: 1124829351}
-  - {fileID: 1974127495}
+  - {fileID: 901433024}
   - {fileID: 1137168322}
   - {fileID: 751575992}
   - {fileID: 1057039056}
   - {fileID: 920655721}
-  - {fileID: 328179043}
+  - {fileID: 975242531}
   - {fileID: 1427687633}
   - {fileID: 61954849}
   - {fileID: 1562315450}
@@ -4550,8 +4790,9 @@ GameObject:
   - component: {fileID: 857570058}
   - component: {fileID: 857570057}
   - component: {fileID: 857570056}
+  - component: {fileID: 857570059}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (5, 1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4636,6 +4877,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857570054}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &857570059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857570054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &861894131
 GameObject:
   m_ObjectHideFlags: 0
@@ -4648,8 +4902,9 @@ GameObject:
   - component: {fileID: 861894135}
   - component: {fileID: 861894134}
   - component: {fileID: 861894133}
+  - component: {fileID: 861894136}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (6, 4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4734,6 +4989,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861894131}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &861894136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861894131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &897976072
 GameObject:
   m_ObjectHideFlags: 0
@@ -4746,8 +5014,9 @@ GameObject:
   - component: {fileID: 897976076}
   - component: {fileID: 897976075}
   - component: {fileID: 897976074}
+  - component: {fileID: 897976077}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (9, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4832,6 +5101,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897976072}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &897976077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897976072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
+--- !u!4 &901433024 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+  m_PrefabInstance: {fileID: 434685026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &901891152
 GameObject:
   m_ObjectHideFlags: 0
@@ -4844,8 +5131,9 @@ GameObject:
   - component: {fileID: 901891156}
   - component: {fileID: 901891155}
   - component: {fileID: 901891154}
+  - component: {fileID: 901891157}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (0, 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4930,6 +5218,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901891152}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &901891157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901891152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &911735375
 GameObject:
   m_ObjectHideFlags: 0
@@ -4939,7 +5240,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 911735377}
-  - component: {fileID: 911735376}
   - component: {fileID: 911735378}
   m_Layer: 0
   m_Name: GameManagerHolder
@@ -4948,18 +5248,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &911735376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911735375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c59b47c60d7554a458b5e81d9c68d013, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &911735377
 Transform:
   m_ObjectHideFlags: 0
@@ -4987,8 +5275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e39778987cec96d44be573ed0db60b2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 12, y: 6}
-  intactTile: {fileID: 11400000, guid: 50c2896dd7c4ca44f9a206bd81337707, type: 2}
+  gridSize: {x: 10, y: 5}
 --- !u!1 &915395596
 GameObject:
   m_ObjectHideFlags: 0
@@ -5136,8 +5423,9 @@ GameObject:
   - component: {fileID: 920655724}
   - component: {fileID: 920655723}
   - component: {fileID: 920655722}
+  - component: {fileID: 920655725}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (6, 3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5222,6 +5510,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 920655720}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &920655725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920655720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &953860746
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,6 +5658,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953860746}
   m_CullTransparentMesh: 1
+--- !u!4 &975242531 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+  m_PrefabInstance: {fileID: 260104955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &980452482
 GameObject:
   m_ObjectHideFlags: 0
@@ -5369,8 +5675,9 @@ GameObject:
   - component: {fileID: 980452486}
   - component: {fileID: 980452485}
   - component: {fileID: 980452484}
+  - component: {fileID: 980452487}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (7,1 )
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5455,104 +5762,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980452482}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &985552309
-GameObject:
+--- !u!114 &980452487
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 985552310}
-  - component: {fileID: 985552313}
-  - component: {fileID: 985552312}
-  - component: {fileID: 985552311}
-  m_Layer: 0
-  m_Name: Solar Panel(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &985552310
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985552309}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 8.5, y: -0.00000011920932, z: 1.500001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 773187244}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!64 &985552311
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985552309}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_GameObject: {fileID: 980452482}
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &985552312
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985552309}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1ea14720d8caecd418f166e26512455e, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &985552313
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985552309}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1010766564
 GameObject:
   m_ObjectHideFlags: 0
@@ -5835,8 +6057,9 @@ GameObject:
   - component: {fileID: 1051764381}
   - component: {fileID: 1051764380}
   - component: {fileID: 1051764379}
+  - component: {fileID: 1051764382}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (0, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5921,6 +6144,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051764377}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1051764382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051764377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1057039055
 GameObject:
   m_ObjectHideFlags: 0
@@ -5933,8 +6169,9 @@ GameObject:
   - component: {fileID: 1057039059}
   - component: {fileID: 1057039058}
   - component: {fileID: 1057039057}
+  - component: {fileID: 1057039060}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (5, 3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6019,6 +6256,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057039055}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1057039060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057039055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1065305895
 GameObject:
   m_ObjectHideFlags: 0
@@ -6301,8 +6551,9 @@ GameObject:
   - component: {fileID: 1088777868}
   - component: {fileID: 1088777867}
   - component: {fileID: 1088777866}
+  - component: {fileID: 1088777869}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (1, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6387,6 +6638,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088777864}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1088777869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088777864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1115392805
 GameObject:
   m_ObjectHideFlags: 0
@@ -6399,8 +6663,9 @@ GameObject:
   - component: {fileID: 1115392809}
   - component: {fileID: 1115392808}
   - component: {fileID: 1115392807}
+  - component: {fileID: 1115392810}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (2, 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6485,6 +6750,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115392805}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1115392810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115392805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1118419938
 GameObject:
   m_ObjectHideFlags: 0
@@ -6767,8 +7045,9 @@ GameObject:
   - component: {fileID: 1124829354}
   - component: {fileID: 1124829353}
   - component: {fileID: 1124829352}
+  - component: {fileID: 1124829355}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (1, 3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6853,6 +7132,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124829350}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1124829355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124829350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1137168321
 GameObject:
   m_ObjectHideFlags: 0
@@ -6865,8 +7157,9 @@ GameObject:
   - component: {fileID: 1137168325}
   - component: {fileID: 1137168324}
   - component: {fileID: 1137168323}
+  - component: {fileID: 1137168326}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (3, 3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6951,6 +7244,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137168321}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1137168326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137168321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1168919619
 GameObject:
   m_ObjectHideFlags: 0
@@ -6963,8 +7269,9 @@ GameObject:
   - component: {fileID: 1168919623}
   - component: {fileID: 1168919622}
   - component: {fileID: 1168919621}
+  - component: {fileID: 1168919624}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (3, 1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7049,6 +7356,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168919619}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1168919624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168919619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1169552764
 GameObject:
   m_ObjectHideFlags: 0
@@ -7319,6 +7639,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170715347}
   m_CullTransparentMesh: 1
+--- !u!4 &1237829750 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+  m_PrefabInstance: {fileID: 1253162524}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1250515192
 GameObject:
   m_ObjectHideFlags: 0
@@ -7331,8 +7656,9 @@ GameObject:
   - component: {fileID: 1250515196}
   - component: {fileID: 1250515195}
   - component: {fileID: 1250515194}
+  - component: {fileID: 1250515197}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (1, 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7417,6 +7743,76 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250515192}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1250515197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250515192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
+--- !u!1001 &1253162524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 773187244}
+    m_Modifications:
+    - target: {fileID: 5381246701886711716, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_Name
+      value: Broken Solar Panel (8, 1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
 --- !u!1 &1285334268
 GameObject:
   m_ObjectHideFlags: 0
@@ -7475,8 +7871,9 @@ GameObject:
   - component: {fileID: 1331120682}
   - component: {fileID: 1331120681}
   - component: {fileID: 1331120680}
+  - component: {fileID: 1331120683}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (7, 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7561,6 +7958,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331120678}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1331120683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331120678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1351001640
 GameObject:
   m_ObjectHideFlags: 0
@@ -7573,8 +7983,9 @@ GameObject:
   - component: {fileID: 1351001644}
   - component: {fileID: 1351001643}
   - component: {fileID: 1351001642}
+  - component: {fileID: 1351001645}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (8, 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7659,6 +8070,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351001640}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1351001645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351001640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1427687632
 GameObject:
   m_ObjectHideFlags: 0
@@ -7671,8 +8095,9 @@ GameObject:
   - component: {fileID: 1427687636}
   - component: {fileID: 1427687635}
   - component: {fileID: 1427687634}
+  - component: {fileID: 1427687637}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (8, 3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7757,6 +8182,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427687632}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1427687637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427687632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1457362983
 GameObject:
   m_ObjectHideFlags: 0
@@ -8444,8 +8882,9 @@ GameObject:
   - component: {fileID: 1551125498}
   - component: {fileID: 1551125497}
   - component: {fileID: 1551125496}
+  - component: {fileID: 1551125499}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (4, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8530,6 +8969,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551125494}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1551125499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551125494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1557545152
 GameObject:
   m_ObjectHideFlags: 0
@@ -8610,8 +9062,9 @@ GameObject:
   - component: {fileID: 1562315453}
   - component: {fileID: 1562315452}
   - component: {fileID: 1562315451}
+  - component: {fileID: 1562315454}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (0, 4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8696,6 +9149,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562315449}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1562315454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562315449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1566231456
 GameObject:
   m_ObjectHideFlags: 0
@@ -8823,8 +9289,9 @@ GameObject:
   - component: {fileID: 1568612415}
   - component: {fileID: 1568612414}
   - component: {fileID: 1568612413}
+  - component: {fileID: 1568612416}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (1, 1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8909,6 +9376,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568612411}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1568612416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568612411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1576515329
 GameObject:
   m_ObjectHideFlags: 0
@@ -9191,8 +9671,9 @@ GameObject:
   - component: {fileID: 1604336132}
   - component: {fileID: 1604336131}
   - component: {fileID: 1604336130}
+  - component: {fileID: 1604336133}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (3, 4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9277,6 +9758,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1604336128}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1604336133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604336128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1644732200
 GameObject:
   m_ObjectHideFlags: 0
@@ -9407,8 +9901,9 @@ GameObject:
   - component: {fileID: 1659615052}
   - component: {fileID: 1659615051}
   - component: {fileID: 1659615050}
+  - component: {fileID: 1659615053}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (8, 4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9493,6 +9988,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659615048}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1659615053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659615048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1667985090
 GameObject:
   m_ObjectHideFlags: 0
@@ -9775,8 +10283,9 @@ GameObject:
   - component: {fileID: 1691886566}
   - component: {fileID: 1691886565}
   - component: {fileID: 1691886564}
+  - component: {fileID: 1691886567}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (9, 4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9861,6 +10370,76 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691886562}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1691886567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691886562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
+--- !u!1001 &1722731944
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 773187244}
+    m_Modifications:
+    - target: {fileID: 5381246701886711716, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_Name
+      value: Broken Solar Panel (4, 1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
 --- !u!1 &1743190534
 GameObject:
   m_ObjectHideFlags: 0
@@ -10008,8 +10587,9 @@ GameObject:
   - component: {fileID: 1788380966}
   - component: {fileID: 1788380965}
   - component: {fileID: 1788380964}
+  - component: {fileID: 1788380967}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (5, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10094,6 +10674,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788380962}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1788380967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788380962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1835366047
 GameObject:
   m_ObjectHideFlags: 0
@@ -10106,8 +10699,9 @@ GameObject:
   - component: {fileID: 1835366051}
   - component: {fileID: 1835366050}
   - component: {fileID: 1835366049}
+  - component: {fileID: 1835366052}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (1, 4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10192,6 +10786,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835366047}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1835366052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835366047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1860851168
 GameObject:
   m_ObjectHideFlags: 0
@@ -10204,8 +10811,9 @@ GameObject:
   - component: {fileID: 1860851172}
   - component: {fileID: 1860851171}
   - component: {fileID: 1860851170}
+  - component: {fileID: 1860851173}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (2, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10290,6 +10898,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860851168}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1860851173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860851168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1872978841
 GameObject:
   m_ObjectHideFlags: 0
@@ -10302,8 +10923,9 @@ GameObject:
   - component: {fileID: 1872978845}
   - component: {fileID: 1872978844}
   - component: {fileID: 1872978843}
+  - component: {fileID: 1872978846}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (6, 0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10388,6 +11010,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872978841}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1872978846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872978841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1891452709
 GameObject:
   m_ObjectHideFlags: 0
@@ -10670,8 +11305,9 @@ GameObject:
   - component: {fileID: 1934865731}
   - component: {fileID: 1934865730}
   - component: {fileID: 1934865729}
+  - component: {fileID: 1934865732}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (9, 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10756,6 +11392,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934865727}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1934865732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934865727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1960929995
 GameObject:
   m_ObjectHideFlags: 0
@@ -10768,8 +11417,9 @@ GameObject:
   - component: {fileID: 1960929999}
   - component: {fileID: 1960929998}
   - component: {fileID: 1960929997}
+  - component: {fileID: 1960930000}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (4, 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10854,6 +11504,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960929995}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1960930000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960929995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &1973976556
 GameObject:
   m_ObjectHideFlags: 0
@@ -10989,104 +11652,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973976556}
   m_CullTransparentMesh: 1
---- !u!1 &1974127494
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1974127495}
-  - component: {fileID: 1974127498}
-  - component: {fileID: 1974127497}
-  - component: {fileID: 1974127496}
-  m_Layer: 0
-  m_Name: Solar Panel(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1974127495
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974127494}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.5, y: -0.0000004768373, z: 3.5000024}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 773187244}
-  m_RootOrder: 32
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!64 &1974127496
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974127494}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1974127497
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974127494}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1ea14720d8caecd418f166e26512455e, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1974127498
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974127494}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1997060825
 GameObject:
   m_ObjectHideFlags: 0
@@ -11222,6 +11787,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997060825}
   m_CullTransparentMesh: 1
+--- !u!4 &2014950070 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7031922910295503584, guid: b6fcae43ecb2e6943b2c5fdf0b4cc10e, type: 3}
+  m_PrefabInstance: {fileID: 1722731944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2031504951
 GameObject:
   m_ObjectHideFlags: 0
@@ -11627,104 +12197,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046139062}
   m_CullTransparentMesh: 1
---- !u!1 &2076611373
+--- !u!1 &2080234618 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 5034032166888540025, guid: 5468f02971e4d544abfcc96866aff368, type: 3}
+  m_PrefabInstance: {fileID: 2080539012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2080234619
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2076611374}
-  - component: {fileID: 2076611377}
-  - component: {fileID: 2076611376}
-  - component: {fileID: 2076611375}
-  m_Layer: 0
-  m_Name: Solar Panel(Clone)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2076611374
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076611373}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.5, y: -0.00000011920932, z: 1.500001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 773187244}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!64 &2076611375
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076611373}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_GameObject: {fileID: 2080234618}
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &2076611376
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076611373}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1ea14720d8caecd418f166e26512455e, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &2076611377
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076611373}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5022252288940fda5cb1ddbd3ae3125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lessonClasses:
+  - className: Robot
+    classSource: "using UnityEngine;\n\npublic class Robot: AbstractRobot {  \n\n
+      void Start()\r\n    {\r\n        // Give the robot commands here\r\n       
+      Move(Direction.North);\r\n        Move(Direction.East);\r\n        Move(Direction.North);\r\n       
+      Move(Direction.North);\r\n        Move(Direction.North);\r\n    }\n}"
+    interactable: 1
+  lessonObjectives:
+  - objectiveDescription: All solar panels are repaired
+    isCompleted: 0
+  assemblyReferences:
+  - {fileID: 11400000, guid: 49e9f5d6abb77204793f81ae256f8b86, type: 2}
+  - {fileID: 11400000, guid: fe24fc97048e2974787cc8d5328fa171, type: 2}
+  - {fileID: 11400000, guid: facc3a8f1ebbaa046948d9a4289e42f0, type: 2}
 --- !u!1001 &2080539012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11839,6 +12342,18 @@ PrefabInstance:
     - target: {fileID: 5034032167344761849, guid: 5468f02971e4d544abfcc96866aff368, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 1411.3201
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034032167767212912, guid: 5468f02971e4d544abfcc96866aff368, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 911735378}
+    - target: {fileID: 5034032167767212912, guid: 5468f02971e4d544abfcc96866aff368, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayLesson
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034032167767212912, guid: 5468f02971e4d544abfcc96866aff368, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AbstractGameManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5098537883127118558, guid: 5468f02971e4d544abfcc96866aff368, type: 3}
       propertyPath: m_SizeDelta.x
@@ -12267,8 +12782,9 @@ GameObject:
   - component: {fileID: 2133295529}
   - component: {fileID: 2133295528}
   - component: {fileID: 2133295527}
+  - component: {fileID: 2133295530}
   m_Layer: 0
-  m_Name: Solar Panel(Clone)
+  m_Name: Solar Panel (6, 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12353,6 +12869,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133295525}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2133295530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133295525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isIntact: 1
 --- !u!1 &2141718294
 GameObject:
   m_ObjectHideFlags: 0

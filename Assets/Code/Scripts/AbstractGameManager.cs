@@ -11,7 +11,7 @@ public abstract class AbstractGameManager : MonoBehaviour
     public abstract bool AssertLessonTargetComplete();
 
     // This method should be triggered by the "Run" button in the scene UI
-    protected void PlayLesson()
+    public void PlayLesson()
     {
         ExecutePlayerCode();
 
@@ -25,7 +25,7 @@ public abstract class AbstractGameManager : MonoBehaviour
         }
     }
 
-    private void ExecutePlayerCode()
+    protected void ExecutePlayerCode()
     {
         Debug.Log("In ExecutePlayerCode()");
     }
