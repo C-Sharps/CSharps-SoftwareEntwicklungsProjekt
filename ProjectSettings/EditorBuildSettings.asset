@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Level/Scenes/0 - Main Menu.unity
     guid: 344e0a3ff4b12854c8f18bee9a4f3559
   - enabled: 1
-    path: Assets/Level/Scenes/1 - Ship Deck.unity
+    path: Assets/Level/Scenes/Lesson 11.unity
     guid: 31bc367f06f21c04583563831ebb555f
   - enabled: 1
     path: Assets/Level/Scenes/2 - Your Robot.unity

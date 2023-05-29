@@ -6,16 +6,16 @@ public class RobotLegacy : RobotScriptLegacy
 {
     
     public Body Body;
-    public Leg Leg;
-    public Arm LeftArm;
-    public Arm RightArm;
+    public Legs Leg;
+    public Arms LeftArm;
+    public Arms RightArm;
     public Head Head;
 
     public RobotLegacy(){
         Body = new Body();
-        Leg = new Leg();
-        LeftArm = new Arm();
-        RightArm = new Arm();
+        Leg = new Legs();
+        LeftArm = new Arms();
+        RightArm = new Arms();
         Head = new Head();
 
         Debug.Log("Test");
@@ -36,7 +36,7 @@ public class RobotLegacy : RobotScriptLegacy
 
     // Update is called once per frame
     // Ensure any Commads given in Update Are only given once to avoid loops
-    void Update() {
+    new void Update() {
         base.Update(); // Required for the robot to execute commands, do not remove
 
     }

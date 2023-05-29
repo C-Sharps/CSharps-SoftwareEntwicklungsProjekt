@@ -2,12 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Arm : MonoBehaviour
+public class Arms : MonoBehaviour
 {
-    [SerializeField]
-    // The list of task the Robot is about to do.
-    private Queue<IEnumerator> _Tasks = new Queue<IEnumerator>();
-
     [SerializeField]
     // The Array of items the Robot can carry.
     private GameObject _IsHolding;
@@ -16,7 +12,7 @@ public class Arm : MonoBehaviour
     private GameObject[] _InteractableObjects;
 
     // Pick up object infront of Robot.
-    IEnumerator _Pickup(GameObject Parent){
+    internal IEnumerator _Pickup(GameObject Parent){
         foreach( GameObject Object in _InteractableObjects){
             float distance = Vector3.Distance(Parent.transform.position,Object.transform.position);
            
@@ -32,7 +28,7 @@ public class Arm : MonoBehaviour
     }
 
     // Place an object infront of the Robot. 
-    IEnumerator _PutDown(GameObject Robot) {
+    internal IEnumerator _PutDown(GameObject Robot) {
  
         if(_IsHolding!=null) {
             
@@ -46,24 +42,5 @@ public class Arm : MonoBehaviour
 
         }
         yield return null;
-    }
-
-    public void Pickup(){
-        Transform GrabPosition = transform.Find("GrabPosition");
-        _Tasks.Enqueue(_Pickup(GrabPosition.gameObject));
-    }
-
-    public void PutDown(){
-        _Tasks.Enqueue(_PutDown(gameObject));
-    }
-
-    public void Update() {
-        if(_Tasks.Count>0 && _Tasks.Peek() != null){
-            StartCoroutine(_Tasks.Dequeue());
-        }
-        else if(_Tasks.Count <= 0)
-        {
-            // Debug.Log("Done!");
-        }
     }
 }

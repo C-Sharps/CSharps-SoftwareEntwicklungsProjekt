@@ -1,9 +1,9 @@
 using Unity.Burst.Intrinsics;
 using UnityEngine;
 
-public class Robot : MonoBehaviour
+public class Robot02Legacy : MonoBehaviour
 {
-    public Robot(Color color)
+    public Robot02Legacy(Color color)
     {
         var Robot = Instantiate(Resources.Load<GameObject>("Prefabs/Robot"), new Vector3(5.75f, 8f, 0f),
             Quaternion.identity);

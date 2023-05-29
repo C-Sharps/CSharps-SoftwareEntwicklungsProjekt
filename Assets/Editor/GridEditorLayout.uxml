@@ -3,14 +3,15 @@
     <uie:PropertyField name="gridNameField" binding-path="gridName" label="Name" />
     <uie:Vector2IntField label="Grid Size" binding-path="gridSize" name="gridSizeField" />
     <uie:Vector3Field label="Origin Position" name="originField" binding-path="origin" style="align-items: auto; justify-content: flex-start; flex-direction: column; flex-wrap: wrap-reverse;" />
-    <uie:PropertyField label="Tile Sprite" binding-path="tileSprite" name="tileSpriteField" />
     <ui:Foldout text="Cell Dimensions" value="false">
         <uie:FloatField label="Cell Size X" value="42,2" binding-path="cellSizeX" name="cellSizeXField" />
         <uie:FloatField label="Cell Size Y" value="42,2" binding-path="cellSizeY" name="cellSizeYField" style="height: 19px;" />
         <uie:FloatField label="Cell Size Z" value="42,2" name="cellSizeZField" />
     </ui:Foldout>
     <uie:EnumField label="Orientation" value="Center" name="orientationField" binding-path="orientation" />
+    <uie:PropertyField binding-path="tilePrefab" label="Tile Prefab" name="tilePrefabField" />
     <ui:Toggle label="Use Grid Labeling?" binding-path="shallUseLabels" value="false" name="useGridLabelToggle" />
     <ui:Toggle label="Create Tilemap?" binding-path="shallCreateTilemap" value="false" name="createTilemapToggle" />
     <ui:Button text="Generate Grid" display-tooltip-when-elided="true" name="gridGeneratorButton" />
+    <uie:PropertyField label="Tile Asset" binding-path="tileAsset" name="tileAssetField" />
 </ui:UXML>

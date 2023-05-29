@@ -1,31 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
-
-
-// public class Direction {
-//     public int x;
-//     public int y;
-//     
-//     public Direction(int x,int y) {
-//         this.x = x;
-//         this.y = y;
-//     }
-// 
-//     public static Direction North = new Direction(1,0);
-//     public static Direction South = new Direction(-1,0);
-//     public static Direction East = new Direction(0,-1);
-//     public static Direction West = new Direction(0,1);
-// }
-
 
 public class RobotScriptLegacy: MonoBehaviour
 {
-
-
-
-
 
     [SerializeField]
     //Movement Speed of the Robot.
@@ -36,11 +14,17 @@ public class RobotScriptLegacy: MonoBehaviour
 
 
     [SerializeField]
-    private GameObject[] InteractableObjects;
+    private GameObject[] interactableObjects;
 
     //[SerializeField]
-    private GameObject IsHolding;
+    private GameObject isHolding;
     //Moves Robot by Lerping between start and end position
+
+    IEnumerator _Move(Vector2 direction)
+    {
+        return _Move(direction.x, direction.y); 
+    }
+
     IEnumerator _Move(float x, float y)
     {
         
@@ -67,23 +51,20 @@ public class RobotScriptLegacy: MonoBehaviour
         isRunning = false;
     }
 
-
-
-
     IEnumerator _Pickup(GameObject Parent){
-        if(IsHolding == null) { 
+        if(isHolding == null) { 
 
-        foreach( GameObject Object in InteractableObjects){
+        foreach( GameObject Object in interactableObjects){
             float distance = Vector3.Distance(Parent.transform.position,Object.transform.position);
            
             if(distance<= 1){
                 Object.transform.parent = Parent.transform;
                 Object.transform.position = Parent.transform.position;
-                IsHolding = Object;
+                isHolding = Object;
                 break;
             }
 
-        }
+            }
         }
 
         yield return null;  
@@ -92,22 +73,23 @@ public class RobotScriptLegacy: MonoBehaviour
 
     IEnumerator _PutDown(GameObject Robot) {
  
-        if(IsHolding!=null) {
+        if(isHolding !=null) {
             
             Vector3 P = transform.position;
 
             //TODO : Abhängig von Roboter richtung machen
             P.x = Mathf.Floor((P.x + 1f)); 
            
-            IsHolding.transform.parent = null;
-            IsHolding.transform.position = P;
+            isHolding.transform.parent = null;
+            isHolding.transform.position = P;
 
         }
         yield return null;
     }
 
-
-    public void Move(Direction dir){Tasks.Enqueue(_Move(dir.x,dir.y));}
+    public void Move(Direction dir){
+        Tasks.Enqueue(_Move(DirectionExtension.DirectionToVector2(dir)));
+    }
 
     public void Pickup(){
         Transform GrabPosition = transform.Find("GrabPosition");
@@ -124,7 +106,7 @@ public class RobotScriptLegacy: MonoBehaviour
 
 
     public void Update() {
-        if(Tasks.Count>0 && Tasks.Peek() != null && !isRunning){
+        if(Tasks.Count > 0 && Tasks.Peek() != null && !isRunning){
             StartCoroutine(Tasks.Dequeue());
         }
         else if(!isRunning && Tasks.Count <= 0)

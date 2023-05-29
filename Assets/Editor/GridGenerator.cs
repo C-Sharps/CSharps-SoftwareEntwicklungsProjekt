@@ -5,6 +5,8 @@ using TMPro;
 using Unity.VisualScripting;
 using System.Runtime.CompilerServices;
 using UnityEngine.Tilemaps;
+using PlasticPipe.PlasticProtocol.Messages;
+using Codice.Client.BaseCommands;
 
 public class GridGenerator : ScriptableObject
 {
@@ -12,7 +14,7 @@ public class GridGenerator : ScriptableObject
     private GameObject gridObject;
     [SerializeField]
     private Grid grid;
-    public Sprite tileSprite;
+    public GameObject tilePrefab;
     public Vector3 origin;
     public GridOrientation orientation;
     public Vector2Int gridSize = Vector2Int.one;
@@ -20,6 +22,7 @@ public class GridGenerator : ScriptableObject
     public float cellSizeY = 1f;
     public bool shallUseLabels;
     public bool shallCreateTilemap;
+    public Tile tileAsset;
 
     public void GenerateGrid() 
     {
@@ -58,12 +61,17 @@ public class GridGenerator : ScriptableObject
             SetGridText(canvas);
         }
 
+        if (tilePrefab != null)
+        {
+            FillGridWithPrefabs();
+        }
+
         if (shallCreateTilemap)
         {
             CreateTilemap();
         }
 
-        if (tileSprite != null)
+        if (tileAsset != null)
         {
             FillGridWithTiles();
         }
@@ -101,6 +109,22 @@ public class GridGenerator : ScriptableObject
         }
     }
 
+    private void FillGridWithPrefabs()
+    {
+        GameObject tileHolder = new GameObject("Tile Holder");
+        tileHolder.transform.SetParent(grid.transform);
+        Vector3 offset = new Vector3(cellSizeX / 2, 0, cellSizeY / 2);
+
+        for (int y = 0; y < gridSize.y; y++)
+        {
+            for (int x = 0; x < gridSize.x; x++)
+            {
+                GameObject newTile = Instantiate(tilePrefab, grid.CellToWorld(new Vector3Int(x, y)) + offset, tilePrefab.transform.rotation, tileHolder.transform);
+                newTile.name = tilePrefab.name + " (" + x + ", " + y + ")";    
+            }
+        }
+    }
+
     private void CreateTilemap()
     {
         GameObject tilemapObject = new GameObject("Tilemap", typeof(Tilemap));
@@ -110,15 +134,13 @@ public class GridGenerator : ScriptableObject
 
     private void FillGridWithTiles()
     {
-        Tile tile = CreateInstance<Tile>();
-        tile.sprite = tileSprite;
         Tilemap tilemap = gridObject.GetComponentInChildren<Tilemap>();
 
         for (int y = 0; y < gridSize.y; y++)
         {
             for (int x = 0; x < gridSize.x; x++)
             {
-                tilemap.SetTile(new Vector3Int(x, y), tile);
+                tilemap.SetTile(new Vector3Int(x, y), Instantiate<Tile>(tileAsset));
             }
         }
     }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Leg : MonoBehaviour
+public class Legs : MonoBehaviour
 {
     [SerializeField]
     // The list of task the Robot is about to do.
@@ -19,7 +19,17 @@ public class Leg : MonoBehaviour
     [SerializeField]
     // The direction the Robot facing;
     private Direction _dir;
-    IEnumerator _Move(float x, float y)
+
+    internal IEnumerator _Move(Direction direction)
+    {
+        return _Move(DirectionExtension.DirectionToVector2(direction));
+    }
+
+    internal IEnumerator _Move(Vector2 direction)
+    {
+        return _Move(direction.x, direction.y);
+    }
+    internal IEnumerator _Move(float x, float y)
     {
         
         _isRunning = true;
