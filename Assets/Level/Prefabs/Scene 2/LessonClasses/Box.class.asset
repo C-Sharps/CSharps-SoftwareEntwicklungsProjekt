@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833dfec0ad3e4becbc04e3739d12c9dc, type: 3}
+  m_Name: Box.class
+  m_EditorClassIdentifier: 
+  className: Box.class
+  classSource: "public class Box\r: MonoBehaviour\n{\r\n    // Attribute for the
+    color of the box\r\n    public Color32 Color;\r\n\r\n    // Attribute for the
+    weight of the box\r\n    public float Weight;\r\n\r\n    // Attribute to track
+    if the box is full\r\n    public bool IsFull;\r\n\r\n    // Attribute for the
+    contents of the box\r\n    public string Contents;\r\n\r\n    // Constructor
+    to initialize the attributes of the box\r\n    public Box(Color32 color, float
+    weight, bool isFull, string contents)\r\n    {\r\n\t\n\t\n\t\n\t\n\t\n    }\n}"
+  interactable: 0

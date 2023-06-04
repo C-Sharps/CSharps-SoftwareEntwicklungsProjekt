@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Level/Scenes/Lesson 11.unity
     guid: 31bc367f06f21c04583563831ebb555f
   - enabled: 1
-    path: Assets/Level/Scenes/2 - Your Robot.unity
+    path: Assets/Level/Scenes/Lesson 0.unity
     guid: a9aa80a81e3d04a4ab0da1883faf7843
   m_configObjects: {}
