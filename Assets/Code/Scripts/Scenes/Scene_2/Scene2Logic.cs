@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine;
 using RoslynCSharp;
 
-public class Scene1Logic : SceneLogic
+public class Scene2Logic : SceneLogic
 {
     // ToDo: Not performant, should be done with events
     GameObject[] robots;

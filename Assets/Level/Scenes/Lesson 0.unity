@@ -1175,8 +1175,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lessonClasses:
-  - {fileID: 11400000, guid: ca16349ab8e757a499bb709650206ee0, type: 2}
-  lessonObjectives: []
+  - {fileID: 11400000, guid: 234ea7d32c633954297ced88edd74e49, type: 2}
+  - {fileID: 11400000, guid: 2dbac7adf4597b04b8f5d2a8ae2e6d47, type: 2}
+  lessonObjectives:
+  - {fileID: 0}
+  LessonObjectivesCopy: []
   assemblyReferences:
   - {fileID: 11400000, guid: facc3a8f1ebbaa046948d9a4289e42f0, type: 2}
   - {fileID: 11400000, guid: 49e9f5d6abb77204793f81ae256f8b86, type: 2}

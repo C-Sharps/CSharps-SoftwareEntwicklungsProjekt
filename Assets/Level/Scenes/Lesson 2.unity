@@ -1170,66 +1170,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 986865480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdf132df01056c7408ab575dc0a9f76d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b8e4d7a01217a54ca3cbcc6d8074e5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lessonClasses:
-  - className: Robot.class
-    classSource: "public class Robot : MonoBehaviour, EVA\r\n{\r\n    // You're probably
-      thinking: \r\n    // \"Hey, coding is pretty easy! I'm gonna be the next \xC9longat\xE9d
-      Musk\xE9t.\"\r\n    // (he was a famous person in the old days)\r\n\r\n   
-      // !!!WRONG!!!\r\n\r\n    // Coding is much more complicated than you think,
-      but do not worry,\r\n    // most things have already been done before and can
-      just be implemented.\r\n    // Think of it as standing on the shoulders of
-      giant robots, boosting you up.\r\n\r\n    // For example, the Robot class\r\n   
-      // This class was already implemented, and you just used it to make a new object.\r\n   
-      // Classes are not always finished and ready to be used,\r\n    // they can
-      even be built from scratch,\r\n    // but that is something we will discuss
-      when we need to make something custom.\r\n\r\n    // Let's talk about the specifics
-      for a second. Do you remember what your Robot looked like?\r\n    // A head
-      on top of a body with two arms and legs.\r\n    // These parts are classes
-      themselves!\r\n    // They were implemented into the Robot class to make it
-      modular.\r\n    // This means we could take them out to remove their functions,
-      but we probably should not.\r\n\r\n    // On the topic of functions, in C#,
-      they are also called methods.\r\n    // These code blocks contain a series
-      of statements.\r\n    // A program causes the statements to be executed by
-      calling the method\r\n    // and specifying any required method arguments.\r\n   
-      // In C#, every executed instruction is performed in the context of a method.\r\n   
-      // The only thing defined in the Robot class is the \r\n    // public Robot(Color32
-      Color) {...}\r\n    // method. This is something special; notice how its name
-      is the same as the Robot class?\r\n    // That is only the case for constructors,
-      or methods that, when called upon, instantiate a new object.\r\n    // (Instantiate
-      means create, for nerds)\r\n    // The parts in () are what's known as parameters,\r\n   
-      // they are what needs to be provided when calling the method.\r\n    // These
-      inputs can be used inside the method, for example:\r\n    // Color is used
-      to change the robot's color attribute. \r\n\r\n    // You might have also noticed
-      these weird keywords like \"public\" and \"void\".\r\n    // These are so-called
-      access and return types. We will talk about these later,\r\n    // when we
-      start making the robot do stuff and go places...\r\n\r\n    public Head Head;\r\n   
-      public Body Body;\r\n    public Arm LeftArm;\r\n    public Arm RightArm;\r\n   
-      public Leg LeftLeg;\r\n    public Leg RightLeg;\r\n    private Color _color;\r\n\r\n   
-      public Robot(Color32 Color)\r\n    {\r\n        _color = Color; \r\n    }\r\n}"
-    interactable: 0
-  - className: Main.class
-    classSource: "public class Main : MonoBehaviour\r\n{\r\n    // This is also a
-      class, but in C#, the Main(string[] args) method is a special case.\r\n   
-      // In this editor, we will call it Start to simplify things.\r\n    // They
-      are called upon when the code is started and should include everything you
-      want to run or call\r\n    // when starting your program.\r\n    \r\n    public
-      void Start()\r\n    {\r\n        // You already know what this function does,
-      now you know why it does them.\r\n        // You call the Robot(Color32 color)
-      method and instantiate a new Robot object.\r\n\r\n        Robot r = new Robot(Color.red);\r\n\r\n       
-      // What is that thing before the = you ask? Oh boy, you are as clueless as
-      they come.\r\n        // We will cover that in a second. For now, why don't
-      you instantiate 10 robots while I try to create\r\n        // a scenario to
-      help you understand the concept of *variables*.\r\n    }\r\n}"
-    interactable: 1
-  lessonObjectives:
-  - objectiveDescription: Create 10 Robots.
-    isCompleted: 0
+  - {fileID: 11400000, guid: e430b152e48b1914f8e8e0f236ebbd25, type: 2}
+  - {fileID: 11400000, guid: c05bb727360b42d4e96e81e396f6c303, type: 2}
+  - {fileID: 11400000, guid: 5c54a5c2642bae64e9eea238cca2861e, type: 2}
+  lessonObjectives: []
+  LessonObjectivesCopy: []
   assemblyReferences:
-  - {fileID: 11400000, guid: fe24fc97048e2974787cc8d5328fa171, type: 2}
   - {fileID: 11400000, guid: 49e9f5d6abb77204793f81ae256f8b86, type: 2}
+  - {fileID: 11400000, guid: fe24fc97048e2974787cc8d5328fa171, type: 2}
   - {fileID: 11400000, guid: facc3a8f1ebbaa046948d9a4289e42f0, type: 2}
 --- !u!1 &1120737954
 GameObject:
