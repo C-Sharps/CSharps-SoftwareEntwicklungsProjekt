@@ -1067,6 +1067,9 @@ GameObject:
   - component: {fileID: 986865482}
   - component: {fileID: 986865481}
   - component: {fileID: 986865485}
+  - component: {fileID: 986865488}
+  - component: {fileID: 986865487}
+  - component: {fileID: 986865486}
   m_Layer: 5
   m_Name: Interface / LogicManager
   m_TagString: Untagged
@@ -1173,16 +1176,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdf132df01056c7408ab575dc0a9f76d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &986865486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986865480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a942b2745141d2b91917ad5134aa38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 986865488}
+  view: {fileID: 986865487}
+--- !u!114 &986865487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986865480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2912dc19e841e5a8026fe4dbda8c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  codeEditorInputField: {fileID: 0}
+  codeEditorHighlight: {fileID: 0}
+  objectiveContainer: {fileID: 0}
+  errorOutput: {fileID: 0}
+  console: {fileID: 0}
+--- !u!114 &986865488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986865480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28054fb714414c159239dcc2712356f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   lessonClasses:
   - {fileID: 11400000, guid: 4e1e0f8154f3b8143aaefb0dcbd37688, type: 2}
   - {fileID: 11400000, guid: 7359b095956d80e4f98748c9703b87a0, type: 2}
   lessonObjectives:
   - {fileID: 11400000, guid: e051723c0446330478123aebeb915347, type: 2}
-  LessonObjectivesCopy: []
-  assemblyReferences:
-  - {fileID: 11400000, guid: fe24fc97048e2974787cc8d5328fa171, type: 2}
-  - {fileID: 11400000, guid: 49e9f5d6abb77204793f81ae256f8b86, type: 2}
-  - {fileID: 11400000, guid: facc3a8f1ebbaa046948d9a4289e42f0, type: 2}
+  assemblyReferences: []
 --- !u!1 &1120737954
 GameObject:
   m_ObjectHideFlags: 0
