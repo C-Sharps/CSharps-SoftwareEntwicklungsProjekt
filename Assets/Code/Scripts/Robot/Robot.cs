@@ -35,28 +35,20 @@ public class Robot : MonoBehaviour
 
         _tasks.Enqueue(arms._PutDown(gameObject));
     }
+    
+    public Vector2 GetPosition()
+    {
+        return new Vector2(transform.position.x, transform.position.z);
+    }
 
     public void Move(Direction direction)
     {
-        legs._Move(direction);
+        _tasks.Enqueue(legs._Move(direction));
     }
-
-    void Start()
-    {
-        // Give the robot commands here
-        PickUp();
-        Move(Direction.North);
-        Move(Direction.East);
-        PutDown();
-        Move(Direction.North);
-        Move(Direction.North);
-        Move(Direction.North);
-
-    }
-
+    
     public void Update()
     {
-        if (_tasks.Count > 0 && _tasks.Peek() != null)
+        if (_tasks.Count > 0 && _tasks.Peek() != null && !legs._isRunning)
         {
             StartCoroutine(_tasks.Dequeue());
         }
