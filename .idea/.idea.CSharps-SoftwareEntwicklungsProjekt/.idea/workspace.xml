@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ebb3dd6-bf99-4025-9b10-ae0e377797f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Lesson 11.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Lesson 11.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Models/Robot/Robot.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Robot/Robot.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Modules/Legs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Modules/Legs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Robot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Robot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scene Logic.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scene Logic.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 11.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 11.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Dialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Dialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/DialogManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/DialogManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Intro.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Intro.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../Build\CSharps-SoftwareEntwicklungsProjekt.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Build/CSharps-SoftwareEntwicklungsProjekt.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="D:\Software Development\Github\Build" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -119,7 +116,7 @@
       <workItem from="1685950088123" duration="1000000" />
       <workItem from="1685951104394" duration="2518000" />
       <workItem from="1685959258999" duration="3314000" />
-      <workItem from="1686033196936" duration="7258000" />
+      <workItem from="1686033196936" duration="10826000" />
     </task>
     <servers />
   </component>

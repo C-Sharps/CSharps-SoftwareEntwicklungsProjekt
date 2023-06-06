@@ -10,7 +10,7 @@ public class Legs : MonoBehaviour
 
     [SerializeField]
     // Movement Speed of the Robot.
-    private float _Speed = 1f;
+    public float _Speed = 1f;
 
     [SerializeField]
     // Is the Robot running.
@@ -31,7 +31,7 @@ public class Legs : MonoBehaviour
         print("return move 2?");
         return _Move(direction.x, direction.y);
     }
-
+    
     private IEnumerator _Move(float x, float y)
     {
         print("we are moving now");

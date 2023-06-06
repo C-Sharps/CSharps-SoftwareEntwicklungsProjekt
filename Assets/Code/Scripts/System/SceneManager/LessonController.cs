@@ -54,7 +54,7 @@ namespace Code.Scripts.System.SceneManager
             // change the active state of every other interface element
             foreach (Transform child in transform)
             {
-                if (child.name == "UI_Toggle") continue;
+                if (child.name == "UI_Toggle" || child.name == "Dialog(Clone)" || child.name == "Console") continue;
                 child.gameObject.SetActive(!child.gameObject.activeSelf);
             }
         }
