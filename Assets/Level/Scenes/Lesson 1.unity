@@ -1177,7 +1177,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4e1e0f8154f3b8143aaefb0dcbd37688, type: 2}
   - {fileID: 11400000, guid: 7359b095956d80e4f98748c9703b87a0, type: 2}
   lessonObjectives:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: e051723c0446330478123aebeb915347, type: 2}
   LessonObjectivesCopy: []
   assemblyReferences:
   - {fileID: 11400000, guid: fe24fc97048e2974787cc8d5328fa171, type: 2}
