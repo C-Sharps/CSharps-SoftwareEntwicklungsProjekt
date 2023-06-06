@@ -26,8 +26,8 @@ public class Robot : MonoBehaviour
         Animator = GetComponent<Animator>();
     }
 
-    public Robot(){
- 
+    public Robot() {
+
         body = new Body();
         legs = new Legs();
         arms = new Arms();
