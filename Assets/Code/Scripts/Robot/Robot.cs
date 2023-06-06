@@ -18,7 +18,7 @@ public class Robot : MonoBehaviour
     private Queue<IEnumerator> _tasks = new Queue<IEnumerator>();
 
     public Robot(){
-        Debug.Log(this.name + ": In constructor");
+ 
         body = new Body();
         legs = new Legs();
         arms = new Arms();

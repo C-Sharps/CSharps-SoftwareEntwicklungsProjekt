@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  dialogName: Loops
+  dialogText: "In this lesson, you use loops to repeat statements.\n\nwhile (counter
+    < 10)\r\n{\r\n    Console.WriteLine($\"Hello World! The counter is {counter}\");\r\n   
+    counter++;\r\n}\n\nThe <i>while</i> statement checks a condition and executes
+    the statement or statement block following the while. It repeatedly checks the
+    condition, executing those statements until the condition is false.\n"
+  dialogType: 0
+  isCompleted: 1
+  objectiveIndex: 0
