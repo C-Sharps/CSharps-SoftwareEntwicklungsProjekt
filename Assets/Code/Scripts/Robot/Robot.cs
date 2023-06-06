@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Robot : MonoBehaviour
@@ -13,12 +15,19 @@ public class Robot : MonoBehaviour
     [SerializeField]
     private Head head;
 
+    private Animator Animator;
     // The list of task the Robot is about to do.
     [SerializeField]
     private Queue<IEnumerator> _tasks = new Queue<IEnumerator>();
 
+
+    private void Start()
+    {
+        Animator = GetComponent<Animator>();
+    }
+
     public Robot(){
-        Debug.Log(this.name + ": In constructor");
+ 
         body = new Body();
         legs = new Legs();
         arms = new Arms();
@@ -45,9 +54,23 @@ public class Robot : MonoBehaviour
     {
         _tasks.Enqueue(legs._Move(direction));
     }
-    
+
+    public void Dance()
+    {
+        _tasks.Enqueue(DoDance());
+    }
+
+    public IEnumerator DoDance()
+    {
+        Animator.SetTrigger("Dance");
+        yield return null;
+    }
+
     public void Update()
     {
+        Animator.SetBool("isRunning", _tasks.Count > 0);
+        Animator.speed = legs._Speed;
+        
         if (_tasks.Count > 0 && _tasks.Peek() != null && !legs._isRunning)
         {
             StartCoroutine(_tasks.Dequeue());

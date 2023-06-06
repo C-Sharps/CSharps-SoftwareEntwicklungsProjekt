@@ -10,14 +10,12 @@ public class DialogManager : MonoBehaviour
 {
     // Dialog System
     [SerializeField]
-    public List<Dialog> dialogs = new List<Dialog>();
+    public List<Dialog> pages = new List<Dialog>();
 
-    private Dialog _currentDialog;
+    private Dialog _currentPage;
     private GameObject _dialogBox;
     private TextMeshProUGUI _dialogTitle;
     private TextMeshProUGUI _dialogText;
-    private List<string> _splitText = new List<string>();
-    private int _currentTextIndex;
     private Button _prevButton;
     private Button _nextButton;
     private Button _closeButton;
@@ -38,13 +36,13 @@ public class DialogManager : MonoBehaviour
         _closeButton.onClick.AddListener(CloseDialog);
         
         // Try to Setup first dialog
-        if (_currentDialog == null)
+        if (_currentPage == null)
         {
-            foreach (var dialog in dialogs)
+            foreach (var page in pages)
             {
-                if (dialog.dialogType == DialogType.OnStart)
+                if (page.dialogType == DialogType.OnStart)
                 {
-                    SetDialog(dialog);
+                    SetDialog(page);
                     break;
                 }
             }
@@ -67,60 +65,36 @@ public class DialogManager : MonoBehaviour
     private void CloseDialog()
     {
         _dialogBox.SetActive(false);
-        _currentDialog = null;
+        _currentPage = null;
     }
 
-    private void SetDialog(Dialog dialog)
+    private void SetDialog(Dialog page)
     {
         _dialogBox.SetActive(true);
-        _currentDialog = dialog;
+        _currentPage = page;
         
-        // Reset Variables
-        _nextButton.interactable = false;
-        _prevButton.interactable = false;
-        _currentTextIndex = 0;
-        _splitText.Clear();
-            
-        _dialogTitle.text = _currentDialog.dialogName;
+        _prevButton.interactable = false || pages.IndexOf(_currentPage) > 0;
+        _nextButton.interactable = false || pages.IndexOf(_currentPage) < pages.Count - 1;
 
-        if (_currentDialog.dialogText.Length > 770)
-        {
-            Debug.Log("Wowie");
-            _splitText = GetChunks(_currentDialog.dialogText, 770);
-            _dialogText.text = _splitText[0];
-            _nextButton.interactable = true;
-        }
-        else
-        {
-            _dialogText.text = _currentDialog.dialogText;
-        }
-
-        dialog.isCompleted = true;
+        _dialogTitle.text = page.dialogName;
+        _dialogText.text = page.dialogText;
     }
 
     private void NextPage()
     {
-        _currentTextIndex++;
-        if (_splitText[_currentTextIndex] != null)
-            _dialogText.text = _splitText[_currentTextIndex];
-
-        if (_currentTextIndex == _splitText.Count - 1)
-            _nextButton.interactable = false;
+        if (pages.IndexOf(_currentPage) + 1 < pages.Count) { 
+            _currentPage = pages[pages.IndexOf(_currentPage) + 1]; 
+        }
         
-        _prevButton.interactable = true;
+        SetDialog(_currentPage);
     }
-
+    
     private void PrevPage()
     {
-        if (_currentTextIndex == 0) return;
-        _currentTextIndex--;
+        if (pages.IndexOf(_currentPage) - 1 >= 0) { 
+            _currentPage = pages[pages.IndexOf(_currentPage) - 1]; 
+        }
         
-        if (_splitText[_currentTextIndex] != null)
-            _dialogText.text = _splitText[_currentTextIndex];
-
-        if (_currentTextIndex == 0)
-            _prevButton.interactable = false;
-        
-        _nextButton.interactable = true;
+        SetDialog(_currentPage);
     }
 }

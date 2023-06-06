@@ -7,7 +7,7 @@ using UnityEngine;
 using RoslynCSharp;
 using System.Linq;
 
-public class Scene0Logic : SceneLogic
+public class Scene0Logic : MonoBehaviour
 {
     GameObject[] robots;
     public void Update()
