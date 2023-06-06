@@ -14,13 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   className: Main.class
   classSource: "using UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\r\n   
-    // This is where the magic happens. \r\n    // Whenever you click the start button,
-    \r\n    // the code below will be executed. Now let's get to it!\r\n    public
-    void Start()\r\n    {\r\n        // Let's build your first robot. Remember that
-    Robot() function? \r\n        // We're going to use it here. To make a new object,
-    \r\n        // simply write the following expression: \r\n\r\n        // className
-    objectName (you can choose this one) = new className(parameters)\r\n        //
-    You can try following Colors: Color.green, Color.blue, Color.green, Color.black\r\n\r\n       
-    // Try it out yourself and feel free to look back at your blueprint.\r\n\tRobot
-    newRobot = new Robot(Color.red);   \n }\r\n}"
+    public void Start()\r\n    \t{\r\n\t\t\n\t}\r\n}"
   interactable: 1

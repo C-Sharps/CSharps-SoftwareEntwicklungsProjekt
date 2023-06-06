@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using Unity.Burst.Intrinsics;
 
 public class Robot : MonoBehaviour
 {
@@ -26,12 +27,17 @@ public class Robot : MonoBehaviour
         Animator = GetComponent<Animator>();
     }
 
-    public Robot() {
+    public Robot(Color32 color) {
+        var Robot = Instantiate(Resources.Load<GameObject>("Prefabs/Robot"), new Vector3(5.75f, 8f, 0f),
+            Quaternion.identity);
+        Robot.GetComponentsInChildren<MeshRenderer>()[5].material.color = color;
+        Robot.transform.Rotate(0f, 180f, 0f);
 
         body = new Body();
         legs = new Legs();
         arms = new Arms();
         head = new Head();
+
     }
 
     public void PickUp()

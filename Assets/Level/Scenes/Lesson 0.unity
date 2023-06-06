@@ -1325,7 +1325,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d9b054fd34862648b32cc20380334f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pages: []
+  pages:
+  - {fileID: 11400000, guid: 370d2bfabb1f72f418f7c8a2e5bcd964, type: 2}
+  - {fileID: 11400000, guid: a2aabc93782d61b47a6e09d836bed63c, type: 2}
+  - {fileID: 11400000, guid: df4d0417b44930347a4847a2b0dd8278, type: 2}
+  - {fileID: 11400000, guid: 4b103a4ff6de7e6499f338ee86d13d86, type: 2}
+  - {fileID: 11400000, guid: 92d2a9c8ce66f1544b2772728cf1429a, type: 2}
+  - {fileID: 11400000, guid: 1e86c4b733575234bb39862be0e393e2, type: 2}
 --- !u!114 &986865487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1375,7 +1381,10 @@ MonoBehaviour:
   lessonObjectives:
   - {fileID: 11400000, guid: 0c5c1627d54c8a843b1a40d2d93de8d6, type: 2}
   - {fileID: 11400000, guid: 2c1171a0bedfc5149a59c011a3e41a18, type: 2}
-  assemblyReferences: []
+  assemblyReferences:
+  - {fileID: 11400000, guid: facc3a8f1ebbaa046948d9a4289e42f0, type: 2}
+  - {fileID: 11400000, guid: 49e9f5d6abb77204793f81ae256f8b86, type: 2}
+  - {fileID: 11400000, guid: fe24fc97048e2974787cc8d5328fa171, type: 2}
 --- !u!1 &1120737954
 GameObject:
   m_ObjectHideFlags: 0
