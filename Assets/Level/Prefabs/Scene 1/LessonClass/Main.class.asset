@@ -13,16 +13,7 @@ MonoBehaviour:
   m_Name: Main.class
   m_EditorClassIdentifier: 
   className: Main.class
-  classSource: "public class Main : MonoBehaviour\r\n{\r\n    // This is also a class,
-    but in C#, the Main(string[] args) method is a special case.\r\n    // In this
-    editor, we will call it Start to simplify things.\r\n    // They are called upon
-    when the code is started and should include everything you want to run or call\r\n   
-    // when starting your program.\r\n    \r\n    public void Start()\r\n    {\r\n       
-    // You already know what this function does, now you know why it does them.\r\n       
-    // You call the Robot(Color32 color) method and instantiate a new Robot object.\r\n\r\n       
-    Robot r = new Robot(Color.red);\r\n\r\n        // What is that thing before the
-    = you ask? Oh boy, you are as clueless as they come.\r\n        // We will cover
-    that in a second. For now, why don't you instantiate 10 robots while I try to
-    create\r\n        // a scenario to help you understand the concept of *variables*.\r\n   
+  classSource: "using UnityEngine;\n\npublic class Main : MonoBehaviour\r\n{\r\n   
+    public void Start()\r\n    {\r\n        Robot r = new Robot(Color.red);\r\n   
     }\r\n}"
   interactable: 1
