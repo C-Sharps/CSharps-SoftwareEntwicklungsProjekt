@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Main.class
   m_EditorClassIdentifier: 
   className: Main.class
-  classSource: "using UnityEngine;\n\npublic class Main : MonoBehaviour\r\n{\r\n   
-    public void Start()\r\n    {\r\n        Robot r = new Robot(Color.red);\r\n   
-    }\r\n}"
+  classSource: "using UnityEngine;\n\npublic class Main : MonoBehaviour\r\n{\r\n\tpublic
+    void Start()\r\n\t{\r\n\t\tRobot red = \n\t\tRobot blue =\n\t\tRobot green =\n\t}\r\t\t\t\n}"
   interactable: 1

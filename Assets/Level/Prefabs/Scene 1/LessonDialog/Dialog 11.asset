@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dialog 11
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "What is that thing before the = you ask? Oh boy, you are as clueless
-    as they come.\r We will cover that in a second. For now, why don't you instantiate
-    10 robots while I try to create\r a scenario to help you understand the concept
-    of\n *variables*.\r"
+  dialogText: "What is that thing before the = you ask? Oh boy, \nyou are as clueless
+    as they come.\r \nWe will cover that in a second. \nFor now, why don't you instantiate
+    10 robots,\nwhile I try to create something to help you understand the concept
+    of\n \n*variables*.\r"
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0
