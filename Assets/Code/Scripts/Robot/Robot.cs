@@ -27,7 +27,7 @@ public class Robot : MonoBehaviour
         Animator = GetComponent<Animator>();
     }
 
-    public Robot(Color32 color) {
+    public Robot(Color color) {
         var Robot = Instantiate(Resources.Load<GameObject>("Prefabs/Robot"), new Vector3(5.75f, 8f, 0f),
             Quaternion.identity);
         Robot.GetComponentsInChildren<MeshRenderer>()[5].material.color = color;
@@ -63,10 +63,10 @@ public class Robot : MonoBehaviour
 
     public void Dance()
     {
-        _tasks.Enqueue(DoDance());
+        _tasks.Enqueue(_Dance());
     }
 
-    public IEnumerator DoDance()
+    public IEnumerator _Dance()
     {
         Animator.SetTrigger("Dance");
         yield return null;
