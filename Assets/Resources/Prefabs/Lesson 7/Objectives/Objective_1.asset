@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f49797eaeb64efab7f184fc22371d42, type: 3}
   m_Name: Objective_1
   m_EditorClassIdentifier: 
-  objectiveDescription: Reach Tile (0, 50)
+  objectiveDescription: Repair all broken panels
   isCompleted: 0

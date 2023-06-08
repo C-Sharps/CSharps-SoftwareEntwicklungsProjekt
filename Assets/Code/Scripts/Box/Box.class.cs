@@ -31,7 +31,7 @@ public class Box : MonoBehaviour
         boxi.GetComponentsInChildren<MeshRenderer>()[0].material.color = color;
         boxi.transform.Rotate(0f, 180f, 0f);
 
-        var comp = Boxi.AddComponent<Box>();
+        var comp = boxi.AddComponent<Box>();
         
         comp.color = color;
         comp.weight = weight;

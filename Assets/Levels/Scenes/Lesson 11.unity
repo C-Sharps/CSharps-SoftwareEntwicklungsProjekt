@@ -14293,8 +14293,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lessonClasses:
-  - {fileID: 11400000, guid: a2ba73a202fa19e46a823f51aa3c576a, type: 2}
-  - {fileID: 11400000, guid: 81734c0a81ad2af44a50b83023e93192, type: 2}
+  - {fileID: 11400000, guid: 2bb588f11f0279b4289890622c4c441d, type: 2}
+  - {fileID: 11400000, guid: 66cc105aa054669409be8c462a27f528, type: 2}
   lessonObjectives:
   - {fileID: 11400000, guid: 026282629879d9f409dcf64ef3d6e9b3, type: 2}
   assemblyReferences:
