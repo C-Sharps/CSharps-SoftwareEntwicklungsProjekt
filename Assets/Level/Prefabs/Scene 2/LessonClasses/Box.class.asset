@@ -19,5 +19,6 @@ MonoBehaviour:
     box is full\r\n    public bool IsFull;\r\n\r\n    // Attribute for the contents
     of the box\r\n    public string Contents;\r\n\r\n    // Constructor to initialize
     the attributes of the box\r\n    public Box(Color32 color, float weight, bool
-    isFull, string contents)\r\n    {\r\n\t\n\t\n\t\n\t\n\t\n    }\n}"
-  interactable: 1
+    isFull, string contents)\r\n    {\r\n\tColor = color;\r\n\tWeight = weight;\r\n\tIsFull
+    = isFull;\r\n\tContents = contents;\n    }\n}"
+  interactable: 0
