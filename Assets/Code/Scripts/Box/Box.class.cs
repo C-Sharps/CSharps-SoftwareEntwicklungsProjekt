@@ -8,16 +8,16 @@ using Unity.Burst.Intrinsics;
 public class Box : MonoBehaviour
 {
     // Attribute for the color of the box
-    public Color32 Color;
+    public Color color;
 
     // Attribute for the weight of the box
-    public float Weight;
+    public float weight;
 
     // Attribute to track if the box is full
-    public bool IsFull;
+    public bool isFull;
 
     // Attribute for the contents of the box
-    public string Contents;
+    public string contents;
 
     private void Start()
     {
@@ -26,17 +26,17 @@ public class Box : MonoBehaviour
     // Constructor to initialize the attributes of the box
     public Box(Color color, float weight, bool isFull, string contents) 
     {
-        var Boxi = Instantiate(Resources.Load<GameObject>("Prefabs/Box"), new Vector3(5.75f, 8f, 0f),
+        var boxi = Instantiate(Resources.Load<GameObject>("Prefabs/Box"), new Vector3(5.75f, 8f, 0f),
             Quaternion.identity);
-        Boxi.GetComponentsInChildren<MeshRenderer>()[0].material.color = color;
-        Boxi.transform.Rotate(0f, 180f, 0f);
+        boxi.GetComponentsInChildren<MeshRenderer>()[0].material.color = color;
+        boxi.transform.Rotate(0f, 180f, 0f);
 
         var comp = Boxi.AddComponent<Box>();
         
-        comp.Color = color;
-        comp.Weight = weight;
-        comp.IsFull = isFull;
-        comp.Contents = contents;
+        comp.color = color;
+        comp.weight = weight;
+        comp.isFull = isFull;
+        comp.contents = contents;
 
         
     }
