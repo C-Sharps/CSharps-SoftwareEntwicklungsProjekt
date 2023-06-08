@@ -65,7 +65,6 @@ public class DialogManager : MonoBehaviour
     private void CloseDialog()
     {
         _dialogBox.SetActive(false);
-        _currentPage = null;
     }
 
     private void SetDialog(Dialog page)

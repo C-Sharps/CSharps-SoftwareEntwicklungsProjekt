@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
+  m_Name: Dialog 3
+  m_EditorClassIdentifier: 
+  dialogName: 
+  dialogText: "For example, the Robot.class\r.\nThis class was already implemented,
+    and you just used it to make a new object.\r\n\nClasses are not always finished
+    and ready to be used,\r they can even be built from scratch,\r \nbut that is
+    something we will discuss when we need to make something custom.\r"
+  dialogType: 0
+  isCompleted: 0
+  objectiveIndex: 0
