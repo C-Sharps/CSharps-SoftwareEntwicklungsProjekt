@@ -24,7 +24,7 @@ public class Box : MonoBehaviour
     }
 
     // Constructor to initialize the attributes of the box
-    public Box(Color32 color, float weight, bool isFull, string contents) 
+    public Box(Color color, float weight, bool isFull, string contents) 
     {
         var Boxi = Instantiate(Resources.Load<GameObject>("Prefabs/Box"), new Vector3(5.75f, 8f, 0f),
             Quaternion.identity);
