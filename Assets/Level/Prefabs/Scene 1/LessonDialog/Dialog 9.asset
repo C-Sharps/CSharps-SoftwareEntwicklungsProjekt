@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
+  m_Name: Dialog 9
+  m_EditorClassIdentifier: 
+  dialogName: 
+  dialogText: "This is also a class and in C#, the Main(string[] args) method is
+    a special case.\r\n\nIn this editor, we will call it Start to simplify things.\r\nThey
+    are called upon when the code is started and should include everything you want
+    to run or call\r when starting your program.\r"
+  dialogType: 0
+  isCompleted: 0
+  objectiveIndex: 0

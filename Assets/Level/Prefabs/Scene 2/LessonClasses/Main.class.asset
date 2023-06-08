@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 833dfec0ad3e4becbc04e3739d12c9dc, type: 3}
-  m_Name: Robot.class
+  m_Name: Main.class
   m_EditorClassIdentifier: 
-  className: Robot.class
-  classSource: "public class Robot : MonoBehaviour, EVA\r\n{\r\n    public Head Head;\r\n   
-    public Body Body;\r\n    public Arms Arms;\r\n    public Legs Legs;\n    private
-    Color _color;\r\n\r\n    public Robot(Color32 Color)\r\n    {\r\n        _color
-    = Color; \r\n    }\r\n}"
-  interactable: 0
+  className: Main.class
+  classSource: "using UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\r\n\tpublic
+    void Start()\r\n\t{\r\n\t\t\n\t}\r\n}"
+  interactable: 1

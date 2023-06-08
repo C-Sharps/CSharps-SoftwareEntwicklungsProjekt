@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833dfec0ad3e4becbc04e3739d12c9dc, type: 3}
-  m_Name: test.class
+  m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
+  m_Name: Dialog 6
   m_EditorClassIdentifier: 
-  className: Test.class
-  classSource: 'this is a test class
-
-'
-  interactable: 1
+  dialogName: 
+  dialogText: Robot newRobot = new Robot(Color.red);
+  dialogType: 0
+  isCompleted: 0
+  objectiveIndex: 0

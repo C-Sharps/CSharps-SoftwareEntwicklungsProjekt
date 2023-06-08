@@ -24,6 +24,9 @@ namespace Code.Scripts.System.SceneManager
             
             // Hide UI Button
             transform.GetChild(4).GetComponent<Button>().onClick.AddListener(ToggleInterface);
+
+            // Open Dialog Button
+            transform.GetChild(6).GetComponent<Button>().onClick.AddListener(ToggleDialog);
             
             // Run Script Button
             transform.GetChild(2).GetComponent<Button>().onClick.AddListener(ExecuteSource);
@@ -49,7 +52,7 @@ namespace Code.Scripts.System.SceneManager
             OnTabClick(0);
         }
         
-         private void ToggleInterface()
+        private void ToggleInterface()
         {
             // change the active state of every other interface element
             foreach (Transform child in transform)
@@ -57,6 +60,12 @@ namespace Code.Scripts.System.SceneManager
                 if (child.name == "UI_Toggle" || child.name == "Dialog(Clone)" || child.name == "Console") continue;
                 child.gameObject.SetActive(!child.gameObject.activeSelf);
             }
+        }
+
+        private void ToggleDialog()
+        {
+            // change the active state of the dialog component
+            transform.GetChild(7).gameObject.SetActive(true);
         }
 
         private void ExecuteSource()
