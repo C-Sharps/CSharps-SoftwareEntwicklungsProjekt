@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ebb3dd6-bf99-4025-9b10-ae0e377797f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Dialog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Dialog.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scenes/Scene_0/Scene0Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scenes/Scene_0/Scene0Logic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/2 - Your Robot.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/2 - Your Robot.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Models/Robot/Robot.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Robot/Robot.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Modules/Legs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Modules/Legs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Robot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Robot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Dialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Dialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/DialogManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/DialogManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Intro.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Intro.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/9b/8e67a725/Queue`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/8f/7c5efa01/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +51,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../Build\CSharps-SoftwareEntwicklungsProjekt.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Build/CSharps-SoftwareEntwicklungsProjekt.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="D:\Software Development\Github\Build" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -104,6 +113,10 @@
       <workItem from="1684311319661" duration="7759000" />
       <workItem from="1685357724896" duration="1970000" />
       <workItem from="1685427476442" duration="4176000" />
+      <workItem from="1685950088123" duration="1000000" />
+      <workItem from="1685951104394" duration="2518000" />
+      <workItem from="1685959258999" duration="3314000" />
+      <workItem from="1686033196936" duration="10826000" />
     </task>
     <servers />
   </component>

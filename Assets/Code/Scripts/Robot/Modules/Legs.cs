@@ -10,11 +10,11 @@ public class Legs : MonoBehaviour
 
     [SerializeField]
     // Movement Speed of the Robot.
-    private float _Speed = 1f;
+    public float _Speed = 1f;
 
     [SerializeField]
     // Is the Robot running.
-    private bool _isRunning = false;
+    public bool _isRunning = false;
     
     [SerializeField]
     // The direction the Robot facing;
@@ -22,16 +22,19 @@ public class Legs : MonoBehaviour
 
     internal IEnumerator _Move(Direction direction)
     {
+        print("return move?");
         return _Move(DirectionExtension.DirectionToVector2(direction));
     }
 
-    internal IEnumerator _Move(Vector2 direction)
+    private IEnumerator _Move(Vector2 direction)
     {
+        print("return move 2?");
         return _Move(direction.x, direction.y);
     }
-    internal IEnumerator _Move(float x, float y)
+    
+    private IEnumerator _Move(float x, float y)
     {
-        
+        print("we are moving now");
         _isRunning = true;
         if(x != 0 || y != 0) {
         
