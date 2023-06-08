@@ -1,29 +1,82 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Robot : AbstractRobot
 {
-    public Robot()
+    [SerializeField]
+    private Body body;
+    [SerializeField]
+    private Legs legs;
+    [SerializeField]
+    private Arms arms;
+    [SerializeField]
+    private Head head;
+
+    private Animator Animator;
+    // The list of task the Robot is about to do.
+    [SerializeField]
+    private Queue<IEnumerator> _tasks = new Queue<IEnumerator>();
+
+
+    private void Start()
+    {
+        Animator = GetComponent<Animator>();
+    }
+
+    public Robot(){
+ 
+        body = new Body();
+        legs = new Legs();
+        arms = new Arms();
+        head = new Head();
+    }
+
+    public void PickUp()
     {
 
     }
 
-    public Robot(Color color)
+    public void PutDown() {
+
+        _tasks.Enqueue(arms._PutDown(gameObject));
+    }
+    
+    public Vector2 GetPosition()
     {
-        GameObject newRobot = InstantiateRobot();
-        newRobot.transform.position = new Vector3(5.75f, 8f, 0f);
-        newRobot.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
-        newRobot.GetComponentsInChildren<MeshRenderer>()[5].material.color = color;
+        return new Vector2(transform.position.x, transform.position.z);
     }
 
-    void Start()
+    public void Move(Direction direction)
     {
-        // Give the robot commands here
-        Move(Direction.North);
-        Move(Direction.East);
-        Move(Direction.North);
-        Move(Direction.North);
-        Move(Direction.North);
+        _tasks.Enqueue(legs._Move(direction));
+    }
+
+    public void Dance()
+    {
+        _tasks.Enqueue(DoDance());
+    }
+
+    public IEnumerator DoDance()
+    {
+        Animator.SetTrigger("Dance");
+        yield return null;
+    }
+
+    public void Update()
+    {
+        Animator.SetBool("isRunning", _tasks.Count > 0);
+        Animator.speed = legs._Speed;
+        
+        if (_tasks.Count > 0 && _tasks.Peek() != null && !legs._isRunning)
+        {
+            StartCoroutine(_tasks.Dequeue());
+        }
+        else if (_tasks.Count <= 0)
+        {
+            Debug.Log(this.name + ": Queue _tasks is empty, all tasks finished.");
+        }
     }
 }

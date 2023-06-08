@@ -15,7 +15,7 @@ namespace Code.Scripts
     {
         [Header("Basic Settings")]
         public string dialogName;
-        [TextArea(3, 50)]
+        [TextArea(3, 18)]
         public string dialogText;
         public DialogType dialogType;
         public bool isCompleted;
