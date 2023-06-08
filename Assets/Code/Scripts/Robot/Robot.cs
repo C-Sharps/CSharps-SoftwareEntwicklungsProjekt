@@ -16,15 +16,20 @@ public class Robot : MonoBehaviour
     [SerializeField]
     private Head head;
 
-    private Animator Animator;
+    private Animator animator;
     // The list of task the Robot is about to do.
     [SerializeField]
-    private Queue<IEnumerator> _tasks = new Queue<IEnumerator>();
+    private Queue<IEnumerator> _tasks;
 
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+        _tasks = new Queue<IEnumerator>();
+    }
 
     private void Start()
     {
-        Animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     public Robot(Color color) {
@@ -67,14 +72,14 @@ public class Robot : MonoBehaviour
 
     public IEnumerator _Dance()
     {
-        Animator.SetTrigger("Dance");
+        animator.SetTrigger("Dance");
         yield return null;
     }
 
     public void Update()
     {
-        Animator.SetBool("isRunning", _tasks.Count > 0);
-        Animator.speed = legs._Speed;
+        animator.SetBool("isRunning", _tasks.Count > 0);
+        animator.speed = legs._Speed;
         
         if (_tasks.Count > 0 && _tasks.Peek() != null && !legs._isRunning)
         {
@@ -82,7 +87,7 @@ public class Robot : MonoBehaviour
         }
         else if (_tasks.Count <= 0)
         {
-            Debug.Log(this.name + ": Queue _tasks is empty, all tasks finished.");
+            // Debug.Log(this.name + ": Queue _tasks is empty, all tasks finished.");
         }
     }
 }
