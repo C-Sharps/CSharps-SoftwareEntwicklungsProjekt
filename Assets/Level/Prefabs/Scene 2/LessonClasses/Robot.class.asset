@@ -15,5 +15,5 @@ MonoBehaviour:
   className: Robot.class
   classSource: "public class Robot : MonoBehaviour, EVA\r\n{\r\n\tpublic Head Head;\r\n\tpublic
     Body Body;\r\n\tpublic Arms Arms\n\tpublic Legs Legs;\r\n\tprivate Color\r;\n\r\r\n\tpublic
-    Robot(Color32 Color)\r\n\t{\r\n\t\t_color = Color; \r\n\t}\r\n}"
+    Robot(Color Color)\r\n\t{\r\n\t\t_color = Color; \r\n\t}\r\n}"
   interactable: 0
