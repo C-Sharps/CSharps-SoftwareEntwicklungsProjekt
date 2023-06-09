@@ -9,11 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
-  m_Name: Dialog
+  m_Script: {fileID: 11500000, guid: 6f49797eaeb64efab7f184fc22371d42, type: 3}
+  m_Name: CreateBoxVar
   m_EditorClassIdentifier: 
-  dialogName: 
-  dialogText: 
-  dialogType: 0
+  objectiveDescription: Instanciate a Box and fill it with ANYTHING
   isCompleted: 0
-  objectiveIndex: 0

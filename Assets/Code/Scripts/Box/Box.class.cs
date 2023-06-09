@@ -19,26 +19,53 @@ public class Box : MonoBehaviour
     // Attribute for the contents of the box
     public string contents;
 
-    private void Start()
+    // Constructor to initialize the attributes of the box
+    public Box(Color color, float weight, bool isFull, string contents)
     {
+        this.color = color;
+        this.weight = weight;
+        this.isFull = isFull;
+        this.contents = contents;
+
+        CreateBox();
     }
 
-    // Constructor to initialize the attributes of the box
-    public Box(Color color, float weight, bool isFull, string contents) 
+    public Box(string input)
     {
-        var boxi = Instantiate(Resources.Load<GameObject>("Prefabs/Box"), new Vector3(5.75f, 8f, 0f),
+        // Parse the input and assign values to attributes (assuming you're doing it here)
+        // ...
+
+        CreateBox();
+    }
+
+    public Box(int input)
+    {
+        // Parse the input and assign values to attributes (assuming you're doing it here)
+        // ...
+
+        CreateBox();
+    }
+
+    public Box(bool input)
+    {
+        // Parse the input and assign values to attributes (assuming you're doing it here)
+        // ...
+
+        CreateBox();
+    }
+
+    private void CreateBox()
+    {
+        var box = Instantiate(Resources.Load<GameObject>("Prefabs/Box"), new Vector3(5.75f, 8f, 0f),
             Quaternion.identity);
-        boxi.GetComponentsInChildren<MeshRenderer>()[0].material.color = color;
-        boxi.transform.Rotate(0f, 180f, 0f);
+        box.GetComponentsInChildren<MeshRenderer>()[0].material.color = color;
+        box.transform.Rotate(0f, 180f, 0f);
 
-        var comp = Boxi.AddComponent<Box>();
-        
-        comp.color = color;
-        comp.weight = weight;
-        comp.isFull = isFull;
-        comp.contents = contents;
+        box.tag = "Box"; // Assign the "Box" tag to the instantiated box object
+    }
 
-        
+    private void Start()
+    {
     }
 
     public void Update()
