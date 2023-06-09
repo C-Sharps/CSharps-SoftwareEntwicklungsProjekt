@@ -3,9 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using Unity.Burst.Intrinsics;
 
-public class Robot : MonoBehaviour
+public class Robot : AbstractRobot
 {
     [SerializeField]
     private Body body;

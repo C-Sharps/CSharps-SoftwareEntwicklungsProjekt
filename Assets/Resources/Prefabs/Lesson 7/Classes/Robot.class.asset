@@ -17,4 +17,4 @@ MonoBehaviour:
     Body _body;\r\n    private Legs _legs;\r\n    private Arms _arms;\r\n    private
     Head _head;\r\n\r\n    public void Move(Direction direction)\r\n    {\r\n       
     legs._Move(direction);\r\n    }\r\n}"
-  interactable: 0
+  interactable: 1

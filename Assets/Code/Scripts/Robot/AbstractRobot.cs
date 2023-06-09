@@ -1,9 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class AbstractRobot : MonoBehaviour
 {
+    // TODO: Commented out for testing purposes
+    /*
     [SerializeField]
     protected Body body;
     [SerializeField]
@@ -33,7 +36,8 @@ public abstract class AbstractRobot : MonoBehaviour
         _tasks.Enqueue(arms._Pickup(GrabPosition.gameObject));
     }
 
-    public void PutDown() {
+    public void PutDown()
+    {
 
         _tasks.Enqueue(arms._PutDown(gameObject));
     }
@@ -50,16 +54,6 @@ public abstract class AbstractRobot : MonoBehaviour
         return newRobot;
     }
 
-    void Start()
-    {
-        // Give the robot commands here
-        Move(Direction.North);
-        Move(Direction.East);
-        Move(Direction.North);
-        Move(Direction.North);
-        Move(Direction.North);
-    }
-
     public void Update()
     {
         if (_tasks.Count > 0 && _tasks.Peek() != null)
@@ -70,6 +64,7 @@ public abstract class AbstractRobot : MonoBehaviour
         {
         }
     }
+   
 
     protected void SetModules()
     {
@@ -78,4 +73,5 @@ public abstract class AbstractRobot : MonoBehaviour
         arms = gameObject.AddComponent<Arms>();
         head = gameObject.AddComponent<Head>();
     }
+     */
 }
