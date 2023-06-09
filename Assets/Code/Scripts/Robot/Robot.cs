@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using Unity.Burst.Intrinsics;
 
 public class Robot : MonoBehaviour
 {
@@ -42,7 +41,6 @@ public class Robot : MonoBehaviour
         legs = new Legs();
         arms = new Arms();
         head = new Head();
-
     }
 
     public void PickUp()
@@ -74,6 +72,11 @@ public class Robot : MonoBehaviour
     {
         animator.SetTrigger("Dance");
         yield return null;
+    }
+
+    public void Repair(Direction direction)
+    {
+        _tasks.Enqueue(arms._Repair(direction));
     }
 
     public void Update()

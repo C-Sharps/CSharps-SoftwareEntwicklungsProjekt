@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Arms : MonoBehaviour
@@ -49,6 +48,24 @@ public class Arms : MonoBehaviour
             _holdObject.transform.position = P;
 
         }
+        yield return null;
+    }
+
+    internal IEnumerator _Repair(Direction direction)
+    {
+        Debug.Log("In _Repair");
+
+        RaycastHit[] hits = Physics.BoxCastAll(
+            gameObject.transform.position + DirectionExtension.DirectionToVector3(direction) * 0.5f,
+            new Vector3(0.25f, 0.25f, 0.25f),
+            Vector3.down
+            );
+
+        foreach (RaycastHit hit in hits)
+        {
+            Debug.Log(hit.transform.name);
+        }
+
         yield return null;
     }
 }
