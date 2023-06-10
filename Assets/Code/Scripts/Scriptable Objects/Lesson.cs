@@ -7,6 +7,7 @@ namespace Code.Scripts {
     public class Lesson : ScriptableObject
     {
         public string lessonName;
+        [TextArea(3, 50)]
         public string description;
         public bool isUnlocked;
         public bool isCompleted;

@@ -12,7 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson07
   m_EditorClassIdentifier: 
-  lessonName: 
-  description: 
-  isUnlocked: 0
+  lessonName: Loops
+  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+    kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+    sea takimata sanctus est Lorem ipsum dolor sit amet.
+  isUnlocked: 1
   isCompleted: 0
