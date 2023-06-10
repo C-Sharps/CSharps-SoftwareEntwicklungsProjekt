@@ -1,27 +1,27 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using Code.Scripts;
+using System.Linq;
 
 // Event to handle when a lesson is hovered over
 [System.Serializable]
 public class LessonHoverEvent : UnityEvent<int, bool> {}
 
-// Struct to hold information about a lesson
-[System.Serializable]
-public struct Lesson
-{
-    public string name;
-    public string description;
-    public string sceneName;
-}
-
 public class LessonManager : MonoBehaviour
 {
     public LessonHoverEvent onLessonHover;
-    public Lesson[] lessons;
+    public LessonSO[] lessons;
     public GameObject lessonHoverUI;
-    void Start()
+    void Awake()
     {
+        lessons = Resources.LoadAll("ScriptableObjects/LessonSOs", typeof(LessonSO)).Cast<LessonSO>().ToArray();
+
+        if (lessons.Length == 0)
+        {
+            throw new UnityException("Could not load scriptable objects for lesson!");
+        }
+
         // Check if the event is null
         onLessonHover ??= new LessonHoverEvent();
         
