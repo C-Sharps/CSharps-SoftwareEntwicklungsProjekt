@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Robot.class
   m_EditorClassIdentifier: 
   className: Robot.class
-  classSource: "public class Robot : MonoBehaviour, EVA\r\n{\r\n    public Head Head;\r\n   
-    public Body Body;\r\n    public Arms Arms;\r\n    public Legs Legs;\n    private
-    Color _color;\r\n\r\n    public Robot(Color32 Color)\r\n    {\r\n        _color
-    = Color; \r\n    }\r\n}"
+  classSource: "public class Robot : MonoBehaviour, EVA\r\n{\r\n\tpublic Head Head;\r\n\tpublic
+    Body Body;\r\n\tpublic Arms Arms\n\tpublic Legs Legs;\r\n\tprivate Color\r;\n\r\r\n\tpublic
+    Robot(Color Color)\r\n\t{\r\n\t\t_color = Color; \r\n\t}\r\n}"
   interactable: 0

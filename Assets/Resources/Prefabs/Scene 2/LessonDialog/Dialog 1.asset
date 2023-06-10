@@ -10,11 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
-  m_Name: Dialog 4
+  m_Name: Dialog 1
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: If you made at least one box, i will assume you understand how implicid
-    variables work, but feel free to try out more inputs and see if they work.
+  dialogText: 'Let us start with the most basic thing about variables: Just like
+    in math they are placeholders for values. To save these you would normally give
+    them their respective type and then assign a value. Some types are:
+
+
+    Integer
+    (int) for numbers
+
+    String (string) for a set of characters
+
+    Boolean (bool)
+    for true/false
+
+
+    Let us look at the Box.class for something more simple first.'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0
