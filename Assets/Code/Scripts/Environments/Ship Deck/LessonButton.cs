@@ -17,7 +17,7 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private void OnClickLesson()
     {
         // call the event
-        var scene = FindObjectOfType<LessonManager>().lessons[_id].sceneName;
+        var scene = FindObjectOfType<LessonManager>().lessons[_id].lessonName;
 
         if (Application.CanStreamedLevelBeLoaded(scene))
         {

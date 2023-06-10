@@ -11,11 +11,11 @@ public class LessonHoverEvent : UnityEvent<int, bool> {}
 public class LessonManager : MonoBehaviour
 {
     public LessonHoverEvent onLessonHover;
-    public LessonSO[] lessons;
+    public Lesson[] lessons;
     public GameObject lessonHoverUI;
     void Awake()
     {
-        lessons = Resources.LoadAll("ScriptableObjects/LessonSOs", typeof(LessonSO)).Cast<LessonSO>().ToArray();
+        lessons = Resources.LoadAll("ScriptableObjects/LessonSOs", typeof(Lesson)).Cast<Lesson>().ToArray();
 
         if (lessons.Length == 0)
         {
@@ -36,7 +36,7 @@ public class LessonManager : MonoBehaviour
         
         // Set the lesson hover UI to active
         lessonHoverUI.SetActive(isHovering);
-        lessonHoverUI.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = lessons[lessonIndex].name;
+        lessonHoverUI.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = lessons[lessonIndex].lessonName;
         lessonHoverUI.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = lessons[lessonIndex].description;
         
         if (Input.mousePosition.y > Screen.height / 2f)

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
-  m_Name: Lesson 3
+  m_Name: Lesson13
   m_EditorClassIdentifier: 
+  lessonName: 
   description: 
-  sceneName: 
   isUnlocked: 0
   isCompleted: 0
