@@ -3,7 +3,7 @@ using RoslynCSharp;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System;
 
 namespace Code.Scripts.System.SceneManager
 {
@@ -26,8 +26,14 @@ namespace Code.Scripts.System.SceneManager
             transform.GetChild(4).GetComponent<Button>().onClick.AddListener(ToggleInterface);
 
             // Open Dialog Button
-            transform.GetChild(6).GetComponent<Button>().onClick.AddListener(ToggleDialog);
-            
+            try { 
+                transform.GetChild(6).GetComponent<Button>().onClick.AddListener(ToggleDialog);
+            }
+            catch (Exception)
+            {
+                Debug.Log("Button \"ToggleDialog\" not found");
+            }
+
             // Run Script Button
             transform.GetChild(2).GetComponent<Button>().onClick.AddListener(ExecuteSource);
             
