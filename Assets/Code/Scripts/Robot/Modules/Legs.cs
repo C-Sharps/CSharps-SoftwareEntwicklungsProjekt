@@ -1,13 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Legs : MonoBehaviour
 {
-    [SerializeField]
-    // The list of task the Robot is about to do.
-    private Queue<IEnumerator> _Tasks = new Queue<IEnumerator>();
-
     [SerializeField]
     // Movement Speed of the Robot.
     public float _Speed = 1f;
@@ -23,7 +20,17 @@ public class Legs : MonoBehaviour
     internal IEnumerator _Move(Direction direction)
     {
         print("return move?");
-        return _Move(DirectionExtension.DirectionToVector2(direction));
+
+        switch (direction)
+        {
+            case Direction.North:
+            case Direction.South:
+            case Direction.East:
+            case Direction.West:
+                return _Move(DirectionExtension.DirectionToVector2(direction));
+            default: 
+                return MoveRelativeToOrientation(direction);
+        }
     }
 
     private IEnumerator _Move(Vector2 direction)
@@ -47,8 +54,8 @@ public class Legs : MonoBehaviour
         float t = 0;
         while(t < time)
         {
-            transform.position = Vector3.Lerp(Start,End,t/time);
-            t = t + Time.deltaTime;
+            transform.position = Vector3.Lerp(Start, End, t/time);
+            t += Time.deltaTime;
             yield return null;
         }
 
@@ -58,13 +65,25 @@ public class Legs : MonoBehaviour
         _isRunning = false;
     }
 
-    public void Update() {
-        if(_Tasks.Count>0 && _Tasks.Peek() != null && !_isRunning){
-            StartCoroutine(_Tasks.Dequeue());
-        }
-        else if(!_isRunning && _Tasks.Count <= 0)
+    private IEnumerator MoveRelativeToOrientation(Direction direction)
+    {
+        switch (direction)
         {
-            // Debug.Log("Done!");
+            case Direction.Forward:
+                return _Move(Vector3ToVector2(gameObject.transform.forward));
+            case Direction.Backward:
+                return _Move(Vector3ToVector2(-gameObject.transform.forward));
+            case Direction.Right:
+                return _Move(Vector3ToVector2(gameObject.transform.right));
+            case Direction.Left:
+                return _Move(Vector3ToVector2(-gameObject.transform.right));
+            default:
+                throw new ArgumentException("Not a valid direction!");
         }
+    }
+
+    private Vector2 Vector3ToVector2(Vector3 vector3)
+    {
+        return new Vector2(vector3.x, vector3.z);
     }
 }

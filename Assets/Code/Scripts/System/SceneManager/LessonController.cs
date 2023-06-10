@@ -4,7 +4,7 @@ using RoslynCSharp;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System;
 
 namespace Code.Scripts.System.SceneManager
 {
@@ -22,6 +22,21 @@ namespace Code.Scripts.System.SceneManager
 
             if (view == null)
                 FindObjectOfType<LessonView>();
+            
+            // Hide UI Button
+            transform.GetChild(4).GetComponent<Button>().onClick.AddListener(ToggleInterface);
+
+            // Open Dialog Button
+            try { 
+                transform.GetChild(6).GetComponent<Button>().onClick.AddListener(ToggleDialog);
+            }
+            catch (Exception)
+            {
+                Debug.Log("Button \"ToggleDialog\" not found");
+            }
+
+            // Run Script Button
+            transform.GetChild(2).GetComponent<Button>().onClick.AddListener(ExecuteSource);
             
             foreach (var lessonClass in data.lessonClasses)
             {
@@ -45,7 +60,7 @@ namespace Code.Scripts.System.SceneManager
             OnTabClick(0, view.Tabs[0]);
         }
         
-         private void ToggleInterface()
+        private void ToggleInterface()
         {
             // change the active state of every other interface element
             foreach (Transform child in transform)
@@ -55,8 +70,13 @@ namespace Code.Scripts.System.SceneManager
             }
         }
          
+        private void ToggleDialog()
+        {
+            // change the active state of the dialog component
+            transform.GetChild(7).gameObject.SetActive(true);
+        }
 
-        public void ExecuteSource()
+        private void ExecuteSource()
         {
             ScriptType type = data.domain.CompileAndLoadMainSource(view.codeEditorInputField.text, ScriptSecurityMode.UseSettings, data.assemblyReferences);
             

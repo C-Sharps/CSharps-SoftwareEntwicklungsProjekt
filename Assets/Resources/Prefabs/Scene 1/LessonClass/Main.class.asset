@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833dfec0ad3e4becbc04e3739d12c9dc, type: 3}
+  m_Name: Main.class
+  m_EditorClassIdentifier: 
+  className: Main.class
+  classSource: "using UnityEngine;\n\npublic class Main : MonoBehaviour\r\n{\r\n\tpublic
+    void Start()\r\n\t{\r\n\t\tRobot red = \n\t\tRobot blue =\n\t\tRobot green =\n\t}\r\t\t\t\n}"
+  interactable: 1

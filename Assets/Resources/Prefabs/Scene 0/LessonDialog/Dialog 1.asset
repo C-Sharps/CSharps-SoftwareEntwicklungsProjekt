@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
+  m_Name: Dialog 1
+  m_EditorClassIdentifier: 
+  dialogName: 
+  dialogText: "Hey, Atlas here! This is what's know as a 'class'. \r\nThink of it
+    as your robot's blueprint.\r\nYou can use this blueprint to make yourself a robot!
+    \r\nI have restricted access to this file for now,\r\nas you don't need to change
+    anything yet.\r"
+  dialogType: 0
+  isCompleted: 0
+  objectiveIndex: 0

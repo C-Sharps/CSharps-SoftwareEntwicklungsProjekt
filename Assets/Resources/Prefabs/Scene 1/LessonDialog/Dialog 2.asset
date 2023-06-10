@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
+  m_Name: Dialog 2
+  m_EditorClassIdentifier: 
+  dialogName: 
+  dialogText: "Coding is much more complicated than you think, but do not worry,\r\nmost
+    things have already been done before and can just be implemented.\r\nThink of
+    it as standing on the shoulders of giant robots, boosting you up.\r"
+  dialogType: 0
+  isCompleted: 0
+  objectiveIndex: 0
