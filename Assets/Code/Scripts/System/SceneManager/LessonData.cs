@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using RoslynCSharp;
 using UnityEngine;
@@ -10,13 +11,17 @@ namespace Code.Scripts.System.SceneManager
         public List<LessonObjective> lessonObjectives = new List<LessonObjective>();
         
         public ScriptDomain domain;
-        public AssemblyReferenceAsset[] assemblyReferences;
+        public AssemblyReferenceAsset[] assemblyReferences = new AssemblyReferenceAsset[3];
 
         public void Awake()
         {
             lessonClasses = lessonClasses.ConvertAll(Instantiate);
             lessonObjectives = lessonObjectives.ConvertAll(Instantiate);
 
+            assemblyReferences[0] = Resources.Load<AssemblyReferenceAsset>("Assembly/assemblysharp");
+            assemblyReferences[1] = Resources.Load<AssemblyReferenceAsset>("Assembly/netstandard");
+            assemblyReferences[2] = Resources.Load<AssemblyReferenceAsset>("Assembly/UnityEngine");
+            
             if (assemblyReferences.Length > 0)
             {
                 domain = ScriptDomain.CreateDomain("LessonCode", true);

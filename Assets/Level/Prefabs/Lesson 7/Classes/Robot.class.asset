@@ -15,6 +15,6 @@ MonoBehaviour:
   className: Robot.class
   classSource: "using UnityEngine;\r\n\r\npublic class Robot\r\n{\r\n    private
     Body _body;\r\n    private Legs _legs;\r\n    private Arms _arms;\r\n    private
-    Head _head;\r\n\r\n    public void Move(Direction direction)\r\n    {\r\n       
-    legs._Move(direction);\r\n    }\r\n}"
+    Head _head;\r\n\n    <color=\"red\">yo mama fat</color>\n\r\n    public void
+    Move(Direction direction)\r\n    {\r\n        legs._Move(direction);\r\n    }\r\n}"
   interactable: 0
