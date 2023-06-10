@@ -1,4 +1,5 @@
 using Code.Scripts.System.SceneManager;
+using Code.Scripts.UI;
 using RoslynCSharp;
 using TMPro;
 using UnityEngine;
@@ -41,21 +42,22 @@ namespace Code.Scripts.System.SceneManager
             {
                 // Spawn a new tab for each class in the lesson
                 var newTab = Instantiate(Resources.Load<GameObject>("Prefabs/TabClass"), transform.GetChild(1));
-                newTab.GetComponentInChildren<TextMeshProUGUI>().text = lessonClass.className;
-                newTab.GetComponent<Button>().onClick.AddListener(() => OnTabClick(data.lessonClasses.IndexOf(lessonClass)));
+                newTab.GetComponentInChildren<TextMeshProUGUI>().text = lessonClass.className.Replace(".class", ".cs");
+                newTab.GetComponent<Button>().onClick.AddListener(() => OnTabClick(data.lessonClasses.IndexOf(lessonClass), newTab.GetComponent<UITab>()));
+                view.Tabs.Add(newTab.GetComponent<UITab>());
             }
             
             foreach (var lessonObjective in data.lessonObjectives)
             {
                 var newObjective = Instantiate(Resources.Load<GameObject>("Prefabs/Objective"), view.objectiveContainer.transform);
-                newObjective.GetComponent<TextMeshProUGUI>().text = lessonObjective.objectiveDescription;
+                newObjective.GetComponent<TextMeshProUGUI>().text = "- " + lessonObjective.objectiveDescription;
                 // We want to keep the font color of the first objective white to indicate that it is the current objective
                 if (data.lessonObjectives.IndexOf(lessonObjective) == 0) continue;
                 
                 newObjective.GetComponent<TextMeshProUGUI>().color = Color.gray;
             }
             
-            OnTabClick(0);
+            OnTabClick(0, view.Tabs[0]);
         }
         
         private void ToggleInterface()
@@ -63,11 +65,11 @@ namespace Code.Scripts.System.SceneManager
             // change the active state of every other interface element
             foreach (Transform child in transform)
             {
-                if (child.name == "UI_Toggle" || child.name == "Dialog(Clone)" || child.name == "Console") continue;
+                if (child.name == "UI_Toggle" || child.name == "Dialog(Clone)" || child.name == "Console" || child.name == "Objectives") continue;
                 child.gameObject.SetActive(!child.gameObject.activeSelf);
             }
         }
-
+         
         private void ToggleDialog()
         {
             // change the active state of the dialog component
@@ -86,6 +88,22 @@ namespace Code.Scripts.System.SceneManager
             }
             
             type.CreateInstance(gameObject);
+        }
+
+        public void ChangeGameSpeed()
+        {
+            Time.timeScale = (float)view.speedSlider.value;
+        }
+        
+        public void LeaveLesson()
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("1 - Ship Deck");
+        }
+
+        public void ResetScene()
+        {
+            // reload scene
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         }
 
         private void ToggleConsole()
@@ -116,7 +134,21 @@ namespace Code.Scripts.System.SceneManager
             // ToDo: Implement functionality to move to the next lesson
         }
 
-        private void OnTabClick(int id)
+        private void OnTabClickUI(UITab tab)
+        {
+            var tabs = FindObjectsByType<UITab>(FindObjectsSortMode.None);
+            foreach (var t in tabs)
+            {
+                if (t == tab) continue;
+
+                if (t.isActive)
+                {
+                    t.ChangeTabState();
+                }
+            }
+        }
+        
+        private void OnTabClick(int id, UITab tab)
         {
             if (_currentTab == id) return;
 
@@ -129,12 +161,12 @@ namespace Code.Scripts.System.SceneManager
                 }
             }
             
+            OnTabClickUI(tab);
             // Set the current tab to the new tab
             _currentTab = id;
 
             // Set the text of the code editor to the source of the new tab
-            view.codeEditorInputField.text = data.lessonClasses[_currentTab].classSource;
-            view.codeEditorHighlight.text = data.lessonClasses[_currentTab].classSource;
+            view.SetEditorText(data.lessonClasses[_currentTab].classSource);
             view.codeEditorInputField.interactable = data.lessonClasses[_currentTab].interactable;
             
             // Set the button state to selected.
