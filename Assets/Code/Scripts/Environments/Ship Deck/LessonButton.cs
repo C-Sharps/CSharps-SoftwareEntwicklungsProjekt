@@ -18,10 +18,11 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
         if (lessonHoverUI == null)
         {
-            throw new UnityException("Could not find LessonUI game object!");
+            throw new UnityException("LessonUI not set!");
         }
 
         lessonManager = transform.parent.GetComponentInParent<LessonManager>();
+
 
         // Check if the event is null
         onLessonHover ??= new LessonHoverEvent();
@@ -31,11 +32,15 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private void OnClickLesson()
     {
         // call the event
-        var scene = lessonManager.lessons[_id].lessonName;
+        var scene = lessonManager.lessons[_id].name;
 
         if (Application.CanStreamedLevelBeLoaded(scene))
         {
             SceneManager.LoadSceneAsync(scene);
+        }
+        else
+        {
+            throw new UnityException("Could not load scene " + scene + "!");
         }
     }
 
@@ -71,5 +76,6 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     }
     // Event to handle when a lesson is hovered over
     [System.Serializable]
-    class LessonHoverEvent : UnityEvent<int, bool> { }
+    
+    public class LessonHoverEvent : UnityEvent<int, bool> { }
 }
