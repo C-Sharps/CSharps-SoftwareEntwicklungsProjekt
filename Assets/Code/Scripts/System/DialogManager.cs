@@ -33,7 +33,7 @@ public class DialogManager : MonoBehaviour
         
         _nextButton.onClick.AddListener(NextPage);
         _prevButton.onClick.AddListener(PrevPage);
-        _closeButton.onClick.AddListener(CloseDialog);
+        _closeButton.onClick.AddListener(ToggleDialog);
         
         // Try to Setup first dialog
         if (_currentPage == null)
@@ -61,8 +61,8 @@ public class DialogManager : MonoBehaviour
             triplets.Add(value);
         return triplets;
     }
-    
-    private void CloseDialog()
+
+    public void ToggleDialog()
     {
         _dialogBox.SetActive(false);
     }

@@ -2,16 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ebb3dd6-bf99-4025-9b10-ae0e377797f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/UI/UIDragable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/UI/UIDragable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/UI/UITab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/UI/UITab.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Light SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Light SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Models/Robot/Robot.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Robot/Robot.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Modules/Legs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Modules/Legs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Robot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Robot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Dialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Dialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scene Logic.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/DialogManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/DialogManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/InGameCodeEditor/Fonts/RobotoMono-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/InGameCodeEditor/Fonts/RobotoMono-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/RoslynCSharp/AssemblyReferences/UnityEngine.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/RoslynCSharp/AssemblyReferences/UnityEngine.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/RoslynCSharp/AssemblyReferences/assemblysharp.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/RoslynCSharp/AssemblyReferences/assemblysharp.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/RoslynCSharp/AssemblyReferences/netstandard.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/External/RoslynCSharp/AssemblyReferences/netstandard.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Classes/Robot.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Classes/Robot.class.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Intro.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Intro.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Dialog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Dialog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Objective.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Objective.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/TabClass.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/TabClass.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +137,9 @@
       <workItem from="1685951104394" duration="2518000" />
       <workItem from="1685959258999" duration="3314000" />
       <workItem from="1686033196936" duration="10826000" />
+      <workItem from="1686222992223" duration="2979000" />
+      <workItem from="1686295253391" duration="9090000" />
+      <workItem from="1686390822010" duration="854000" />
     </task>
     <servers />
   </component>

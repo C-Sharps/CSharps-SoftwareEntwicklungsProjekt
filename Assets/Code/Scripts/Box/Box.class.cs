@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using Unity.Burst.Intrinsics;
 
 public class Box : MonoBehaviour
 {
@@ -61,6 +60,12 @@ public class Box : MonoBehaviour
         box.GetComponentsInChildren<MeshRenderer>()[0].material.color = color;
         box.transform.Rotate(0f, 180f, 0f);
 
+        var comp = box.AddComponent<Box>();
+        
+        comp.color = color;
+        comp.weight = weight;
+        comp.isFull = isFull;
+        comp.contents = contents;
         box.tag = "Box"; // Assign the "Box" tag to the instantiated box object
     }
 

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Code/Scripts/Scenes/Scene_11.meta
+guid: 32840bb0fe22230499c558d5f39e1e99
+========
 guid: 2cb51bc8ddef34741bd171fc89eca89e
+>>>>>>>> main:Assets/Code/Scripts/Box.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
