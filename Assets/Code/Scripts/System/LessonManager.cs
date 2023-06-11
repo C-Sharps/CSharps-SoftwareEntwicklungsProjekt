@@ -62,7 +62,7 @@ public class LessonManager : ScriptableObject
         if (currentLesson.order > 0 && currentLesson.order < lessons.Length - 1)
         {
             SceneManager.LoadScene(
-            lessons[currentLesson.order + 1].name);
+            lessons[currentLesson.order].name);
         }
     }
 
