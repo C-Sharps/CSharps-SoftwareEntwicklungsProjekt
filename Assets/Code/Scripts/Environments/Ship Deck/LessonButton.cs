@@ -7,7 +7,6 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 {
     private int _id = 0;
     private LessonHoverEvent onLessonHover;
-    // private LessonManager lessonManager;
     public GameObject lessonHoverUI;
 
     private void Start()
@@ -19,9 +18,6 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         {
             throw new UnityException("LessonUI not set!");
         }
-
-        //lessonManager = transform.parent.GetComponentInParent<LessonManager>();
-
 
         // Check if the event is null
         onLessonHover ??= new LessonHoverEvent();
