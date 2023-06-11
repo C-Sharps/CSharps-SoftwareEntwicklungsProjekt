@@ -27,7 +27,8 @@ public class LessonManager : ScriptableObject
                 return lesson;
             }
         }
-        throw new ArgumentException("Lesson named " + lessonName + " not found!");
+        Debug.LogWarning("Lesson named " + lessonName + " not found!");
+        return null;
     }
 
     public static void SetCurrentLesson(Lesson currentLesson)
@@ -59,10 +60,18 @@ public class LessonManager : ScriptableObject
 
     public static void LoadNextLesson()
     {
-        if (currentLesson.order > 0 && currentLesson.order < lessons.Length - 1)
+        if (currentLesson == null)
+        {
+            Debug.LogWarning("Cannot load next lesson - currentLesson is null!");
+        }
+        else if (currentLesson.order > 0 && currentLesson.order < lessons.Length - 1)
         {
             SceneManager.LoadScene(
             lessons[currentLesson.order].name);
+        }
+        else
+        {
+            Debug.LogWarning("Cannot load next lesson - lesson order number invalid (are you in the last lesson?)");
         }
     }
 

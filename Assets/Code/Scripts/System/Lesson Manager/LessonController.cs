@@ -27,7 +27,7 @@ using UnityEngine.SceneManagement;
                 FindObjectOfType<LessonView>();
             
             // Hide UI Button
-            transform.GetChild(4).GetComponent<Button>().onClick.AddListener(ToggleInterface);
+            //transform.GetChild(4).GetComponent<Button>().onClick.AddListener(ToggleInterface);
 
             // Open Dialog Button
             try { 
@@ -39,7 +39,7 @@ using UnityEngine.SceneManagement;
             }
 
             // Run Script Button
-            transform.GetChild(2).GetComponent<Button>().onClick.AddListener(ExecuteSource);
+            // transform.GetChild(2).GetComponent<Button>().onClick.AddListener(ExecuteSource);
             
             foreach (var lessonClass in data.lessonClasses)
             {
