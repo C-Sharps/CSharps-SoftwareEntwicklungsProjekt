@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Levels/Scenes/0 - Main Menu.unity
     guid: 344e0a3ff4b12854c8f18bee9a4f3559
   - enabled: 1
-    path: Assets/Levels/Scenes/1 - Ship Deck 1.unity
-    guid: e80bcb03ab5d0e843a5dfa2b709d96e3
-  - enabled: 1
     path: Assets/Levels/Scenes/Lesson 0.unity
     guid: 5e079d4f428adec4c9681743e1f7b93c
   - enabled: 1
@@ -23,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Scenes/Lesson 11.unity
     guid: 31bc367f06f21c04583563831ebb555f
+  - enabled: 1
+    path: Assets/Levels/Scenes/1 - Ship Deck.unity
+    guid: 5d10d3ac21d7a8b449923a3109f81690
   m_configObjects: {}
