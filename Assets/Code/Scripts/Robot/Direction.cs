@@ -55,13 +55,13 @@ public static class DirectionExtension
             case Direction.Backward:
             case Direction.Left:
             case Direction.Right:
-                throw new ArgumentException("Cannot call DirectionToVector3(Direction) with relative directions!");
+                return RelativeDirectionToVector3(direction);
 
             default: throw new ArgumentException(direction + " is not a valid value for enum \'Direction!\'");
         }
     }
 
-    public static Vector3 DirectionToVector3(Direction direction)
+    private static Vector3 RelativeDirectionToVector3(Direction direction)
     {
         switch (direction)
         {
