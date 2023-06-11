@@ -572,7 +572,6 @@ GameObject:
   - component: {fileID: 114190542}
   - component: {fileID: 114190544}
   - component: {fileID: 114190543}
-  - component: {fileID: 114190545}
   m_Layer: 5
   m_Name: Curcit Board / LessonManager
   m_TagString: Untagged
@@ -641,33 +640,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114190541}
   m_CullTransparentMesh: 1
---- !u!114 &114190545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114190541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22349d3cb3867464eb07c378f6398c8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lessons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1001 &150163505
 PrefabInstance:
   m_ObjectHideFlags: 0
