@@ -5,9 +5,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
-namespace Code.Scripts.System.SceneManager
-{
+
     [RequireComponent(typeof(LessonData), typeof(LessonView))]
     public class LessonController : MonoBehaviour
     {
@@ -17,6 +17,9 @@ namespace Code.Scripts.System.SceneManager
         private int _currentTab = 999;
         private void Start()
         {
+            // Set the current lesson to this lesson
+            LessonManager.SetCurrentLesson(LessonManager.GetLessonByName(SceneManager.GetActiveScene().name));
+
             if (data == null)
                 FindObjectOfType<LessonData>();
 
@@ -82,13 +85,13 @@ namespace Code.Scripts.System.SceneManager
         
         public void LeaveLesson()
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("1 - Ship Deck");
+            SceneManager.LoadScene("1 - Ship Deck");
         }
 
         public void ResetScene()
         {
             // reload scene
-            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         private void ToggleConsole()
@@ -116,7 +119,7 @@ namespace Code.Scripts.System.SceneManager
 
         private void OnCompleteLesson()
         {
-            // ToDo: Implement functionality to move to the next lesson
+            // ToDo: Needs a popup window
         }
 
         private void OnTabClickUI(UITab tab)
@@ -158,4 +161,3 @@ namespace Code.Scripts.System.SceneManager
             transform.GetChild(1).GetChild(_currentTab).GetComponent<Button>().Select();
         }
     }
-}
