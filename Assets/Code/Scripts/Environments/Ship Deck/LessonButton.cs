@@ -1,14 +1,13 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 using TMPro;
 
 public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     private int _id = 0;
     private LessonHoverEvent onLessonHover;
-    private LessonManager lessonManager;
+    // private LessonManager lessonManager;
     public GameObject lessonHoverUI;
 
     private void Start()
@@ -21,7 +20,7 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             throw new UnityException("LessonUI not set!");
         }
 
-        lessonManager = transform.parent.GetComponentInParent<LessonManager>();
+        //lessonManager = transform.parent.GetComponentInParent<LessonManager>();
 
 
         // Check if the event is null
@@ -31,17 +30,7 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     private void OnClickLesson()
     {
-        // call the event
-        var scene = lessonManager.lessons[_id].name;
-
-        if (Application.CanStreamedLevelBeLoaded(scene))
-        {
-            SceneManager.LoadSceneAsync(scene);
-        }
-        else
-        {
-            throw new UnityException("Could not load scene " + scene + "!");
-        }
+        LessonManager.LoadLesson(LessonManager.GetLesson(_id));
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -66,8 +55,8 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
         // Set the lesson hover UI to active
         lessonHoverUI.SetActive(isHovering);
-        lessonHoverUI.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = lessonManager.lessons[lessonIndex].lessonName;
-        lessonHoverUI.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = lessonManager.lessons[lessonIndex].description;
+        lessonHoverUI.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = LessonManager.GetLesson(lessonIndex).lessonName;
+        lessonHoverUI.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = LessonManager.GetLesson(lessonIndex).description;
 
         if (Input.mousePosition.y > Screen.height / 2f)
             lessonHoverUI.transform.position = Input.mousePosition + new Vector3(0, -160, 0);
