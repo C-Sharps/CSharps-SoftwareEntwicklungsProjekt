@@ -1,6 +1,12 @@
 fileFormatVersion: 2
-guid: bbca3935f3d6d4e48b8c312b8240657c
+<<<<<<<< HEAD:Assets/Resources/Tiles/Tile Palettes/New Palette.prefab.meta
+guid: 6b0aaf7a765de164987d74db8a2a76c1
 PrefabImporter:
+========
+guid: 241711c0bbf994d4891a9646b2c8f9ed
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> main:Assets/Resources/Prefabs/Scene 2/LessonDialog.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

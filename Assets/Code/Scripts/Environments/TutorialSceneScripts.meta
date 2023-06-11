@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins.meta
+guid: cd22fa754b0987b40b7a6bbf28139da3
+========
 guid: 69221895c0057f741a4243fa0ea4aea3
+>>>>>>>> main:Assets/Code/Scripts/Environments/TutorialSceneScripts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

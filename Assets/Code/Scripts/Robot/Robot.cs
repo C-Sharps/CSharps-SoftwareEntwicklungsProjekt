@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Robot : MonoBehaviour
+public class Robot : AbstractRobot
 {
     [SerializeField]
     private Body body;

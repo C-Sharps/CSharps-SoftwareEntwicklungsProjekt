@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,7 +20,17 @@ public class Legs : MonoBehaviour
     internal IEnumerator _Move(Direction direction)
     {
         print("return move?");
-        return _Move(DirectionExtension.DirectionToVector2(direction));
+
+        switch (direction)
+        {
+            case Direction.North:
+            case Direction.South:
+            case Direction.East:
+            case Direction.West:
+                return _Move(DirectionExtension.DirectionToVector2(direction));
+            default: 
+                return MoveRelativeToOrientation(direction);
+        }
     }
 
     private IEnumerator _Move(Vector2 direction)
@@ -52,5 +63,27 @@ public class Legs : MonoBehaviour
         transform.position = End;
         }
         _isRunning = false;
+    }
+
+    private IEnumerator MoveRelativeToOrientation(Direction direction)
+    {
+        switch (direction)
+        {
+            case Direction.Forward:
+                return _Move(Vector3ToVector2(gameObject.transform.forward));
+            case Direction.Backward:
+                return _Move(Vector3ToVector2(-gameObject.transform.forward));
+            case Direction.Right:
+                return _Move(Vector3ToVector2(gameObject.transform.right));
+            case Direction.Left:
+                return _Move(Vector3ToVector2(-gameObject.transform.right));
+            default:
+                throw new ArgumentException("Not a valid direction!");
+        }
+    }
+
+    private Vector2 Vector3ToVector2(Vector3 vector3)
+    {
+        return new Vector2(vector3.x, vector3.z);
     }
 }

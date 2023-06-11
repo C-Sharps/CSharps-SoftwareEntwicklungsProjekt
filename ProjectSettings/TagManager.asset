@@ -9,6 +9,7 @@ TagManager:
   - HL_Text
   - Editor_InputField
   - Objective_Container
+  - Box
   layers:
   - Default
   - TransparentFX
