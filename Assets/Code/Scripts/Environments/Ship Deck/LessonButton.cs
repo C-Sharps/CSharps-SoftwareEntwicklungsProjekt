@@ -44,11 +44,6 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     void OnLessonHover(int lessonIndex, bool isHovering)
     {
-        // Check if the lesson hover UI is null or if the lesson index is out of range
-        /* if (lessonHoverUI == null) return;
-        if (lessonIndex > lessonManager.lessons.Length - 1) return;
-        */
-
         // Set the lesson hover UI to active
         lessonHoverUI.SetActive(isHovering);
         lessonHoverUI.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = LessonManager.GetLesson(lessonIndex).lessonName;
