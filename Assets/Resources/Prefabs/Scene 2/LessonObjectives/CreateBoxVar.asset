@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f49797eaeb64efab7f184fc22371d42, type: 3}
   m_Name: CreateBoxVar
   m_EditorClassIdentifier: 
-  objectiveDescription: Instanciate a Box and fill it with ANYTHING
+  objectiveDescription: Instanciate a Box and fill it with a string/number/boolean!
   isCompleted: 0
