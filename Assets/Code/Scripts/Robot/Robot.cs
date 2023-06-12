@@ -58,6 +58,11 @@ public class Robot : AbstractRobot
         return new Vector2(transform.position.x, transform.position.z);
     }
 
+    public void Move(int x, int y)
+    {
+        _tasks.Enqueue(legs._Move((float)x, (float)y));    
+    }
+
     public void Move(Direction direction)
     {
         _tasks.Enqueue(legs._Move(direction));
@@ -74,9 +79,9 @@ public class Robot : AbstractRobot
         yield return null;
     }
 
-    public void Repair(Direction direction)
+    public void Repair()
     {
-        _tasks.Enqueue(arms._Repair(direction));
+        _tasks.Enqueue(arms._Repair());
     }
 
     public void Update()
