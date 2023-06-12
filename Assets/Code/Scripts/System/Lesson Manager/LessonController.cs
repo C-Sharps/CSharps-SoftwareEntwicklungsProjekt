@@ -26,21 +26,6 @@ using UnityEngine.SceneManagement;
             if (view == null)
                 FindObjectOfType<LessonView>();
             
-            // Hide UI Button
-            transform.GetChild(4).GetComponent<Button>().onClick.AddListener(ToggleInterface);
-
-            // Open Dialog Button
-            try { 
-                transform.GetChild(6).GetComponent<Button>().onClick.AddListener(ToggleDialog);
-            }
-            catch (Exception)
-            {
-                Debug.Log("Button \"ToggleDialog\" not found");
-            }
-
-            // Run Script Button
-            transform.GetChild(2).GetComponent<Button>().onClick.AddListener(ExecuteSource);
-            
             foreach (var lessonClass in data.lessonClasses)
             {
                 // Spawn a new tab for each class in the lesson
