@@ -12,7 +12,7 @@ public class Arms : MonoBehaviour
         return _holdObject;
     }
 
-    // Pick up object infront of Robot.
+    // Pick up object in front of Robot.
     internal IEnumerator _Pickup(GameObject Parent)
     {
         /* foreach (GameObject Object in _interactableObjects)
@@ -32,7 +32,7 @@ public class Arms : MonoBehaviour
         yield return null;
     }
 
-    // Place an object infront of the Robot. 
+    // Place an object in front of the Robot. 
     internal IEnumerator _PutDown(GameObject Robot)
     {
 
@@ -51,10 +51,12 @@ public class Arms : MonoBehaviour
         yield return null;
     }
 
+    // Repairs an object in a certain direction from the robot
     internal IEnumerator _Repair(Direction direction)
     {
         Debug.Log("In _Repair");
 
+        // Makes a box cast next to the robot to get the object to repair
         RaycastHit[] hits = Physics.BoxCastAll(
             gameObject.transform.position + DirectionExtension.DirectionToVector3(direction) * 0.5f,
             new Vector3(0.25f, 0.25f, 0.25f),
