@@ -45,7 +45,7 @@ public static class LessonManager
 
     public static void SetCurrentLesson(Lesson currentLesson)
     {
-        LessonManager.currentLesson ??= currentLesson;
+        LessonManager.currentLesson = currentLesson;
     }
 
     public static void LoadLesson(Lesson lesson)
