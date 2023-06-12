@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine.SceneManagement;
 using System;
 
-public class LessonManager : MonoBehaviour
+public static class LessonManager
 {
     private static Lesson[] lessons;
 
@@ -14,9 +14,7 @@ public class LessonManager : MonoBehaviour
 
     private const string shipDeckSceneName = "1 - Ship Deck";
 
-    void Start()
-    {
-
+    static LessonManager () { 
         lessons = Resources.LoadAll("ScriptableObjects/LessonSOs", typeof(Lesson)).Cast<Lesson>().ToArray();
 
         if (lessons.Length == 0)
@@ -32,20 +30,22 @@ public class LessonManager : MonoBehaviour
 
     public static Lesson GetLessonByName(string lessonName)
     {
-        foreach (Lesson lesson in lessons)
-        {
-            if (lessonName.Equals(lesson.name))
+        if (lessonName != null) {
+            foreach (Lesson lesson in lessons)
             {
-                return lesson;
+                if (lessonName.Equals(lesson.name))
+                {
+                    return lesson;
+                }
             }
+            Debug.LogWarning("Lesson named " + lessonName + " not found!");
         }
-        Debug.LogWarning("Lesson named " + lessonName + " not found!");
         return null;
     }
 
     public static void SetCurrentLesson(Lesson currentLesson)
     {
-        LessonManager.currentLesson = currentLesson;
+        LessonManager.currentLesson ??= currentLesson;
     }
 
     public static void LoadLesson(Lesson lesson)
