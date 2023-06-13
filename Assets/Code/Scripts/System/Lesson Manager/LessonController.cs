@@ -13,6 +13,10 @@ using UnityEngine.SceneManagement;
     {
         public LessonData data;
         public LessonView view;
+        
+        // create event for OnExecuteCode
+        public event Action OnExecuteCode;
+        public event Action OnCompleteLesson;
 
         private int _currentTab = 999;
         private void Start()
@@ -67,7 +71,7 @@ using UnityEngine.SceneManagement;
         private void ExecuteSource()
         {
             ScriptType type = data.domain.CompileAndLoadMainSource(view.codeEditorInputField.text, ScriptSecurityMode.UseSettings, data.assemblyReferences);
-            
+            OnExecuteCode?.Invoke();
             if (type == null)
             {
                 if (!view.console.activeSelf) ToggleConsole();
@@ -114,14 +118,9 @@ using UnityEngine.SceneManagement;
             if (view.objectiveContainer.transform.GetChild(id + 1) != null)
                 view.objectiveContainer.transform.GetChild(id + 1).GetComponent<TextMeshProUGUI>().color = Color.white;
             
-            if (data.lessonObjectives.Count == id) OnCompleteLesson();
+            if (data.lessonObjectives.Count == id) OnCompleteLesson?.Invoke();
         }
-
-        private void OnCompleteLesson()
-        {
-            // ToDo: Needs a popup window
-        }
-
+        
         private void OnTabClickUI(UITab tab)
         {
             var tabs = FindObjectsByType<UITab>(FindObjectsSortMode.None);
