@@ -11,14 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: ProBuilderPreferences
-<<<<<<< HEAD:Assets/External/ProCore/ProBuilder/Data/ProBuilderPreferences.asset
-  m_EditorClassIdentifier: 
-  m_Bool_keys:
-  - pbShowTrigger
-=======
   m_EditorClassIdentifier: ProBuilderCore-Unity5:ProBuilder2.Common:pb_PreferenceDictionary
   m_Bool_keys: []
->>>>>>> main:Assets/ProCore/ProBuilderData/ProBuilderPreferences.asset
   m_Int_keys:
   - pbHandleAlignment
   - pbDragSelectMode
@@ -28,13 +22,8 @@ MonoBehaviour:
   m_String_keys: []
   m_Color_keys: []
   m_Material_keys: []
-<<<<<<< HEAD:Assets/External/ProCore/ProBuilder/Data/ProBuilderPreferences.asset
-  m_Bool_values: 01
-  m_Int_values: 0100000000000000000000000000000000000000
-=======
   m_Bool_values: []
   m_Int_values: 00000000
->>>>>>> main:Assets/ProCore/ProBuilderData/ProBuilderPreferences.asset
   m_Float_values:
   - 0
   - 0

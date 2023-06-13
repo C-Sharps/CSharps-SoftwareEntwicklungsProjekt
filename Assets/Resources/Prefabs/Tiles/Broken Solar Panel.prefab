@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4601719616752554423}
   - component: {fileID: 5409103755351741431}
   - component: {fileID: 8658467212974708454}
-  - component: {fileID: -6224148962250648161}
+  - component: {fileID: 231791554530927774}
   m_Layer: 0
   m_Name: Broken Solar Panel
   m_TagString: Untagged
@@ -99,7 +99,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &-6224148962250648161
+--- !u!114 &231791554530927774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5381246701886711716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
+  m_Script: {fileID: 11500000, guid: 668f35d6962eebd409389eec7b889193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isIntact: 0
+  intactSolarPanel: {fileID: 6913041112763728184, guid: ce643d723a2cfb34b8b5c195f00fabc2, type: 3}
