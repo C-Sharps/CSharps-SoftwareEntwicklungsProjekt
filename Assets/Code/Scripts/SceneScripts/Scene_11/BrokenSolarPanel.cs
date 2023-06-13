@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BrokenSolarPanel : SolarPanel, IRepairable
 {
-    [SerializeField]
-    private const bool _isIntact = false;
+    new bool _isIntact = false;
+
     [SerializeField]
     private GameObject intactSolarPanel;
 

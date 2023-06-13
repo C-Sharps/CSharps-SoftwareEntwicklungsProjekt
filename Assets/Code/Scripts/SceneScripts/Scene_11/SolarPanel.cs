@@ -5,7 +5,7 @@ using UnityEngine;
 public class SolarPanel : MonoBehaviour
 {
     [SerializeField]
-    private const bool _isIntact = true;
+    protected bool _isIntact = true;
 
     public bool IsIntact()
     {

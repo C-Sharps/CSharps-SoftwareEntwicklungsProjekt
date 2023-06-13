@@ -1,12 +1,30 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Lesson11GameManager : AbstractGameManager
+public class Scene11Logic : MonoBehaviour
 {
     [SerializeField]
     private Vector2Int gridSize = new Vector2Int(12, 6);
+    [SerializeField]
+    private LessonController lessonController;
+
+    private void Start()
+    {
+        lessonController = GameObject.Find("Interface").GetComponent<LessonController>();
+        AssertLessonTargetComplete();
+    }
+
+    private void Update()
+    {
+       /* if (AssertLessonTargetComplete())
+        {
+            lessonController.CompleteObjective(0);
+        }
+       */
+    }
 
     // Assert that all tiles are repaired (equaling the intactTile field).
-    public sealed override bool AssertLessonTargetComplete()
+    public bool AssertLessonTargetComplete()
     {
         GameObject tileHolder = GameObject.Find("Tiles");
 

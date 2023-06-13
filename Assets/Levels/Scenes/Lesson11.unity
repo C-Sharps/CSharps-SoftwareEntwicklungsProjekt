@@ -862,6 +862,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   _isIntact: 1
 --- !u!1001 &54916614
 PrefabInstance:
@@ -5279,6 +5280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridSize: {x: 10, y: 5}
+  lessonController: {fileID: 0}
 --- !u!1 &915395596
 GameObject:
   m_ObjectHideFlags: 0
@@ -11264,6 +11266,10 @@ PrefabInstance:
     - target: {fileID: 7615019445626686278, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687687935133200271, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -14.0000305
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
