@@ -64,7 +64,7 @@ public class DialogManager : MonoBehaviour
 
     public void ToggleDialog()
     {
-        _dialogBox.SetActive(false);
+        _dialogBox.SetActive(!_dialogBox.activeSelf);
     }
 
     private void SetDialog(Dialog page)
