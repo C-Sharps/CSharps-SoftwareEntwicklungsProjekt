@@ -93,9 +93,5 @@ public class Robot : AbstractRobot
         {
             StartCoroutine(_tasks.Dequeue());
         }
-        else if (_tasks.Count <= 0)
-        {
-            // Debug.Log(this.name + ": Queue _tasks is empty, all tasks finished.");
-        }
     }
 }
