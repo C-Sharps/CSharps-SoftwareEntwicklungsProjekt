@@ -19,8 +19,6 @@ public class Legs : MonoBehaviour
 
     internal IEnumerator _Move(Direction direction)
     {
-        print("return move?");
-
         switch (direction)
         {
             case Direction.North:
@@ -35,13 +33,11 @@ public class Legs : MonoBehaviour
 
     private IEnumerator _Move(Vector2 direction)
     {
-        print("return move 2?");
         return _Move(direction.x, direction.y);
     }
-    
-    private IEnumerator _Move(float x, float y)
+
+    public IEnumerator _Move(float x, float y)
     {
-        print("we are moving now");
         _isRunning = true;
         if(x != 0 || y != 0) {
         

@@ -41,7 +41,6 @@ public class Robot : AbstractRobot
         legs = new Legs();
         arms = new Arms();
         head = new Head();
-
     }
 
     public void PickUp()
@@ -57,6 +56,11 @@ public class Robot : AbstractRobot
     public Vector2 GetPosition()
     {
         return new Vector2(transform.position.x, transform.position.z);
+    }
+
+    public void Move(int x, int y)
+    {
+        _tasks.Enqueue(legs._Move((float)x, (float)y));    
     }
 
     public void Move(Direction direction)
@@ -75,6 +79,11 @@ public class Robot : AbstractRobot
         yield return null;
     }
 
+    public void Repair()
+    {
+        _tasks.Enqueue(arms._Repair());
+    }
+
     public void Update()
     {
         animator.SetBool("isRunning", _tasks.Count > 0);
@@ -83,10 +92,6 @@ public class Robot : AbstractRobot
         if (_tasks.Count > 0 && _tasks.Peek() != null && !legs._isRunning)
         {
             StartCoroutine(_tasks.Dequeue());
-        }
-        else if (_tasks.Count <= 0)
-        {
-            // Debug.Log(this.name + ": Queue _tasks is empty, all tasks finished.");
         }
     }
 }
