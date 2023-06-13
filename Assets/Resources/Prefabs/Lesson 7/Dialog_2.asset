@@ -10,10 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
-  m_Name: Page 2
+  m_Name: Dialog_2
   m_EditorClassIdentifier: 
-  dialogName: Title 2
-  dialogText: max still sucks
+  dialogName: 
+  dialogText: 'Now you have to make use of the loop function to get the Robot to
+    position 0, 100 within 50 lines of code.
+
+
+    You can use the following functions
+    to make the Robot move:
+
+
+    Robot.Move(Direction)
+
+
+    There are the following
+    Directions the Robot can move towards:
+
+    Direction.North
+
+    Direction.East
+
+    Direction.South
+
+    Direction.East'
   dialogType: 0
   isCompleted: 1
   objectiveIndex: 0

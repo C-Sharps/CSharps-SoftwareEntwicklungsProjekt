@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f49797eaeb64efab7f184fc22371d42, type: 3}
   m_Name: Objective_3
   m_EditorClassIdentifier: 
-  objectiveDescription: Code has 50 or fewer lines
+  objectiveDescription: Reach Tile (0, 100)
   isCompleted: 0
