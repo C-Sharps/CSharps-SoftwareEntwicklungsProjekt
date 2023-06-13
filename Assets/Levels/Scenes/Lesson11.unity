@@ -862,7 +862,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0695585d239e11948b17c37fb9ed1184, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
   _isIntact: 1
 --- !u!1001 &54916614
 PrefabInstance:
@@ -4584,6 +4583,10 @@ PrefabInstance:
     - target: {fileID: 1603276421932388940, guid: 995f659194b74624d9de4e245fe50348, type: 3}
       propertyPath: m_Name
       value: Robot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945153410602884828, guid: 995f659194b74624d9de4e245fe50348, type: 3}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 2122369453210093814, guid: 995f659194b74624d9de4e245fe50348, type: 3}
       propertyPath: m_RootOrder
