@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 833dfec0ad3e4becbc04e3739d12c9dc, type: 3}
   m_Name: Solution.class
   m_EditorClassIdentifier: 
-  className: Main.class
+  className: Solution.class
   classSource: "using UnityEngine;\r\n\npublic class Main : MonoBehaviour\n{\r\n   
-    public void Start()\r\n    {\r\n        Robot repairBot = GameObject.FindGameObjectWithTag(\"Player\").GetComponent<Robot>();\r\n   
+    public void Start()\r\n    {\r\n        Robot repairBot = GameObject.FindGameObjectWithTag(\"Player\").GetComponent<Robot>();\r\n\trepairBot.Move(2,3);\n\trepairBot.Repair();\n\trepairBot.Move(5,0);\n\trepairBot.Repair();\n\trepairBot.Move(1,-2);\n\trepairBot.Repair();\n\trepairBot.Move(-4,0);\n\trepairBot.Repair();\n   
     }\r\n}"
   interactable: 1
