@@ -26,6 +26,7 @@ public static class LessonManager
     public static Lesson GetLesson(int index)
     {
         return lessons[index];
+     
     }
 
     public static Lesson GetLessonByName(string lessonName)

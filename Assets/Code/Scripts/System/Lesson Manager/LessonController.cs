@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.Data;
 using UnityEngine.SceneManagement;
 
 
@@ -115,10 +116,16 @@ using UnityEngine.SceneManagement;
             }
          
             
-            if (view.objectiveContainer.transform.GetChild(id + 1) != null)
+            if (id < data.lessonClasses.Count)
                 view.objectiveContainer.transform.GetChild(id + 1).GetComponent<TextMeshProUGUI>().color = Color.white;
+
+            data.lessonObjectives[id].isCompleted = true;
             
-            if (data.lessonObjectives.Count == id) OnCompleteLesson?.Invoke();
+            if (data.lessonObjectives.Count - 1 == id)
+            {
+                view.OnLessonComplete();
+                OnCompleteLesson?.Invoke();
+            }
         }
         
         private void OnTabClickUI(UITab tab)
