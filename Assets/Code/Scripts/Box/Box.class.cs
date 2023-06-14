@@ -23,27 +23,34 @@ public class Box : MonoBehaviour
     // Attribute to track if the box is full
     public bool isFull;
 
-    // Attribute for the contents of the box
-    public string contents;
+    // Attribute for the name of the contents of the box
+    public string contentName;
 
     private LessonController _controller;
 
     // Constructor to initialize the attributes of the box
-    public Box(Color color, float weight, bool isFull, string contents, int scale)
+    public Box(Color color, float weight, bool isFull, string contentName, int scale)
     {
         this.color = color;
         this.weight = weight;
         this.isFull = isFull;
-        this.contents = contents;
+        this.contentName = contentName;
         this.scale = scale;
 
         _controller = GameObject.FindObjectOfType<LessonController>();
 
-        if(this.scale < 11) {
-            CreateBox(this.scale);
-        } else {
-            _controller.DisplayError("              FUCKROBOTS");
-        }        
+        if(this.scale > 10) 
+        {
+            _controller.DisplayError("Scale too large, only supports sizes 1-10!");
+        } 
+        else if(this.weight < 1) 
+        {
+            _controller.DisplayError("Weight too small, only supports sizes bigger 0!");
+        } 
+        else
+        {
+            CreateBox(this.weight, this.scale);
+        }      
     }
 
     public Box(string input)
@@ -70,11 +77,12 @@ public class Box : MonoBehaviour
         CreateBox();
     }
 
-    private void CreateBox(int scale)
+    private void CreateBox(float weight, int scale)
     {
         var box = Instantiate(Resources.Load<GameObject>("Prefabs/Box"), new Vector3(5.75f, 8f, 0f),
             Quaternion.identity);
         box.transform.localScale = new Vector3(scale, scale, scale);
+        box.GetComponent<Rigidbody>().mass = weight;
         box.GetComponentsInChildren<MeshRenderer>()[0].material.color = color;
         box.transform.Rotate(0f, 180f, 0f);
 
@@ -83,7 +91,7 @@ public class Box : MonoBehaviour
         comp.color = color;
         comp.weight = weight;
         comp.isFull = isFull;
-        comp.contents = contents;
+        comp.contentName = contentName;
         box.tag = "Box"; // Assign the "Box" tag to the instantiated box object
     }
      
@@ -99,7 +107,7 @@ public class Box : MonoBehaviour
         comp.color = color;
         comp.weight = weight;
         comp.isFull = isFull;
-        comp.contents = contents;
+        comp.contentName = contentName;
         box.tag = "Box"; // Assign the "Box" tag to the instantiated box object
     }
 

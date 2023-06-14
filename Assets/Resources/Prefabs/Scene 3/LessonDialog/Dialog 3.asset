@@ -13,15 +13,8 @@ MonoBehaviour:
   m_Name: Dialog 3
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: 'There are three different methods, one for string, bool and int respectivly.
-    This means that whichever we put as an input, it will find the correct method
-    and write the input as its variable.
-
-
-    You can try this yourself by making
-    multiple instances of boxes and giving the constructor eather a number, a set
-    of characters (this one needs to be in " " so that the method understands it
-    is a string) or boolean (true or false) value.'
+  dialogText: Try useing this new constructor to make different boxes! You can adjust
+    them by changing their respective parameters.
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

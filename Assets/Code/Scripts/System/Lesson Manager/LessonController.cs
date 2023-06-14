@@ -13,13 +13,15 @@ using UnityEngine.SceneManagement;
     {
         public LessonData data;
         public LessonView view;
-
+        
         private int _currentTab = 999;
         private void Start()
         {
             // Set the current lesson to this lesson
             LessonManager.SetCurrentLesson(LessonManager.GetLessonByName(SceneManager.GetActiveScene().name));
-
+            
+            Application.targetFrameRate = 60;
+            
             if (data == null)
                 FindObjectOfType<LessonData>();
 

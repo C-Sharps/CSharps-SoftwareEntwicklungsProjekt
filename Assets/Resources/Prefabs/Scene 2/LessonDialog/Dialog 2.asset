@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogName: 
   dialogText: "Here you can see, we already have a variable called VariableInput
-    with the type \"var\". This is whats known as an implicid typing. This just means
+    with the type \"var\". This is whats known as an implicit typing. This just means
     that we do not explicitly say: \n\n\"You can only be a number/boolean/string!\",
     \n\nbut instead leave it up to the system to decide upon setting its value.\nLet
     us look at the constructors in this case."

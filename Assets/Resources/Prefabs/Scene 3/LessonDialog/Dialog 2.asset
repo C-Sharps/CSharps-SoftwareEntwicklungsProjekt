@@ -13,11 +13,26 @@ MonoBehaviour:
   m_Name: Dialog 2
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "Here you can see, we already have a variable called VariableInput
-    with the type \"var\". This is whats known as an implicid typing. This just means
-    that we do not explicitly say: \n\n\"You can only be a number/boolean/string!\",
-    \n\nbut instead leave it up to the system to decide upon setting its value.\nLet
-    us look at the constructors in this case."
+  dialogText: 'With this in mind, we try to make most variables explicit in their
+    typing to prevent mistakes like this. Take a look at the updated box class.
+
+
+    I
+    keept the old constructors and merly added a new one with more attributes to
+    boot. This one requires:
+
+    - Color color to set the color of the box
+
+    -
+    float weight to set the weight of the box
+
+    - int scale to set the size of
+    the box
+
+    - bool isFull to set the fullness of the box
+
+    - string contentName
+    to set the name of the contents inside the box'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

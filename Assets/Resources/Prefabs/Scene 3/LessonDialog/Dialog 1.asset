@@ -13,21 +13,18 @@ MonoBehaviour:
   m_Name: Dialog 1
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: 'Let us start with the most basic thing about variables: Just like
-    in math they are placeholders for values. To save these you would normally give
-    them their respective type and then assign a value. Some types are:
+  dialogText: 'Now you know what implicit casting of variables is. This will help
+    you with your next task: Making them explicit.
 
 
-    Integer
-    (int) for numbers
+    But why? Say you want to
+    adjust the size of a box, setting it to
 
-    String (string) for a set of characters
+    "1".
 
-    Boolean (bool)
-    for true/false
-
-
-    Let us look at the Box.class for something more simple first.'
+    The compiler sees this
+    and interpretes it as a string since you used quotationmarks. When you try to
+    use this for the integer size attribute, your system will crash!'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0
