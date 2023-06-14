@@ -78,6 +78,15 @@ using UnityEngine.SceneManagement;
             type.CreateInstance(gameObject);
         }
 
+        public void DisplayError(string error)
+        {
+            if (!view.console.activeSelf) 
+            {
+                ToggleConsole();
+            }           
+             view.errorOutput.text = error;
+        }
+
         public void ChangeGameSpeed()
         {
             Time.timeScale = (float)view.speedSlider.value;

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
+  m_Name: Dialog 3
+  m_EditorClassIdentifier: 
+  dialogName: 
+  dialogText: 'There are three different methods, one for string, bool and int respectivly.
+    This means that whichever we put as an input, it will find the correct method
+    and write the input as its variable.
+
+
+    You can try this yourself by making
+    multiple instances of boxes and giving the constructor eather a number, a set
+    of characters (this one needs to be in " " so that the method understands it
+    is a string) or boolean (true or false) value.'
+  dialogType: 0
+  isCompleted: 0
+  objectiveIndex: 0
