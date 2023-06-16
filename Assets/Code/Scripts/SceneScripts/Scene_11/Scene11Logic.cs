@@ -1,4 +1,7 @@
-using Unity.VisualScripting;
+/**
+ * Author: Robin Intrieri
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using UnityEngine;
 
 public class Scene11Logic : MonoBehaviour

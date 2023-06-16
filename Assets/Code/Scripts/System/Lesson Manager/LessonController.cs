@@ -1,3 +1,7 @@
+/**
+ * Author: Robin Intrieri
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using Code.Scripts.System.SceneManager;
 using Code.Scripts.UI;
 using RoslynCSharp;

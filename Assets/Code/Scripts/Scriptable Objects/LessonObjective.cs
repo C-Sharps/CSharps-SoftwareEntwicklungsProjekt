@@ -1,3 +1,7 @@
+/**
+ * Author: Robin Intrieri
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using UnityEngine;
 
 namespace Code.Scripts

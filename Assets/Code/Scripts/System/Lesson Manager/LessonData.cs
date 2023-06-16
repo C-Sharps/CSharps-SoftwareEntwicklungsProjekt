@@ -1,4 +1,7 @@
-using System;
+/**
+ * Author: Robin Intrieri
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using System.Collections.Generic;
 using RoslynCSharp;
 using UnityEngine;

@@ -1,5 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
+/**
+ * Author: Robin Intrieri
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using UnityEngine;
 
 public class SolarPanel : MonoBehaviour
