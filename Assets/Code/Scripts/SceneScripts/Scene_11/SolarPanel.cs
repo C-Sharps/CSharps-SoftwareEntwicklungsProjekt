@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class SolarPanel : MonoBehaviour
 {
+    [SerializeField]
     protected bool _isIntact = true;
 
     public bool IsIntact()
