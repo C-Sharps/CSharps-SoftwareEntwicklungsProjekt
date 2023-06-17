@@ -9,7 +9,7 @@ TagManager:
   - Objective_Container
   - Box()
   - Box(weight, scale)
-  - Robot(weight)
+  - Robot(color)
   layers:
   - Default
   - TransparentFX
