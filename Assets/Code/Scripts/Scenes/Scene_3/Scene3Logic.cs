@@ -21,15 +21,22 @@ public class Scene3Logic : MonoBehaviour
 
     public void Update()
     {
-        boxes = GameObject.FindGameObjectsWithTag("Box");
+        boxes = GameObject.FindGameObjectsWithTag("Box(weight, scale)");
         if (boxes.Length > 2)
         {
             ShrinkAndDestroyBox();
         }
 
-        if (_controller.data.lessonObjectives[0].isCompleted == false)
+        if (boxes.Length == 2)
         {
-            _controller.CompleteObjective(0);
+            if(!CheckBoxesEqual())
+            {
+                _controller.CompleteObjective(0);
+            }
+            else
+            {
+                _controller.ResetObjective(0);
+            }
         }
     }
 
@@ -56,5 +63,12 @@ public class Scene3Logic : MonoBehaviour
         {
             Destroy(box);
         }
+    }
+
+    private bool CheckBoxesEqual()
+    {
+        return (boxes[0].GetComponent<Rigidbody>().mass == boxes[1].GetComponent<Rigidbody>().mass &&
+        boxes[0].transform.localScale == boxes[1].transform.localScale &&
+        boxes[0].GetComponentsInChildren<MeshRenderer>()[0].material.color == boxes[1].GetComponentsInChildren<MeshRenderer>()[0].material.color);
     }
 }

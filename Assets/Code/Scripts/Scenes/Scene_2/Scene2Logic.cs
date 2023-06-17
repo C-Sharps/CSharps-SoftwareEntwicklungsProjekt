@@ -21,8 +21,8 @@ public class Scene2Logic : MonoBehaviour
 
     public void Update()
     {
-        boxes = GameObject.FindGameObjectsWithTag("Box");
-        if (boxes.Any(obj => obj != null) && _controller.data.lessonObjectives[0].isCompleted == false)
+        boxes = GameObject.FindGameObjectsWithTag("Box()");
+        if (GameObject.ReferenceEquals( boxes[0], boxes[1]) && _controller.data.lessonObjectives[0].isCompleted == false)
         {
             _controller.CompleteObjective(0);
         }

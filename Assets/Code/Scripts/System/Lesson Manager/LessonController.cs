@@ -128,6 +128,21 @@ using UnityEngine.SceneManagement;
             if (data.lessonObjectives.Count == id) OnCompleteLesson();
         }
 
+        public void ResetObjective(int id)
+        {
+            data.lessonObjectives[0].isCompleted = true;
+
+            if (view.objectiveContainer.transform.GetChild(id) != null)
+            {
+                view.objectiveContainer.transform.GetChild(id).GetComponent<TextMeshProUGUI>().fontStyle = FontStyles.Bold;
+                view.objectiveContainer.transform.GetChild(id).GetComponent<TextMeshProUGUI>().color = Color.white;
+            }
+         
+            
+            if (view.objectiveContainer.transform.GetChild(id + 1) != null)
+                view.objectiveContainer.transform.GetChild(id + 1).GetComponent<TextMeshProUGUI>().color = Color.gray;
+        }
+
         private void OnCompleteLesson()
         {
             // ToDo: Needs a popup window

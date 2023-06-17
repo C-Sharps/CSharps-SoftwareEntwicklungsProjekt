@@ -29,7 +29,7 @@ public class Box : MonoBehaviour
     private LessonController _controller;
 
     // Constructor to initialize the attributes of the box
-    public Box(Color color, float weight, bool isFull, string contentName, int scale)
+    public Box(Color color, float weight, int scale)
     {
         this.color = color;
         this.weight = weight;
@@ -92,7 +92,8 @@ public class Box : MonoBehaviour
         comp.weight = weight;
         comp.isFull = isFull;
         comp.contentName = contentName;
-        box.tag = "Box"; // Assign the "Box" tag to the instantiated box object
+
+        box.tag = "Box(weight, scale)";
     }
      
     private void CreateBox()
@@ -108,7 +109,8 @@ public class Box : MonoBehaviour
         comp.weight = weight;
         comp.isFull = isFull;
         comp.contentName = contentName;
-        box.tag = "Box"; // Assign the "Box" tag to the instantiated box object
+
+        box.tag = "Box()";
     }
 
     private void Start()

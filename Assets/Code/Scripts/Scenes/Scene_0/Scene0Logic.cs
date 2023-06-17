@@ -21,7 +21,7 @@ public class Scene0Logic : MonoBehaviour
 
     public void Update()
     {
-        robots = GameObject.FindGameObjectsWithTag("Player");
+        robots = GameObject.FindGameObjectsWithTag("Robot(color)");
         if (robots.Any(obj => obj != null) && _controller.data.lessonObjectives[0].isCompleted == false)
         {
             _controller.CompleteObjective(0);

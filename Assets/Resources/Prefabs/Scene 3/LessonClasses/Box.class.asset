@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Box.class
   m_EditorClassIdentifier: 
   className: Box.class
-  classSource: "public class Box : MonoBehaviour\n{\r\n\t// This is an implicid variable\n\tpublic
-    var VariableInput;\n\r\n\t// Constructor for string inputs\n    \tpublic Box(string
-    input)\r\n\t{\r\n\t\tVariableInput = input;\n\t}\n\n\t// Constructor for integer
-    inputs\n    \tpublic Box(int input)\r\n\t{\r\n\t\tVariableInput = input;\n\t}\n\n\t//
-    Constructor for boolean inputs\n    \tpublic Box(bool input)\r\n\t{\r\n\t\tVariableInput
-    = input;\n\t}\n}"
+  classSource: "public class Box : MonoBehaviour\n{\r\n\tpublic var VariableInput;\n\r\n\tprivate
+    Color Color;\n\n\tprivate float Weight;\n\n\tprivate int Scale;\n\n\tpublic Box(string
+    input)\r\n\t{\r\n\t\tVariableInput = input;\n\t}\n\n\tpublic Box(int input)\r\n\t{\r\n\t\tVariableInput
+    = input;\n\t}\n\n\tpublic Box(bool input)\r\n\t{\r\n\t\tVariableInput = input;\n\t}\n\n\tpublic
+    Box(Color color, float weight, int scale)\n\t{\n\t\tColor = color;\n\t\tWeight
+    = weight;\n\t\tScale = scale;\n\t]\n}"
   interactable: 0

@@ -42,6 +42,7 @@ public class Robot : AbstractRobot
         arms = new Arms();
         head = new Head();
 
+        Robot.tag = "Robot(color)";
     }
 
     public void PickUp()

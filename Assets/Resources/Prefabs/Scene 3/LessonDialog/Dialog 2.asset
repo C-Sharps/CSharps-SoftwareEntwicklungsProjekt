@@ -27,12 +27,7 @@ MonoBehaviour:
     float weight to set the weight of the box
 
     - int scale to set the size of
-    the box
-
-    - bool isFull to set the fullness of the box
-
-    - string contentName
-    to set the name of the contents inside the box'
+    the box'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

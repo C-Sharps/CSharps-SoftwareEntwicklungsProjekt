@@ -22,7 +22,7 @@ public class Scene1Logic : MonoBehaviour
     public void Update()
     {
         // ToDo: Not performant, should be done with events
-        robots = GameObject.FindGameObjectsWithTag("Player");
+        robots = GameObject.FindGameObjectsWithTag("Robot(color)");
         if (robots.Length >= 10 && _controller.data.lessonObjectives[0].isCompleted == false)
         {
             _controller.CompleteObjective(0);

@@ -433,24 +433,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 121b16fe6cf9f8c48b3b5fb9915c15c8, type: 2}
+      objectReference: {fileID: 11400000, guid: 47aa7c25e50bc714c9c14d1daf889265, type: 2}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 004ba1c1c1b647c4394d3997ba1d78ee, type: 2}
+      objectReference: {fileID: 11400000, guid: 1404f43803a86604191f4b2c81999c97, type: 2}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: ffdcaf6ee3d987d4d9f76b76adb28a10, type: 2}
+      objectReference: {fileID: 11400000, guid: 31921b4e2e9e6ad4ab68df592a2fd55e, type: 2}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: e4545327c6510bd4484a3c41f3890069, type: 2}
+      objectReference: {fileID: 11400000, guid: 8d22983535e1b2c48bdeb4991d53f8f0, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.size
       value: 3
@@ -458,15 +458,15 @@ PrefabInstance:
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: e430b152e48b1914f8e8e0f236ebbd25, type: 2}
+      objectReference: {fileID: 11400000, guid: eda9fa9d949c104448d4314dde8ef0cd, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: c05bb727360b42d4e96e81e396f6c303, type: 2}
+      objectReference: {fileID: 11400000, guid: 8aaf3f32039e30b48896a3312c2aa4d1, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: 5c54a5c2642bae64e9eea238cca2861e, type: 2}
+      objectReference: {fileID: 11400000, guid: d19b30a68724e2f418a3b380b13d359d, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.size
       value: 1
@@ -474,7 +474,7 @@ PrefabInstance:
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 6222dd4998e8860419d8b12aaa66716b, type: 2}
+      objectReference: {fileID: 11400000, guid: 555abbd857b84684bb3e5f596fc1c916, type: 2}
     - target: {fileID: 7615019445052546074, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

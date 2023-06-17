@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialog 3
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: Try useing this new constructor to make different boxes! You can adjust
+  dialogText: Try using this new constructor to make different boxes! You can adjust
     them by changing their respective parameters.
   dialogType: 0
   isCompleted: 0
