@@ -33,5 +33,17 @@ namespace Code.Scripts.System.SceneManager
                     domain.RoslynCompilerService.ReferenceAssemblies.Add(reference);
             }
         }
+
+        public bool IsAllObjectivesComplete()
+        {
+            for (int i = 0; i < lessonObjectives.Count; i++)
+            {
+                if (!lessonObjectives[i].isCompleted)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }

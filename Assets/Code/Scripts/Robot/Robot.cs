@@ -24,6 +24,8 @@ public class Robot : AbstractRobot
     [SerializeField]
     private Queue<IEnumerator> _tasks;
 
+    public event Action OnQueueEmpty;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -96,6 +98,10 @@ public class Robot : AbstractRobot
         if (_tasks.Count > 0 && _tasks.Peek() != null && !legs._isRunning)
         {
             StartCoroutine(_tasks.Dequeue());
+        }
+        else
+        {
+            OnQueueEmpty?.Invoke();
         }
     }
 }

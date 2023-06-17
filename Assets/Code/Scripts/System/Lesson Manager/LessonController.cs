@@ -119,13 +119,12 @@ using UnityEngine.SceneManagement;
                 view.objectiveContainer.transform.GetChild(id).GetComponent<TextMeshProUGUI>().color = Color.gray;
             }
          
-            
-            if (id < data.lessonClasses.Count)
+            if ((id + 1) < data.lessonObjectives.Count)
                 view.objectiveContainer.transform.GetChild(id + 1).GetComponent<TextMeshProUGUI>().color = Color.white;
 
             data.lessonObjectives[id].isCompleted = true;
             
-            if (data.lessonObjectives.Count - 1 == id)
+            if (data.IsAllObjectivesComplete())
             {
                 view.OnLessonComplete();
                 OnCompleteLesson?.Invoke();
