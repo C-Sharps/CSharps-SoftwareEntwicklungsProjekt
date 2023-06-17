@@ -1,11 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
+/**
+ * Author: Stefan Pietzner
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using UnityEngine;
 
 public class SolarPanel : MonoBehaviour
 {
-    [SerializeField]
-    private const bool _isIntact = true;
+    protected bool _isIntact = true;
 
     public bool IsIntact()
     {

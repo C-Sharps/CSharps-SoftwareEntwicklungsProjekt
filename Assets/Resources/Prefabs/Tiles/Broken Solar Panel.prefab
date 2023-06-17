@@ -111,4 +111,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 668f35d6962eebd409389eec7b889193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isIntact: 0
   intactSolarPanel: {fileID: 6913041112763728184, guid: ce643d723a2cfb34b8b5c195f00fabc2, type: 3}
