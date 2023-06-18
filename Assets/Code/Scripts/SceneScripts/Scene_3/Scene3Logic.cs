@@ -36,10 +36,6 @@ public class Scene3Logic : MonoBehaviour
                     _controller.CompleteObjective(0);
                 }
             }
-            else
-            {
-                _controller.ResetObjective(0);
-            }
         }
     }
 
