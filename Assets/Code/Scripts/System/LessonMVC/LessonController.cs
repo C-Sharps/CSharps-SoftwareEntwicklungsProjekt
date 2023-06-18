@@ -157,9 +157,11 @@ using UnityEngine.SceneManagement;
                 view.objectiveContainer.transform.GetChild(id).GetComponent<TextMeshProUGUI>().color = Color.white;
             }
 
-
-            if (view.objectiveContainer.transform.GetChild(id + 1) != null)
-                view.objectiveContainer.transform.GetChild(id + 1).GetComponent<TextMeshProUGUI>().color = Color.gray;
+            if ((id + 1) < data.lessonObjectives.Count)
+            {
+                if (view.objectiveContainer.transform.GetChild(id + 1) != null)
+                    view.objectiveContainer.transform.GetChild(id + 1).GetComponent<TextMeshProUGUI>().color = Color.gray;
+            }
         }
 
         private void OnTabClickUI(UITab tab)
