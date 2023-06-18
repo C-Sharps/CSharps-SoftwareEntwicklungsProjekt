@@ -18,7 +18,7 @@ using UnityEngine.SceneManagement;
     {
         public LessonData data;
         public LessonView view;
-        
+
         // create event for OnExecuteCode
         public event Action OnExecuteCode;
         public event Action OnCompleteLesson;
@@ -28,6 +28,8 @@ using UnityEngine.SceneManagement;
         {
             // Set the current lesson to this lesson
             LessonManager.SetCurrentLesson(LessonManager.GetLessonByName(SceneManager.GetActiveScene().name));
+
+            Application.targetFrameRate = 60;
 
             if (data == null)
                 FindObjectOfType<LessonData>();
@@ -87,6 +89,15 @@ using UnityEngine.SceneManagement;
             type.CreateInstance(gameObject);
         }
 
+        public void DisplayError(string error)
+        {
+            if (!view.console.activeSelf)
+            {
+                ToggleConsole();
+            }
+             view.errorOutput.text = error;
+        }
+
         public void ChangeGameSpeed()
         {
             Time.timeScale = (float)view.speedSlider.value;
@@ -123,14 +134,29 @@ using UnityEngine.SceneManagement;
                 view.objectiveContainer.transform.GetChild(id + 1).GetComponent<TextMeshProUGUI>().color = Color.white;
 
             data.lessonObjectives[id].isCompleted = true;
-            
+
             if (data.IsAllObjectivesComplete())
             {
                 view.OnLessonComplete();
                 OnCompleteLesson?.Invoke();
             }
         }
-        
+
+        public void ResetObjective(int id)
+        {
+            data.lessonObjectives[0].isCompleted = true;
+
+            if (view.objectiveContainer.transform.GetChild(id) != null)
+            {
+                view.objectiveContainer.transform.GetChild(id).GetComponent<TextMeshProUGUI>().fontStyle = FontStyles.Bold;
+                view.objectiveContainer.transform.GetChild(id).GetComponent<TextMeshProUGUI>().color = Color.white;
+            }
+
+
+            if (view.objectiveContainer.transform.GetChild(id + 1) != null)
+                view.objectiveContainer.transform.GetChild(id + 1).GetComponent<TextMeshProUGUI>().color = Color.gray;
+        }
+
         private void OnTabClickUI(UITab tab)
         {
             var tabs = FindObjectsByType<UITab>(FindObjectsSortMode.None);

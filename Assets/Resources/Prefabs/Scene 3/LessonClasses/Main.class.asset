@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   className: Main.class
   classSource: "using UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\r\n\tpublic
-    void Start()\r\n\t{\n\t\t\n\t}\n}"
+    void Start()\r\n\t{\r\n\t\t   \n\t}\n}"
   interactable: 1

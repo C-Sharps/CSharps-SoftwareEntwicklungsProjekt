@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833dfec0ad3e4becbc04e3739d12c9dc, type: 3}
-  m_Name: Main.class
+  m_Script: {fileID: 11500000, guid: 6f49797eaeb64efab7f184fc22371d42, type: 3}
+  m_Name: CreateBoxVar
   m_EditorClassIdentifier: 
-  className: Main.class
-  classSource: "using UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\r\n\tpublic
-    void Start()\r\n\t{\n\t\t\n\t}\n}"
-  interactable: 1
+  objectiveDescription: Make two unique boxes with a color, weight and scale!
+  isCompleted: 0

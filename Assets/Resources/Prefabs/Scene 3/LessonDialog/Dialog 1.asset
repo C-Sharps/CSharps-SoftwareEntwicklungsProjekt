@@ -10,14 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
-  m_Name: Dialog 2
+  m_Name: Dialog 1
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "Here you can see, we already have a variable called VariableInput
-    with the type \"var\". This is whats known as an implicit typing. This just means
-    that we do not explicitly say: \n\n\"You can only be a number/boolean/string!\",
-    \n\nbut instead leave it up to the system to decide upon setting its value.\nLet
-    us look at the constructors in this case."
+  dialogText: 'Now you know what implicit casting of variables is. This will help
+    you with your next task: Making them explicit.
+
+
+    But why? Say you want to
+    adjust the size of a box, setting it to
+
+    "1".
+
+    The compiler sees this
+    and interpretes it as a string since you used quotationmarks. When you try to
+    use this for the integer size attribute, your system will crash!'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

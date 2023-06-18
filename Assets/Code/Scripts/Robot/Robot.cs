@@ -38,15 +38,17 @@ public class Robot : AbstractRobot
     }
 
     public Robot(Color color) {
-        var Robot = Instantiate(Resources.Load<GameObject>("Prefabs/Robot"), new Vector3(5.75f, 8f, 0f),
+        var robot = Instantiate(Resources.Load<GameObject>("Prefabs/Robot"), new Vector3(5.75f, 8f, 0f),
             Quaternion.identity);
-        Robot.GetComponentsInChildren<MeshRenderer>()[5].material.color = color;
-        Robot.transform.Rotate(0f, 180f, 0f);
+        robot.GetComponentsInChildren<MeshRenderer>()[5].material.color = color;
+        robot.transform.Rotate(0f, 180f, 0f);
 
         body = new Body();
         legs = new Legs();
         arms = new Arms();
         head = new Head();
+
+        robot.tag = "Robot(color)";
     }
 
     public void PickUp()
@@ -66,7 +68,7 @@ public class Robot : AbstractRobot
 
     public void Move(int x, int y)
     {
-        _tasks.Enqueue(legs._Move((float)x, (float)y));    
+        _tasks.Enqueue(legs._Move((float)x, (float)y));
     }
 
     public void Move(Direction direction)
