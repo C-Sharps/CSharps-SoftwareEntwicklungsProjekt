@@ -1,5 +1,5 @@
 /**
- * Author: Stefan Pietzner
+ * Author: Lukas Fath, Stefan Pietzner
  * C-Sharps Software-Entwicklungsprojekt SS 2023
 */
 using System;
