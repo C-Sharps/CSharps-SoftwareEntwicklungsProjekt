@@ -1,3 +1,7 @@
+/**
+ * Author: Stefan Pietzner
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -19,6 +23,8 @@ public class Robot : AbstractRobot
     // The list of task the Robot is about to do.
     [SerializeField]
     private Queue<IEnumerator> _tasks;
+
+    public event Action OnQueueEmpty;
 
     private void Awake()
     {
@@ -92,6 +98,10 @@ public class Robot : AbstractRobot
         if (_tasks.Count > 0 && _tasks.Peek() != null && !legs._isRunning)
         {
             StartCoroutine(_tasks.Dequeue());
+        }
+        else
+        {
+            OnQueueEmpty?.Invoke();
         }
     }
 }

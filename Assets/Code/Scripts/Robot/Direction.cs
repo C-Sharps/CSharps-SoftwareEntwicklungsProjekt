@@ -1,11 +1,21 @@
+/**
+ * Author: Stefan Pietzner
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using System;
 using UnityEngine;
+
+
+/// <summary>Enum for different directions in the game's world space.</summary> 
 public enum Direction
 {
 
     North, South, East, West, Forward, Backward, Left, Right
 }
 
+/// <summary>
+///  Static class for different for handling <see cref="Direction">Direction</see> enums.
+/// </summary>
 public static class DirectionExtension
 {
 
@@ -80,5 +90,4 @@ public static class DirectionExtension
             default: throw new ArgumentException(direction + " is not a valid value for enum \'Direction!\'");
         }
     }
-
 }

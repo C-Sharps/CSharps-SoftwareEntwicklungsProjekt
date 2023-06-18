@@ -1,12 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
+/**
+ * Author: Stefan Pietzner
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
-using System.Runtime.CompilerServices;
 using UnityEngine.Tilemaps;
-using PlasticPipe.PlasticProtocol.Messages;
-using Codice.Client.BaseCommands;
 
 public class GridGenerator : ScriptableObject
 {

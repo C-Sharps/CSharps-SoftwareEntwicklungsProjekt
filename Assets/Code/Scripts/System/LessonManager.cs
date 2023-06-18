@@ -1,3 +1,7 @@
+/**
+ * Author: Stefan Pietzner
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using UnityEngine;
 using Code.Scripts;
 using System.Linq;
