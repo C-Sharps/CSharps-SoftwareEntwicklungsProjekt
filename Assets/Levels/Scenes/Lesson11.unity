@@ -11052,6 +11052,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4749683626054467180, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749683626054467180, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749683626054467180, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7615019443687409620, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -11287,10 +11299,6 @@ PrefabInstance:
     - target: {fileID: 7615019445626686278, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7687687935133200271, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}

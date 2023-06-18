@@ -71,14 +71,13 @@ public static class LessonManager
         {
             Debug.LogWarning("Current lesson not set - cannot load next lesson!");
         }
-        else if (currentLesson.order > 0 && currentLesson.order < lessons.Length - 1)
-        {
-            SceneManager.LoadScene(
-            lessons[currentLesson.order].name);
+        else if (currentLesson.nextLesson == 0) {
+            Debug.LogWarning("Next lesson not set!");
         }
         else
         {
-            Debug.LogWarning("Cannot load next lesson - are you currently in the last lesson?");
+            SceneManager.LoadScene(
+            lessons[currentLesson.nextLesson].name);
         }
     }
 

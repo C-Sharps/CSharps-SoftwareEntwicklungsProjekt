@@ -102,6 +102,11 @@ using UnityEngine.SceneManagement;
         {
             Time.timeScale = (float)view.speedSlider.value;
         }
+
+        public void NextLesson()
+        {
+            LessonManager.LoadNextLesson();
+        } 
         
         public void LeaveLesson()
         {

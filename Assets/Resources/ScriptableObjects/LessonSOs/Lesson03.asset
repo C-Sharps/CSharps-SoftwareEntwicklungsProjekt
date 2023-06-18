@@ -22,5 +22,6 @@ MonoBehaviour:
     eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
     sea takimata sanctus est Lorem ipsum dolor sit amet.
   order: 4
+  nextLesson: 8
   isUnlocked: 1
   isCompleted: 0
