@@ -31,7 +31,10 @@ public class Scene3Logic : MonoBehaviour
         {
             if(!CheckBoxesEqual())
             {
-                _controller.CompleteObjective(0);
+                if (_controller.data.lessonObjectives[0].isCompleted == false)
+                {
+                    _controller.CompleteObjective(0);
+                }
             }
             else
             {
