@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
-  m_Name: Page 2
+  m_Name: Lesson11_Dialog_4
   m_EditorClassIdentifier: 
-  dialogName: Title 2
-  dialogText: max still sucks
+  dialogName: 
+  dialogText: "Here. I project a two-dimensional grid onto the broken panel. If you
+    program your robot to \u201CMoveTo(x, y)\u201D, it will move to the position
+    on the grid. Just remember: x are <u>rows</u>, y are <u>columns</u>."
   dialogType: 0
-  isCompleted: 1
+  isCompleted: 0
   objectiveIndex: 0

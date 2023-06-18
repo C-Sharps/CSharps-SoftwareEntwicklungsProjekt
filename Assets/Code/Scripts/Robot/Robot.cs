@@ -1,3 +1,7 @@
+/**
+ * Author: Stefan Pietzner
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -19,6 +23,8 @@ public class Robot : AbstractRobot
     // The list of task the Robot is about to do.
     [SerializeField]
     private Queue<IEnumerator> _tasks;
+
+    public event Action OnQueueEmpty;
 
     private void Awake()
     {
@@ -60,6 +66,11 @@ public class Robot : AbstractRobot
         return new Vector2(transform.position.x, transform.position.z);
     }
 
+    public void Move(int x, int y)
+    {
+        _tasks.Enqueue(legs._Move((float)x, (float)y));
+    }
+
     public void Move(Direction direction)
     {
         _tasks.Enqueue(legs._Move(direction));
@@ -76,6 +87,11 @@ public class Robot : AbstractRobot
         yield return null;
     }
 
+    public void Repair()
+    {
+        _tasks.Enqueue(arms._Repair());
+    }
+
     public void Update()
     {
         animator.SetBool("isRunning", _tasks.Count > 0);
@@ -85,9 +101,9 @@ public class Robot : AbstractRobot
         {
             StartCoroutine(_tasks.Dequeue());
         }
-        else if (_tasks.Count <= 0)
+        else
         {
-            // Debug.Log(this.name + ": Queue _tasks is empty, all tasks finished.");
+            OnQueueEmpty?.Invoke();
         }
     }
 }

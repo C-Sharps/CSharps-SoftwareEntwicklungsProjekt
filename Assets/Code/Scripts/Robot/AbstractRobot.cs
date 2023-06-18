@@ -1,6 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+/**
+ * Author: Stefan Pietzner
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using UnityEngine;
 
 public abstract class AbstractRobot : MonoBehaviour

@@ -1,4 +1,7 @@
-using System;
+/**
+ * Author: Stefan Pietzner
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using UnityEngine;
 
 namespace Code.Scripts { 

@@ -1,3 +1,7 @@
+/**
+ * Author: Robin Intrieri
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using System.Collections.Generic;
 using Code.Scripts.UI;
 using TMPro;
@@ -36,11 +40,34 @@ namespace Code.Scripts.System.SceneManager
         [Header("Other Windows")] 
         public GameObject resetWindow;
         public GameObject leaveWindow;
+        public GameObject completeWindow;
+        public GameObject bottomButtons;
+        public Text completeText;
 
         public void ToggleEditor()
         {
             editor.SetActive(!editor.activeSelf);
             editorTabs.SetActive(!editorTabs.activeSelf);
+        }
+
+        public void OnLessonComplete()
+        {
+            bottomButtons.transform.GetChild(0).gameObject.SetActive(true);
+            completeText.text = "Congratulations! You have completed the lesson!";
+
+            foreach (var button in bottomButtons.GetComponentsInChildren<Button>())
+            {
+                if (button.name == "End Screen") continue;
+                
+                button.interactable = false;
+            }
+            
+            ToggleCompleteWindow();
+        }
+        
+        public void ToggleCompleteWindow()
+        {
+            completeWindow.SetActive(!completeWindow.activeSelf);
         }
 
         public void ToggleReset()

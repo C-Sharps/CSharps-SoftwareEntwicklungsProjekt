@@ -2,5 +2,7 @@
  * Author: Stefan Pietzner
  * C-Sharps Software-Entwicklungsprojekt SS 2023
 */
-
-//This file needs to exist while also being empty!
+public interface IRepairable
+{
+    public void Repair();
+}

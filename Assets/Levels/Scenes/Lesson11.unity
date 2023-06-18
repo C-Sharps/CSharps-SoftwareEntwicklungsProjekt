@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0040844, g: 0.01938004, b: 0.03076338, a: 1}
+  m_IndirectSpecularColor: {r: 0.004074199, g: 0.019367827, b: 0.030757796, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4585,6 +4585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot
       objectReference: {fileID: 0}
+    - target: {fileID: 1945153410602884828, guid: 995f659194b74624d9de4e245fe50348, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 2122369453210093814, guid: 995f659194b74624d9de4e245fe50348, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -5231,6 +5235,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isIntact: 1
+--- !u!1 &909893850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7615019444570051112, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+  m_PrefabInstance: {fileID: 1886284291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &909893859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909893850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39778987cec96d44be573ed0db60b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridSize: {x: 10, y: 5}
 --- !u!1 &911735375
 GameObject:
   m_ObjectHideFlags: 0
@@ -11166,9 +11188,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: pages.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: pages.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: c839a46cfb43b184ab92ac04361f8024, type: 2}
+    - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: pages.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2f92369321681d34e97fdc2a68ff8bb1, type: 2}
+    - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: pages.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: a9784b5b04f6b6344a930cb0d07a4c52, type: 2}
+    - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: pages.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 58bfba3977df1c8459655a0582917ba4, type: 2}
+    - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: pages.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0b930b2ee1fe4e24eae60392f4cbcdd7, type: 2}
+    - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: pages.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 22ffc738519fc874ba01f1b4feb67880, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[0]
@@ -11178,6 +11228,10 @@ PrefabInstance:
       propertyPath: lessonClasses.Array.data[1]
       value: 
       objectReference: {fileID: 11400000, guid: 66cc105aa054669409be8c462a27f528, type: 2}
+    - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: lessonClasses.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: e11d4536636a53a40987ace2e7ec04c3, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.size
       value: 1
@@ -11233,6 +11287,10 @@ PrefabInstance:
     - target: {fileID: 7615019445626686278, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687687935133200271, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}

@@ -1,3 +1,7 @@
+/**
+ * Author: Robin Intrieri
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using Code.Scripts.System.SceneManager;
 using Code.Scripts.UI;
 using RoslynCSharp;
@@ -5,6 +9,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.Data;
 using UnityEngine.SceneManagement;
 
 
@@ -13,15 +18,19 @@ using UnityEngine.SceneManagement;
     {
         public LessonData data;
         public LessonView view;
-        
+
+        // create event for OnExecuteCode
+        public event Action OnExecuteCode;
+        public event Action OnCompleteLesson;
+
         private int _currentTab = 999;
         private void Start()
         {
             // Set the current lesson to this lesson
             LessonManager.SetCurrentLesson(LessonManager.GetLessonByName(SceneManager.GetActiveScene().name));
-            
+
             Application.targetFrameRate = 60;
-            
+
             if (data == null)
                 FindObjectOfType<LessonData>();
 
@@ -69,7 +78,7 @@ using UnityEngine.SceneManagement;
         private void ExecuteSource()
         {
             ScriptType type = data.domain.CompileAndLoadMainSource(view.codeEditorInputField.text, ScriptSecurityMode.UseSettings, data.assemblyReferences);
-            
+            OnExecuteCode?.Invoke();
             if (type == null)
             {
                 if (!view.console.activeSelf) ToggleConsole();
@@ -82,10 +91,10 @@ using UnityEngine.SceneManagement;
 
         public void DisplayError(string error)
         {
-            if (!view.console.activeSelf) 
+            if (!view.console.activeSelf)
             {
                 ToggleConsole();
-            }           
+            }
              view.errorOutput.text = error;
         }
 
@@ -121,11 +130,16 @@ using UnityEngine.SceneManagement;
                 view.objectiveContainer.transform.GetChild(id).GetComponent<TextMeshProUGUI>().color = Color.gray;
             }
          
-            
-            if (view.objectiveContainer.transform.GetChild(id + 1) != null)
+            if ((id + 1) < data.lessonObjectives.Count)
                 view.objectiveContainer.transform.GetChild(id + 1).GetComponent<TextMeshProUGUI>().color = Color.white;
-            
-            if (data.lessonObjectives.Count == id) OnCompleteLesson();
+
+            data.lessonObjectives[id].isCompleted = true;
+
+            if (data.IsAllObjectivesComplete())
+            {
+                view.OnLessonComplete();
+                OnCompleteLesson?.Invoke();
+            }
         }
 
         public void ResetObjective(int id)
@@ -137,15 +151,10 @@ using UnityEngine.SceneManagement;
                 view.objectiveContainer.transform.GetChild(id).GetComponent<TextMeshProUGUI>().fontStyle = FontStyles.Bold;
                 view.objectiveContainer.transform.GetChild(id).GetComponent<TextMeshProUGUI>().color = Color.white;
             }
-         
-            
+
+
             if (view.objectiveContainer.transform.GetChild(id + 1) != null)
                 view.objectiveContainer.transform.GetChild(id + 1).GetComponent<TextMeshProUGUI>().color = Color.gray;
-        }
-
-        private void OnCompleteLesson()
-        {
-            // ToDo: Needs a popup window
         }
 
         private void OnTabClickUI(UITab tab)

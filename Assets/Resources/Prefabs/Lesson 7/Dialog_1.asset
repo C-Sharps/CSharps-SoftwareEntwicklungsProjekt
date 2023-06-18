@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
+  m_Name: Dialog_1
+  m_EditorClassIdentifier: 
+  dialogName: 
+  dialogText: "Another essential technique when writing software is looping - the
+    ability to repeat a block of code X times. In C#, they come in 4 different variants,
+    and we will have a look at the for loop.\n\nIt's preferred when you know how
+    many iterations you want, either because you know the exact amount of iterations,
+    or because you have a variable containing the amount.\n\nHere is an example of
+    the for loop.\n\nint number = 5;\nfor(int i = 0; i < number; i++)\r\n       
+    Console.WriteLine(i);"
+  dialogType: 0
+  isCompleted: 1
+  objectiveIndex: 0

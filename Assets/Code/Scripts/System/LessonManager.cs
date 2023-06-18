@@ -1,10 +1,14 @@
+/**
+ * Author: Stefan Pietzner
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using UnityEngine;
 using Code.Scripts;
 using System.Linq;
 using UnityEngine.SceneManagement;
 using System;
 
-public class LessonManager : ScriptableObject
+public static class LessonManager
 {
     private static Lesson[] lessons;
 
@@ -14,35 +18,39 @@ public class LessonManager : ScriptableObject
 
     private const string shipDeckSceneName = "1 - Ship Deck";
 
-    public static Lesson GetLesson(int index)
-    {
-        return lessons[index];
-    }
-
-    public static Lesson GetLessonByName(string lessonName)
-    {
-        foreach (Lesson lesson in lessons)
-        {
-            if (lessonName.Equals(lesson.name)) {
-                return lesson;
-            }
-        }
-        throw new ArgumentException("Lesson named " + lessonName + " not found!");
-    }
-
-    public static void SetCurrentLesson(Lesson currentLesson)
-    {
-        LessonManager.currentLesson = currentLesson;
-    }
-
-    static LessonManager() {
-
+    static LessonManager () { 
         lessons = Resources.LoadAll("ScriptableObjects/LessonSOs", typeof(Lesson)).Cast<Lesson>().ToArray();
 
         if (lessons.Length == 0)
         {
             throw new UnityException("Could not load scriptable objects for lesson!");
         }
+    }
+
+    public static Lesson GetLesson(int index)
+    {
+        return lessons[index];
+     
+    }
+
+    public static Lesson GetLessonByName(string lessonName)
+    {
+        if (lessonName != null) {
+            foreach (Lesson lesson in lessons)
+            {
+                if (lessonName.Equals(lesson.name))
+                {
+                    return lesson;
+                }
+            }
+            Debug.LogWarning("Lesson named " + lessonName + " not found!");
+        }
+        return null;
+    }
+
+    public static void SetCurrentLesson(Lesson currentLesson)
+    {
+        LessonManager.currentLesson = currentLesson;
     }
 
     public static void LoadLesson(Lesson lesson)
@@ -59,10 +67,18 @@ public class LessonManager : ScriptableObject
 
     public static void LoadNextLesson()
     {
-        if (currentLesson.order > 0 && currentLesson.order < lessons.Length - 1)
+        if (currentLesson == null)
+        {
+            Debug.LogWarning("Current lesson not set - cannot load next lesson!");
+        }
+        else if (currentLesson.order > 0 && currentLesson.order < lessons.Length - 1)
         {
             SceneManager.LoadScene(
             lessons[currentLesson.order].name);
+        }
+        else
+        {
+            Debug.LogWarning("Cannot load next lesson - are you currently in the last lesson?");
         }
     }
 

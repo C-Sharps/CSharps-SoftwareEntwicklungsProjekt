@@ -1,7 +1,10 @@
+/**
+ * Author: Stefan Pietzner
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.Assertions;
 

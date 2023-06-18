@@ -1,4 +1,7 @@
-using System;
+/**
+ * Author: Robin Intrieri
+ * C-Sharps Software-Entwicklungsprojekt SS 2023
+*/
 using System.Collections.Generic;
 using RoslynCSharp;
 using UnityEngine;
@@ -29,6 +32,18 @@ namespace Code.Scripts.System.SceneManager
                 foreach (AssemblyReferenceAsset reference in assemblyReferences)
                     domain.RoslynCompilerService.ReferenceAssemblies.Add(reference);
             }
+        }
+
+        public bool IsAllObjectivesComplete()
+        {
+            for (int i = 0; i < lessonObjectives.Count; i++)
+            {
+                if (!lessonObjectives[i].isCompleted)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }
