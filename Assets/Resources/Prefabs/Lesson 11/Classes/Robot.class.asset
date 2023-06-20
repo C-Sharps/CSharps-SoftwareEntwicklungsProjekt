@@ -16,6 +16,6 @@ MonoBehaviour:
   classSource: "using UnityEngine;\r\n\r\npublic class Robot\r\n{\r\n    private
     Body _body;\r\n    private Legs _legs;\r\n    private Arms _arms;\r\n    private
     Head _head;\r\n\r\n    public void Move(Direction direction)\r\n    {\r\n       
-    legs._Move(direction);\r\n    }\r\n\n    public void Repair(Direction direction)\n   
-    {\n        arms._Repair(direction);\n    }\n}"
+    legs._Move(direction);\r\n    }\r\n\n    public void Repair()\n    {\n       
+    arms._Repair();\n    }\n}"
   interactable: 1

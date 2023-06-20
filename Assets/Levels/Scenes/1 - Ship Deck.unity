@@ -572,7 +572,6 @@ GameObject:
   - component: {fileID: 114190542}
   - component: {fileID: 114190544}
   - component: {fileID: 114190543}
-  - component: {fileID: 114190545}
   m_Layer: 5
   m_Name: Curcit Board / LessonManager
   m_TagString: Untagged
@@ -641,107 +640,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114190541}
   m_CullTransparentMesh: 1
---- !u!114 &114190545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114190541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22349d3cb3867464eb07c378f6398c8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onLessonHover:
-    m_PersistentCalls:
-      m_Calls: []
-  lessons:
-  - name: Your Personal Robot
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: Lesson 0
-  - name: Hello World
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Variables
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Variables II
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Arithmetics
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Logic
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Control Flow
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Loops
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Arrays
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Methods
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Strings
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Methods II
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Methods III
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  - name: Classes
-    description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    sceneName: 
-  lessonHoverUI: {fileID: 765611622}
 --- !u!1001 &150163505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1715,6 +1613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &555927295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2013,6 +1912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &624607328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2855,6 +2755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &961021200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2989,6 +2890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &1126708394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3123,6 +3025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &1130732235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3257,6 +3160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &1185437326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4145,6 +4049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &1378957433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4279,6 +4184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &1381606790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4640,6 +4546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &1528774361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5128,6 +5035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &1640126792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6059,6 +5967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &1888672972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6459,6 +6368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &2056259820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6731,6 +6641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b2def80b479274fa071d8293b0e910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lessonHoverUI: {fileID: 765611622}
 --- !u!114 &2081106516
 MonoBehaviour:
   m_ObjectHideFlags: 0

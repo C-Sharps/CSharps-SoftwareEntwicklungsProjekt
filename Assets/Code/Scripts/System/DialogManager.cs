@@ -5,6 +5,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Code.Scripts;
 using TMPro;
 using UnityEngine;
@@ -27,8 +28,9 @@ public class DialogManager : MonoBehaviour
     private void Start()
     {
         // Setup Interface Variables
-        Transform canvas = FindObjectOfType<Canvas>().transform;
+        Transform canvas = FindObjectsOfType<Canvas>().First(x => x.name == "Interface").transform;
         _dialogBox = Instantiate(Resources.Load<GameObject>("Prefabs/Dialog"), canvas);
+
         _dialogTitle = _dialogBox.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
         _dialogText = _dialogBox.transform.GetChild(2).GetComponent<TextMeshProUGUI>();
         _prevButton = _dialogBox.transform.GetChild(3).GetComponent<Button>();
