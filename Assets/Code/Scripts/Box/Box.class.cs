@@ -7,6 +7,7 @@ using Code.Scripts.System.SceneManager;
 using UnityEngine;
 using RoslynCSharp;
 using TMPro;
+using System.Linq;
 
 
 public class Box : MonoBehaviour
@@ -111,6 +112,71 @@ public class Box : MonoBehaviour
         comp.contentName = contentName;
 
         box.tag = "Box()";
+    }
+
+    public bool CheckCorrectSyntax(string prompt, string input) 
+    {
+        input = String.Concat(input.Where(c => !Char.IsWhiteSpace(c)));
+
+        switch(prompt) {
+        case "Red is bigger than Yellow":
+            if(input.Equals("redSize>yellowSize"))
+            {
+                return true;
+            } else {
+                return false;
+            }
+            break;
+
+        case "Red is bigger or equal to Yellow":
+            if(input.Equals("redSize>=yellowSize"))
+            {
+                return true;
+            } else {
+                return false;
+            }
+            break;
+
+        case "Red is smaller than Yellow":
+            if(input.Equals("redSize<yellowSize"))
+            {
+                return true;
+            } else {
+                return false;
+            }
+            break;
+
+        case "Red is smaller or equal to Yellow":
+            if(input.Equals("redSize<=yellowSize"))
+            {
+                return true;
+            } else {
+                return false;
+            }
+            break;
+
+        case "Red is equal to Yellow":
+            if(input.Equals("redSize==yellowSize"))
+            {
+                return true;
+            } else {
+                return false;
+            }
+            break;
+
+        case "Red is not equal to Yellow":
+            if(input.Equals("redSize!=yellowSize"))
+            {
+                return true;
+            } else {
+                return false;
+            }
+            break;
+
+        default:
+            return false;
+            break;
+        }
     }
 
     private void Start()

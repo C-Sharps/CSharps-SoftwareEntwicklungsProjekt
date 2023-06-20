@@ -433,12 +433,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.size
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 47aa7c25e50bc714c9c14d1daf889265, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.data[1]
       value: 
@@ -458,23 +458,39 @@ PrefabInstance:
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: eda9fa9d949c104448d4314dde8ef0cd, type: 2}
+      objectReference: {fileID: 11400000, guid: d5d2d1f2ca216be439f1b727270e30b6, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 8aaf3f32039e30b48896a3312c2aa4d1, type: 2}
+      objectReference: {fileID: 11400000, guid: 5afd41b527e661743af76779d2b334f5, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: d19b30a68724e2f418a3b380b13d359d, type: 2}
+      objectReference: {fileID: 11400000, guid: 6288f90fa1fa12b43bd734a63fd90d04, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: assemblyReferences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 555abbd857b84684bb3e5f596fc1c916, type: 2}
+      objectReference: {fileID: 11400000, guid: 2c1171a0bedfc5149a59c011a3e41a18, type: 2}
+    - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: assemblyReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: assemblyReferences.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: assemblyReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7615019445052546074, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -539,7 +555,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 819557102}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b13c6b0dfee83242895e31e686f96ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 495a70862acc0e142ac7c6953de309fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1566231456
