@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Lesson07
   m_EditorClassIdentifier: 
   lessonName: Loops
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  description: Tired of writing the same instruction over and over again? Here you
+    can find out how to avoid this - with loops!
   order: 8
   nextLesson: 12
   isUnlocked: 1

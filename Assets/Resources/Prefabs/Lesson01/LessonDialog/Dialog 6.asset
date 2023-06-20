@@ -17,7 +17,7 @@ MonoBehaviour:
     Color) {...}\r\nmethod. This is something special, notice how its name is the
     same as the Robot.class?\r\n\nThat is only the case for constructors, or methods
     that, when called upon, instantiate a new object.\r\n(Instantiate means create,
-    for nerds)\r"
+    for nerds)\r."
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

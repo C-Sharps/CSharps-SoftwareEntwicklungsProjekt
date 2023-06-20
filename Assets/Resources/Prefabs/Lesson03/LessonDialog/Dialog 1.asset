@@ -23,7 +23,7 @@ MonoBehaviour:
     "1".
 
     The compiler sees this
-    and interpretes it as a string since you used quotationmarks. When you try to
+    and interpretes it as a string since you used quotation marks. When you try to
     use this for the integer size attribute, your system will crash!'
   dialogType: 0
   isCompleted: 0

@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: Lesson03
   m_EditorClassIdentifier: 
   lessonName: Variables II
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  description: Have more control over your variables by using explicit data types!
   order: 4
   nextLesson: 8
   isUnlocked: 1

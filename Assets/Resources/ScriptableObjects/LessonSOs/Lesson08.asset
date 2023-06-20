@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Lesson08
   m_EditorClassIdentifier: 
   lessonName: Arrays
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  description: '<b>Coming soon!</b>
+
+    Store lots of data in arrays!'
   order: 9
   nextLesson: 0
   isUnlocked: 1

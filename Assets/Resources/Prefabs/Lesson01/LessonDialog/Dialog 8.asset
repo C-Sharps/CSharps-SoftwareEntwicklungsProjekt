@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogText: "You might have also noticed these weird keywords like \"public\" and
     \"void\".\r\nThese are so-called access and return types. \nWe will talk about
     these later,\r \nwhen we start making the robot do stuff and go places...\r\n\n(like
-    go to the Main.class)"
+    go to the Main.class)."
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0
