@@ -15,6 +15,7 @@ MonoBehaviour:
   lessonName: Arrays
   description: '<b>Coming soon!</b>
 
+
     Store lots of data in arrays!'
   order: 9
   nextLesson: 0

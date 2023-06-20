@@ -13,8 +13,12 @@ MonoBehaviour:
   m_Name: Lesson14
   m_EditorClassIdentifier: 
   lessonName: Objects
-  description: Unlock one of the most powerful tools in programming - <i>objects</i>!
-  order: 14
+  description: '<b>Coming soon!</b>
+
+
+    Unlock one of the most powerful tools in
+    programming - <i>objects</i>!'
+  order: 15
   nextLesson: 0
   isUnlocked: 1
   isCompleted: 0

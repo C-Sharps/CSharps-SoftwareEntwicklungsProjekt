@@ -15,6 +15,7 @@ MonoBehaviour:
   lessonName: Strings
   description: '<b>Coming soon!</b>
 
+
     Make your robot say the darnest things!'
   order: 11
   nextLesson: 0

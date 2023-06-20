@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Lesson12
   m_EditorClassIdentifier: 
   lessonName: Methods III
-  description: 
+  description: '<b>Coming soon!</b>
+
+
+    The time has come: write your first methods!'
   order: 13
   nextLesson: 0
   isUnlocked: 1

@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Lesson15
   m_EditorClassIdentifier: 
   lessonName: Inheritance
-  description: Reuse other classes by inheriting from them!
+  description: '<b>Coming soon!</b>
+
+
+    Reuse other classes by inheriting from
+    them!'
   order: 16
   nextLesson: 0
   isUnlocked: 1

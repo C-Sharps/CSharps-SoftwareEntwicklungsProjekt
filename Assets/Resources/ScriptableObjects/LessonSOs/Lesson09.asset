@@ -15,8 +15,9 @@ MonoBehaviour:
   lessonName: Methods
   description: '<b>Coming soon!</b>
 
-    Learn how to instruct your robot to do complex
-    tasks without the need to repeat yourself.'
+
+    Learn how to instruct your robot to do
+    complex tasks without the need to repeat yourself.'
   order: 10
   nextLesson: 0
   isUnlocked: 1

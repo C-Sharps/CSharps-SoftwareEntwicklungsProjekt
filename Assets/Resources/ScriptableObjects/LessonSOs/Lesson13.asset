@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Lesson13
   m_EditorClassIdentifier: 
   lessonName: Classes
-  description: Get ready to make your own classes!
+  description: '<b>Coming soon!</b>
+
+
+    Get ready to make your own classes!'
   order: 14
   nextLesson: 0
   isUnlocked: 1
