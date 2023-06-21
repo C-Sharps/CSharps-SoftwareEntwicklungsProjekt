@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
@@ -18,7 +19,7 @@ namespace Code.Scripts.System.SaveLoad
         public float voiceVolume = 1.0f;
         
         // Game Progress
-        public int[] completedLessons = Array.Empty<int>();
+        public List<int> completedLessons = new List<int>();
         
         // Scene Settings
         public int gameSpeed = 1;
@@ -64,10 +65,10 @@ namespace Code.Scripts.System.SaveLoad
                 }
                 else
                 {
-                    _saveContent = File.ReadAllText(_savePath);
+                    _saveContent = File.ReadAllText(_savePath + "/save.json");
                     saveGame = JsonUtility.FromJson<SaveGame>(_saveContent);
 
-                    if (saveGame.completedLessons.Length > 0)
+                    if (saveGame.completedLessons.Count > 0)
                     {
                        
                     }
@@ -158,9 +159,25 @@ namespace Code.Scripts.System.SaveLoad
             saveGame.voiceVolume = slider.value;
         }
         
-        public void SetCompletedLessons(int[] completedLessons)
+        public bool IsLessonCompleted(string name)
+        {
+            var index = Array.IndexOf(_lessonCodeFile, name);
+            return index != -1 && saveGame.completedLessons.Contains(index);
+        }
+        
+        public void SetCompletedLessons(List<int> completedLessons)
         {
             saveGame.completedLessons = completedLessons;
+        }
+
+        public void CompleteLessonByName(string name)
+        {
+            var index = Array.IndexOf(_lessonCodeFile, name);
+            if (index != -1 && !saveGame.completedLessons.Contains(index))
+            {
+                saveGame.completedLessons.Add(index);
+                Save();
+            }
         }
 
         public void SetGameSpeed(int gameSpeed)
