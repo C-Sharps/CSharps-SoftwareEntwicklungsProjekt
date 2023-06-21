@@ -14,7 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   className: Main.class
   classSource: "using UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\r\n\tpublic
-    void Start()\r\n\t{\r\n\t\tBox b = new Box(\"T\");\n\t\t\n\t\tif (b.CheckCorrectSyntax(\"Red
-    is smaller than Yellow\", \n\t\t    \"redSize < yellowSize\"))\n\t\t{\n\t\t\tBox
-    bb = new Box(Color.red, 100, 3);\n\t\t}\n\t}\n}"
+    void Start()\r\n\t{\r\n\t\tCheckCorrectSyntax(\"Objective 1\", \"\");\n\t}\n}"
   interactable: 1

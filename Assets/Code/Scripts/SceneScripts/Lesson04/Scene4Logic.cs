@@ -4,16 +4,21 @@ using System.Collections.Generic;
 using Code.Scripts;
 using Code.Scripts.System.SceneManager;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using RoslynCSharp;
 using System.Linq;
+using static Checking;
 
 public class Scene4Logic : MonoBehaviour
 {
     GameObject[] boxes;
 
     private LessonController _controller;
+    private Checking _checking;
     private GameObject _boxPrefab;
+
+    private int i = 0;
 
     private GameObject _box1;
     private GameObject _box2;
@@ -21,8 +26,12 @@ public class Scene4Logic : MonoBehaviour
     public void Awake()
     {
         _controller = FindObjectOfType<LessonController>();
+        
+        _checking = FindObjectOfType<Checking>();
 
         _boxPrefab = Resources.Load<GameObject>("Prefabs/Box");
+
+        
     }
 
     public void Start()
@@ -42,68 +51,10 @@ public class Scene4Logic : MonoBehaviour
 
     public void Update()
     {
-        boxes = GameObject.FindGameObjectsWithTag("Box(weight, scale)");
-        if (boxes.Length > 2)
+        if (GetObjArray(i) && i < 7)
         {
-            ShrinkAndDestroyBox();
+            _controller.CompleteObjective(i);
+            i++;
         }
-
-        if (boxes.Length == 2)
-        {
-            if(!CheckBoxesEqual())
-            {
-                if (_controller.data.lessonObjectives[0].isCompleted == false)
-                {
-                    _controller.CompleteObjective(0);
-                }
-            }
-        }
-    }
-
-    private void ShrinkAndDestroyBox()
-    {
-        GameObject box = boxes[0];
-
-        if (box.transform.localScale.magnitude > 0.1f)
-        {
-            float shrinkAmount = 1.0f;
-
-            if (boxes.Length > 3)
-            {
-                shrinkAmount = 1.5f * boxes.Length;
-            }
-
-            Vector3 newScale = box.transform.localScale - new Vector3(shrinkAmount, shrinkAmount, shrinkAmount) * Time.deltaTime;
-
-            newScale = Vector3.Max(newScale, Vector3.zero);
-
-            box.transform.localScale = newScale;
-        }
-        else
-        {
-            Destroy(box);
-        }
-    }
-
-    private bool CheckBoxesEqual()
-    {
-        return (boxes[0].GetComponent<Rigidbody>().mass == boxes[1].GetComponent<Rigidbody>().mass &&
-        boxes[0].transform.localScale == boxes[1].transform.localScale &&
-        boxes[0].GetComponentsInChildren<MeshRenderer>()[0].material.color == boxes[1].GetComponentsInChildren<MeshRenderer>()[0].material.color);
-    }
-
-    public GameObject GetRedBox()
-    {
-        return _box1;
-    } 
-
-    public GameObject GetYellowBox()
-    {
-        return _box2;
-    } 
-
-    public float GetBoxSize(GameObject box)
-    {
-        return box.transform.localScale.x;
     }
 }
