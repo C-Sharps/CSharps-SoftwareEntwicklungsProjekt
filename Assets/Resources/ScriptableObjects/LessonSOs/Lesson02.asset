@@ -16,6 +16,6 @@ MonoBehaviour:
   description: Save tiny bits of information in <i>variables</i>, and use them to
     customize objects!
   order: 3
-  nextLesson: 4
+  nextLesson: 3
   isUnlocked: 1
   isCompleted: 0

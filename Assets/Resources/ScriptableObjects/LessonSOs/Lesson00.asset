@@ -15,6 +15,6 @@ MonoBehaviour:
   lessonName: Your Personal Robot
   description: Make acquaintence with your new best friend - your robot companion!
   order: 1
-  nextLesson: 2
+  nextLesson: 1
   isUnlocked: 1
   isCompleted: 0
