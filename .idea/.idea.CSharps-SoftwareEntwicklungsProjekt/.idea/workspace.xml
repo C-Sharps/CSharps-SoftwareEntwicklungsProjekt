@@ -6,9 +6,23 @@
       <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SaveLoad/SaveGameManager.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SaveLoad/SaveGameManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Main Menu/MM_Handler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Main Menu/MM_Handler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/SCI-FI UI Pack Pro/Common/Fonts/Play-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/SCI-FI UI Pack Pro/Common/Fonts/Play-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Scenes/0 - Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Scenes/0 - Main Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Scenes/1 - Ship Deck.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Scenes/1 - Ship Deck.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Interface.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Interface.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson00.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson00.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson01.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson01.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson02.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson02.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson03.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson03.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson04.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson04.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson05.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson05.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson06.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson06.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson07.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson07.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson08.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson08.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson09.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson09.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson10.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson10.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson11.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson11.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson12.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson12.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson13.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson13.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,8 +132,7 @@
       <workItem from="1686295253391" duration="9090000" />
       <workItem from="1686390822010" duration="854000" />
       <workItem from="1686647592319" duration="1590000" />
-      <workItem from="1686988269527" duration="4668000" />
-      <workItem from="1687247840061" duration="3702000" />
+      <workItem from="1687122236084" duration="801000" />
     </task>
     <servers />
   </component>

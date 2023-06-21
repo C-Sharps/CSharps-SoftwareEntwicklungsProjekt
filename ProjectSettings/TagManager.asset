@@ -4,12 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - TrackingObject
-  - Planets
-  - HL_Text
   - Editor_InputField
+  - HL_Text
   - Objective_Container
-  - Box
+  - Box()
+  - Box(weight, scale)
+  - Robot(color)
   layers:
   - Default
   - TransparentFX
