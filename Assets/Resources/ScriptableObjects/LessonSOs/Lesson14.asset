@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
-  m_Name: Lesson01
+  m_Name: Lesson14
   m_EditorClassIdentifier: 
-  lessonName: Hello World
-  description: Learn what happened in the introduction lesson, then make a bunch
-    of new friends!
-  order: 2
-  nextLesson: 3
+  lessonName: Objects
+  description: '<b>Coming soon!</b>
+
+
+    Unlock one of the most powerful tools in
+    programming - <i>objects</i>!'
+  order: 15
+  nextLesson: 0
   isUnlocked: 1
   isCompleted: 0

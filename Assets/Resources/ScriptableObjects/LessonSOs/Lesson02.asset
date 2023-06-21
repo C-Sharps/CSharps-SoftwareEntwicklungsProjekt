@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Lesson02
   m_EditorClassIdentifier: 
   lessonName: Variables
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  description: Save tiny bits of information in <i>variables</i>, and use them to
+    customize objects!
   order: 3
   nextLesson: 4
   isUnlocked: 1

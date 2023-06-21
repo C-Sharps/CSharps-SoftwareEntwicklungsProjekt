@@ -39,7 +39,14 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     private void OnClickLesson()
     {
-        LessonManager.LoadLesson(LessonManager.GetLesson(_id));
+        try
+        {
+            LessonManager.LoadLesson(LessonManager.GetLesson(_id));
+        }
+        catch (UnityException)
+        {
+            FindFirstObjectByType<CircuitBoard>().ShowLessonNotFoundWindow();
+        }
     }
 
     public void OnPointerEnter(PointerEventData eventData)

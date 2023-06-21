@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 public class CircuitBoard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 { 
     public GameObject circuitBoardInterface;
+    public GameObject lessonNotFoundWindow;
 
     void Update()
     {
@@ -27,6 +28,16 @@ public class CircuitBoard : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public void CloseCircuitBoard()
     {
         circuitBoardInterface.SetActive(false);
+    }
+
+    public void ShowLessonNotFoundWindow()
+    {
+        lessonNotFoundWindow.SetActive(true);
+    }
+
+    public void CloseLessonNotFoundWindow()
+    {
+        lessonNotFoundWindow.SetActive(false);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

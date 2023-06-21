@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Lesson13
   m_EditorClassIdentifier: 
   lessonName: Classes
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  description: '<b>Coming soon!</b>
+
+
+    Get ready to make your own classes!'
   order: 14
   nextLesson: 0
   isUnlocked: 1
