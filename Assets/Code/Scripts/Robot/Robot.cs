@@ -66,9 +66,9 @@ public class Robot : AbstractRobot
         return new Vector2(transform.position.x, transform.position.z);
     }
 
-    public void Move(int x, int y)
+    public void MoveTo(int x, int y)
     {
-        _tasks.Enqueue(legs._Move((float)x, (float)y));
+        _tasks.Enqueue(legs._MoveTo(x, y));
     }
 
     public void Move(Direction direction)
@@ -95,7 +95,7 @@ public class Robot : AbstractRobot
     public void Update()
     {
         animator.SetBool("isRunning", _tasks.Count > 0);
-        animator.speed = legs._Speed;
+        animator.speed = legs._speed;
         
         if (_tasks.Count > 0 && _tasks.Peek() != null && !legs._isRunning)
         {
