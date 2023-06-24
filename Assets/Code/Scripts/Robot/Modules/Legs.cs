@@ -1,5 +1,5 @@
 /**
- * Author: Lukas Fath, Stefan Pietzner
+ * Author: Stefan Pietzner
  * C-Sharps Software-Entwicklungsprojekt SS 2023
 */
 using System;
@@ -11,12 +11,12 @@ public class Legs : MonoBehaviour
 {
     [SerializeField]
     // Movement Speed of the Robot.
-    public float _speed = 1f;
+    public float _Speed = 1f;
 
     [SerializeField]
     // Is the Robot running.
     public bool _isRunning = false;
-
+    
     [SerializeField]
     // The direction the Robot facing;
     private Direction _dir;
@@ -30,49 +30,39 @@ public class Legs : MonoBehaviour
             case Direction.East:
             case Direction.West:
                 return _Move(DirectionExtension.DirectionToVector2(direction));
-            default:
+            default: 
                 return MoveRelativeToOrientation(direction);
         }
     }
 
     private IEnumerator _Move(Vector2 direction)
     {
-        Vector2 target = Vector3ToVector2(gameObject.transform.position) + direction; 
-        return _Move(new Vector3(target.x, 0, target.y));
+        return _Move(direction.x, direction.y);
     }
 
-    public IEnumerator _MoveTo(int x, int y)
+    public IEnumerator _Move(float x, float y)
     {
-        var grid = FindObjectOfType<Grid>();
-
-        if (grid != null) {
-            // An offset of half the size of the grid's cell is needed to center the robot in the middle of a cell
-            return _Move(grid.CellToWorld(new Vector3Int(x, y, 0)) + new Vector3(grid.cellSize.x, 0, grid.cellSize.y) * 0.5f);
-        }
-        else throw new UnityException("No grid component found in this scene!");
-    }
-
-    public IEnumerator _Move(Vector3 target)
-    {
-        // Rotates the robot toward the end
-        transform.LookAt(target);
-
-        Vector3 start = transform.position;
         _isRunning = true;
+        if(x != 0 || y != 0) {
+        
+            float dist = Mathf.Sqrt(x*x+y*y);
+            float time = dist/_Speed;
 
-        float dist = Vector3.Distance(start, target);
-        float time = dist / _speed;
+            Vector3 Start = transform.position;
+            Vector3 End = Start + new Vector3(x, 0 ,y);
+            transform.LookAt(End);
 
-        float t = 0;
-        while (t < time)
-        {
-            transform.position = Vector3.Lerp(start, target, t / time);
-            t += Time.deltaTime;
-            yield return null;
+            float t = 0;
+            while(t < time)
+            {
+                transform.position = Vector3.Lerp(Start, End, t/time);
+                t += Time.deltaTime;
+                yield return null;
+            }
+
+            // Prevents rounding errors and imprecision
+            transform.position = End;
         }
-
-        // Prevents rounding errors and imprecision
-        //transform.position = end;
         _isRunning = false;
     }
 
