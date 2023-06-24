@@ -40,7 +40,7 @@ public class Legs : MonoBehaviour
         return _Move(direction.x, direction.y);
     }
 
-    public IEnumerator _Move(float x, float y)
+    private IEnumerator _Move(float x, float y)
     {
         _isRunning = true;
         if(x != 0 || y != 0) {
@@ -64,6 +64,21 @@ public class Legs : MonoBehaviour
             transform.position = End;
         }
         _isRunning = false;
+    }
+
+    public IEnumerator _MoveTo(int x, int y)
+    {
+        Grid grid = FindObjectOfType<Grid>();
+
+        if (grid != null)
+        {
+            Vector3 target = grid.CellToWorld(new Vector3Int(x, y, 0)) + new Vector3(grid.cellSize.x, 0, grid.cellSize.z) * 0.5f;
+            Debug.Log(target);
+            return _Move(
+                Vector3ToVector2(
+                    target - transform.position));
+        }
+        else throw new UnityException("No grid found in scene!");
     }
 
     private IEnumerator MoveRelativeToOrientation(Direction direction)
