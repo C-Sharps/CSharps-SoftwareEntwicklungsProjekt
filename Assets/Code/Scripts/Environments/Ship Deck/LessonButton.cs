@@ -66,7 +66,8 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         // Set the lesson hover UI to active
         lessonHoverUI.SetActive(isHovering);
-        lessonHoverUI.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = LessonManager.GetLesson(lessonIndex).lessonName;
+        // Sets the title of the lesson to the format "n. LessonName"
+        lessonHoverUI.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = lessonIndex + ". "+ LessonManager.GetLesson(lessonIndex).lessonName;
         lessonHoverUI.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = LessonManager.GetLesson(lessonIndex).description;
 
         if (Input.mousePosition.y > Screen.height / 2f)
