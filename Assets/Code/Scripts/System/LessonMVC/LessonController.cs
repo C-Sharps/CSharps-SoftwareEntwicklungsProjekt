@@ -78,16 +78,19 @@ using UnityEngine.SceneManagement;
 
         private void ExecuteSource()
         {
-            ScriptType type = data.domain.CompileAndLoadMainSource(view.codeEditorInputField.text, ScriptSecurityMode.UseSettings, data.assemblyReferences);
-            OnExecuteCode?.Invoke();
-            if (type == null)
+            if (data.lessonClasses[_currentTab].interactable)
             {
-                if (!view.console.activeSelf) ToggleConsole();
-                view.errorOutput.text = data.domain.RoslynCompilerService.LastCompileResult.Errors[0].ToString();
-                return;
+                ScriptType type = data.domain.CompileAndLoadMainSource(view.codeEditorInputField.text, ScriptSecurityMode.UseSettings, data.assemblyReferences);
+                OnExecuteCode?.Invoke();
+                if (type == null)
+                {
+                    if (!view.console.activeSelf) ToggleConsole();
+                    view.errorOutput.text = data.domain.RoslynCompilerService.LastCompileResult.Errors[0].ToString();
+                    return;
+                }
+                
+                type.CreateInstance(gameObject);
             }
-            
-            type.CreateInstance(gameObject);
         }
 
         public void DisplayError(string error)

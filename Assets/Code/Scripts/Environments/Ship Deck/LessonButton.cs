@@ -63,9 +63,9 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         lessonHoverUI.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = LessonManager.GetLesson(lessonIndex).description;
 
         if (Input.mousePosition.y > Screen.height / 2f)
-            lessonHoverUI.transform.position = Input.mousePosition + new Vector3(0, -160, 0);
+            lessonHoverUI.transform.position = Input.mousePosition + new Vector3(0, -105, 0);
         else
-            lessonHoverUI.transform.position = Input.mousePosition + new Vector3(0, 160, 0);
+            lessonHoverUI.transform.position = Input.mousePosition + new Vector3(0, 105, 0);
     }
     // Event to handle when a lesson is hovered over
     [System.Serializable]

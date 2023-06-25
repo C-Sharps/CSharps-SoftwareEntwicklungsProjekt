@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson04
   m_EditorClassIdentifier: 
-  lessonName: Arithmetics
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  lessonName: 4 - Arithmetics
+  description: 'Dive into the world of arithmetic operations and unleash your mathematical
+    prowess. Learn how to perform addition, subtraction, multiplication, and division
+    using C# syntax. '
   order: 5
   nextLesson: 0
   isUnlocked: 1

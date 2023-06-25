@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Code.Scripts.System.SaveLoad;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,12 +13,24 @@ public class MM_Handler : MonoBehaviour
     [Header("Interface")]
     public GameObject MainMenu;
     public GameObject OptionsMenu;
+    public GameObject ContinueButton;
+    public GameObject NewGameWindow;
+
+    private bool canContinue = false;
   
     void Start()
     {
         if (PlanetParent == null)
         {
             PlanetParent = GameObject.FindGameObjectWithTag("Planets").gameObject;
+        }
+        
+        var saveGameManager = FindObjectOfType<SaveGameManager>();
+        if (saveGameManager != null && saveGameManager.saveGame.completedLessons.Count > 0)
+        {
+            ContinueButton.GetComponent<Button>().interactable = true;
+            ContinueButton.GetComponentInChildren<TextMeshProUGUI>().color = Color.white;
+            canContinue = true;
         }
     }
     
@@ -37,10 +50,37 @@ public class MM_Handler : MonoBehaviour
         MainMenu.SetActive(!MainMenu.activeSelf);
         OptionsMenu.SetActive(!OptionsMenu.activeSelf);
     }
-    
-    public void StartGame()
+
+    public void Continue()
     {
-        // load the ship deck scene
         SceneManager.LoadScene("1 - Ship Deck");
+        
+    }
+    public void NewGame()
+    {
+        if (!canContinue)
+        {
+            SceneManager.LoadScene("1 - Ship Deck");
+        }
+        else
+        {
+            ToggleNewGame();
+        }
+    }
+
+    public void ToggleNewGame()
+    {
+        NewGameWindow.SetActive(!NewGameWindow.activeSelf);
+        MainMenu.SetActive(!MainMenu.activeSelf);
+    }
+
+    public void ResetGame()
+    {
+        var saveGameManager = FindObjectOfType<SaveGameManager>();
+        if (saveGameManager != null)
+        {
+            saveGameManager.ResetSaveGame();
+            SceneManager.LoadScene("1 - Ship Deck");
+        }
     }
 }

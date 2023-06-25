@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson05
   m_EditorClassIdentifier: 
-  lessonName: Logic
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  lessonName: 5 - Logic
+  description: Unleash the power of logical thinking in C#! Embark on a journey through
+    the realm of conditional statements and Boolean operations. Learn how to make
+    your programs smart by incorporating if-else statements, loops, and comparisons.
   order: 6
   nextLesson: 0
   isUnlocked: 1

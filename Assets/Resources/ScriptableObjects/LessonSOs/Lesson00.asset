@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson00
   m_EditorClassIdentifier: 
-  lessonName: Your Personal Robot
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  lessonName: 0 - Your Personal Robot
+  description: Get a taste of the power of C# as you embark on your coding journey
+    with your very own virtual robot companion. Let's get started!
   order: 1
   nextLesson: 2
   isUnlocked: 1

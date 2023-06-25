@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson06
   m_EditorClassIdentifier: 
-  lessonName: Control Flow
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  lessonName: 6 - Control Flow
+  description: 'Take charge of your program''s flow with C#! Explore the realm of
+    control flow statements and gain mastery over the execution order of your code.
+    Learn how to use conditionals to control the program''s behavior based on specific
+    conditions. '
   order: 7
   nextLesson: 0
   isUnlocked: 1

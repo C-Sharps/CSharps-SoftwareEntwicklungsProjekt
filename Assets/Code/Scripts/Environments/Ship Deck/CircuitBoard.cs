@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class CircuitBoard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class CircuitBoard : MonoBehaviour
 { 
     public GameObject circuitBoardInterface;
-
+    public GameObject returnButton;
+    
     void Update()
     {
         // check if the circuit board was clicked on
@@ -19,6 +20,7 @@ public class CircuitBoard : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == gameObject)
             {
                 circuitBoardInterface.SetActive(true);
+                returnButton.SetActive(false);
             }
         }
     }
@@ -27,15 +29,23 @@ public class CircuitBoard : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public void CloseCircuitBoard()
     {
         circuitBoardInterface.SetActive(false);
+        returnButton.SetActive(true);
     }
 
-    public void OnPointerEnter(PointerEventData eventData)
+    public void ReturnToMain()
     {
-        GetComponent<MeshRenderer>().material.EnableKeyword("_EMISSION"); // enable emission on the circuit board
+        Application.LoadLevel("0 - Main Menu");
     }
 
-    public void OnPointerExit(PointerEventData eventData)
+    void OnMouseOver()
     {
-        GetComponent<MeshRenderer>().material.DisableKeyword("_EMISSION"); // enable emission on the circuit board
+        GetComponent<MeshRenderer>().material =
+            Resources.Load<Material>("Materials/Terminal_Hover");  // enable emission on the circuit board
+    }
+    
+    void OnMouseExit()
+    {
+        GetComponent<MeshRenderer>().material =
+            Resources.Load<Material>("Materials/Terminal");  // disable emission on the circuit board
     }
 }
