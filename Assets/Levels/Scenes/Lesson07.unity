@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0040844, g: 0.01938004, b: 0.03076338, a: 1}
+  m_IndirectSpecularColor: {r: 0.004074199, g: 0.019367827, b: 0.030757796, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -289,11 +289,15 @@ PrefabInstance:
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: a2ba73a202fa19e46a823f51aa3c576a, type: 2}
+      objectReference: {fileID: 11400000, guid: 81734c0a81ad2af44a50b83023e93192, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 81734c0a81ad2af44a50b83023e93192, type: 2}
+      objectReference: {fileID: 11400000, guid: a2ba73a202fa19e46a823f51aa3c576a, type: 2}
+    - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
+      propertyPath: lessonClasses.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6ab1847990906d94c90daac17b8fe383, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.size
       value: 3

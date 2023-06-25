@@ -11235,11 +11235,11 @@ PrefabInstance:
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 2bb588f11f0279b4289890622c4c441d, type: 2}
+      objectReference: {fileID: 11400000, guid: 66cc105aa054669409be8c462a27f528, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 66cc105aa054669409be8c462a27f528, type: 2}
+      objectReference: {fileID: 11400000, guid: 2bb588f11f0279b4289890622c4c441d, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[2]
       value: 

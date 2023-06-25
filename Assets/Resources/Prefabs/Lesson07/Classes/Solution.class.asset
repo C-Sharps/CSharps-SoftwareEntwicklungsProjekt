@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Solution.class
   m_EditorClassIdentifier: 
   className: Solution.class
-  classSource: "using UnityEngine;\r\n\npublic class Main : MonoBehaviour\n{\r\n   
-    public void Start()\r\n    {\r\n        Robot repairBot = GameObject.FindGameObjectWithTag(\"Player\").GetComponent<Robot>();\r\n\trepairBot.MoveTo(2,3);\n\trepairBot.Repair();\n\trepairBot.MoveTo(5,0);\n\trepairBot.Repair();\n\trepairBot.MoveTo(1,-2);\n\trepairBot.Repair();\n\trepairBot.MoveTo(-4,0);\n\trepairBot.Repair();\n   
-    }\r\n}"
+  classSource: "using UnityEngine;\r\n\r\npublic class Main\r : MonoBehaviour\n{\r\n   
+    public void Start()\r\n    {\r\n        Robot robot = GameObject.FindGameObjectWithTag(\"Player\").GetComponent<Robot>();\r\n\tfor
+    (int i = 0; i < 100; i++) {\n\t\trobot.Move(Direction.Forward);\n\t}\n       
+    // Use the while or for loop to get the Robot to his destination\r\n\r\n       
+    \r\n    }\r\n}"
   interactable: 1
