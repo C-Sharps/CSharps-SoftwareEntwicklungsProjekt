@@ -15,6 +15,6 @@ MonoBehaviour:
   lessonName: Variables II
   description: Have more control over your variables by using explicit data types!
   order: 4
-  nextLesson: 8
+  nextLesson: 4
   isUnlocked: 1
   isCompleted: 0

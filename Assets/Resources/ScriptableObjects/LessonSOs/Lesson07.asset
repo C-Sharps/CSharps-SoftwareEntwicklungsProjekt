@@ -16,6 +16,6 @@ MonoBehaviour:
   description: Tired of writing the same instruction over and over again? Here you
     can find out how to avoid this - with loops!
   order: 8
-  nextLesson: 12
+  nextLesson: 11
   isUnlocked: 1
   isCompleted: 0

@@ -19,6 +19,6 @@ MonoBehaviour:
     Learn how to compare variables with each
     other!'
   order: 5
-  nextLesson: 0
+  nextLesson: 7
   isUnlocked: 1
   isCompleted: 0

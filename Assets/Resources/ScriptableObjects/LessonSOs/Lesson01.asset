@@ -16,6 +16,6 @@ MonoBehaviour:
   description: Learn what happened in the introduction lesson, then make a bunch
     of new friends!
   order: 2
-  nextLesson: 3
+  nextLesson: 2
   isUnlocked: 1
   isCompleted: 0
