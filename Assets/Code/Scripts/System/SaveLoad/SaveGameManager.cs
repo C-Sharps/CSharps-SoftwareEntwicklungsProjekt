@@ -23,6 +23,9 @@ namespace Code.Scripts.System.SaveLoad
         
         // Scene Settings
         public int gameSpeed = 1;
+        
+        // Graphic Settings
+        public int quality = 5; // Default is Ultra
     }
     
     public class SaveGameManager : MonoBehaviour
@@ -43,11 +46,19 @@ namespace Code.Scripts.System.SaveLoad
         
         public SaveGame saveGame;
         
+        public AudioSource _sfxAudioSource;
+        public AudioSource _musicAudioSource;
+        
         private void Start()
         {
+            if (FindObjectsOfType<SaveGameManager>().Length > 1)
+                Destroy(gameObject);
+            
             // Keep SaveGameManager alive between scenes
             DontDestroyOnLoad(gameObject);
-
+            
+            Application.targetFrameRate = 60;
+            
             if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex == 0)
             {
                 _savePath = Application.persistentDataPath;
@@ -68,9 +79,13 @@ namespace Code.Scripts.System.SaveLoad
                     _saveContent = File.ReadAllText(_savePath + "/save.json");
                     saveGame = JsonUtility.FromJson<SaveGame>(_saveContent);
 
+                    _musicAudioSource.volume = saveGame.musicVolume * saveGame.volume;
+                    _sfxAudioSource.volume = saveGame.sfxVolume * saveGame.volume;
+
                     if (saveGame.completedLessons.Count > 0)
                     {
-                       
+                       // Load the game data
+                       QualitySettings.SetQualityLevel(saveGame.quality, true);
                     }
                     
                     isLoaded = true;
@@ -108,6 +123,12 @@ namespace Code.Scripts.System.SaveLoad
                 throw;
             }
         }
+        
+        public void ResetSaveGame()
+        {
+            saveGame = new SaveGame();
+            Save();
+        }
 
         public void SetResolutionIndex(int index)
         {
@@ -126,6 +147,8 @@ namespace Code.Scripts.System.SaveLoad
         
         public void SetMasterVolume(Slider slider)
         {
+            _musicAudioSource.volume = slider.value * saveGame.volume;
+            _sfxAudioSource.volume = slider.value * saveGame.volume;
             saveGame.volume = slider.value;
         }
         
@@ -136,6 +159,7 @@ namespace Code.Scripts.System.SaveLoad
         
         public void SetMusicVolume(Slider slider)
         {
+            _musicAudioSource.volume = slider.value * saveGame.volume;
             saveGame.musicVolume = slider.value;
         }
         
@@ -146,6 +170,7 @@ namespace Code.Scripts.System.SaveLoad
         
         public void SetSfxVolume(Slider slider)
         {
+            _sfxAudioSource.volume = slider.value * saveGame.volume;
             saveGame.sfxVolume = slider.value;
         }
         
@@ -185,6 +210,11 @@ namespace Code.Scripts.System.SaveLoad
             saveGame.gameSpeed = gameSpeed;
         }
         
-        
+        public void SetQualityLevel(Dropdown dropdown)
+        {
+            saveGame.quality = dropdown.value;
+            QualitySettings.SetQualityLevel(saveGame.quality, true);
+            Save();
+        } 
     }
 }

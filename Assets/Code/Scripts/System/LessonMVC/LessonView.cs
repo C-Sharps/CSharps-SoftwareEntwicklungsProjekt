@@ -43,11 +43,17 @@ namespace Code.Scripts.System.SceneManager
         public GameObject completeWindow;
         public GameObject bottomButtons;
         public Text completeText;
+        public GameObject consoleWindow;
 
         public void ToggleEditor()
         {
             editor.SetActive(!editor.activeSelf);
             editorTabs.SetActive(!editorTabs.activeSelf);
+        }
+
+        public void ToggleConsole()
+        {
+            consoleWindow.SetActive(!consoleWindow.activeSelf);
         }
 
         public void OnLessonComplete()
