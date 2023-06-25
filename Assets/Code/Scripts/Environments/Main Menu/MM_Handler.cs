@@ -15,6 +15,7 @@ public class MM_Handler : MonoBehaviour
     public GameObject OptionsMenu;
     public GameObject ContinueButton;
     public GameObject NewGameWindow;
+    public GameObject ExitButton;
 
     private bool canContinue = false;
   
@@ -56,6 +57,7 @@ public class MM_Handler : MonoBehaviour
         SceneManager.LoadScene("1 - Ship Deck");
         
     }
+
     public void NewGame()
     {
         if (!canContinue)
@@ -82,5 +84,10 @@ public class MM_Handler : MonoBehaviour
             saveGameManager.ResetSaveGame();
             SceneManager.LoadScene("1 - Ship Deck");
         }
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }
