@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ebb3dd6-bf99-4025-9b10-ae0e377797f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Main Menu/MM_Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Main Menu/MM_Settings.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Light SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Light SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Terminal_Casing.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Terminal_Casing.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Main Menu/MM_Handler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Main Menu/MM_Handler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Main Menu/MM_Hover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Main Menu/MM_Hover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Ship Deck/CircuitBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Ship Deck/CircuitBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Ship Deck/LessonButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Ship Deck/LessonButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/LessonMVC/LessonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/LessonMVC/LessonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/LessonMVC/LessonView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/LessonMVC/LessonView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/SaveLoad/SaveGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SaveLoad/SaveGameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Planets of the Solar System 3D/Settings/POTSS_UniversalRP.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Planets of the Solar System 3D/Settings/POTSS_UniversalRP.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/Planets of the Solar System 3D/Settings/POTSS_UniversalRP_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/Planets of the Solar System 3D/Settings/POTSS_UniversalRP_Renderer.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Levels/Scenes/0 - Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Scenes/0 - Main Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Scenes/1 - Ship Deck.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Scenes/1 - Ship Deck.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Interface.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Interface.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson00.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson00.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson01.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson01.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson02.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson02.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson03.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson03.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson04.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson04.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson05.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson05.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson06.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson06.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson07.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson07.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson08.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson08.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson09.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson09.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson10.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson10.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson11.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson11.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson12.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson12.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson13.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson13.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +15,22 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/9b/8e67a725/Queue`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/35/a3f4432a/FullScreenMode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba783288ca164d3099898a8819fcec1c159e00/8f/7c5efa01/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Software Development/Github/CSharps-SoftwareEntwicklungsProjekt/Assets/Art/Fonts/Roboto-Regular SDF.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Software Development/Github/CSharps-SoftwareEntwicklungsProjekt/Assets/Art/Fonts/Roboto-Regular SDF.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Software Development/Github/CSharps-SoftwareEntwicklungsProjekt/Assets/Art/Fonts/Roboto-Regular SDF.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Software Development/Github/CSharps-SoftwareEntwicklungsProjekt/Assets/Code/Scripts/Environments/Ship Deck/CircuitBoard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Software Development/Github/CSharps-SoftwareEntwicklungsProjekt/Assets/Code/Scripts/Environments/Ship Deck/CircuitBoard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Software Development/Github/CSharps-SoftwareEntwicklungsProjekt/Assets/Levels/Scenes/1 - Ship Deck.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Software Development/Github/CSharps-SoftwareEntwicklungsProjekt/Assets/Levels/Scenes/1 - Ship Deck.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Software Development/Github/CSharps-SoftwareEntwicklungsProjekt/Assets/Resources/ScriptableObjects/LessonSOs/Lesson00.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Software Development/Github/CSharps-SoftwareEntwicklungsProjekt/Assets/Resources/ScriptableObjects/LessonSOs/Lesson00.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectId" id="2OxxUKEigtoFZ2CXxqiopKPRWGL" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -154,6 +137,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
