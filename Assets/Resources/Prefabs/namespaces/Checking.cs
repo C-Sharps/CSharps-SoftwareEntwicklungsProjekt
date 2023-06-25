@@ -9,9 +9,11 @@ using UnityEngine;
 using RoslynCSharp;
 using System.Linq;
 
-public class Checking : MonoBehaviour { 
+public class CheckCorrect : MonoBehaviour { 
 
     public static bool[] Obj = new bool[6];
+
+    private static LessonController _controller;
 
     public static void CheckCorrectSyntax(string prompt, string input) 
     {
@@ -37,7 +39,8 @@ public class Checking : MonoBehaviour {
             Obj[5] = input.Equals("yellow>=black");
             break;
         default:
-            
+            _controller = FindObjectOfType<LessonController>();
+            _controller.DisplayError("Wrong objective input! Please check syntax!");
             break;
         }
     }

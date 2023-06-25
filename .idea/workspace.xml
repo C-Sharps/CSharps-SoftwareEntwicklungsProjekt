@@ -1,193 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048fc719-8acf-4b1a-857c-9f25d2d339f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Ship Deck/Monitor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Ship Deck/Monitor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SaveLoad.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SaveLoad/SaveGameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SaveLoad/SaveGameManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Classes/Solution.class.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Classes/Solution.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/Roboto-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Circuit Board.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Circuit Board.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Main Menu/MM_Handler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Main Menu/MM_Handler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Ship Deck/CircuitBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Ship Deck/CircuitBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Ship Deck/LessonButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Environments/Ship Deck/LessonButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Modules/Legs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Modules/Legs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Robot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Robot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/SceneScripts/Lesson04.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/SceneScripts/Lesson04.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/SceneScripts/Lesson11/Lesson11Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/SceneScripts/Lesson11/Lesson11Logic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Lesson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Lesson.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/LessonMVC/LessonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/LessonMVC/LessonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/InGameCodeEditor/CompatibilityDemo/RoslynCSharp_IntegrationDemo.unitypackage.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/InGameCodeEditor/CompatibilityDemo/RoslynCSharp_IntegrationDemo.unitypackage.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/RoslynCSharp/Plugin/System-ValueTuple_CompatibilityPackage.unitypackage.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/RoslynCSharp/Plugin/System-ValueTuple_CompatibilityPackage.unitypackage.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/External/SCI-FI UI Pack Pro/Common/Fonts/Play-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/External/SCI-FI UI Pack Pro/Common/Fonts/Play-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Scenes/0 - Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Scenes/0 - Main Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Scenes/1 - Ship Deck.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Scenes/1 - Ship Deck.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Scenes/Lesson07.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Scenes/Lesson07.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Scenes/Lesson11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Scenes/Lesson11.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/2 - Your Robot.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/2 - Your Robot/Intro.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/2 - Your Robot/Intro.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson15.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/2 - Your Robot/test.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson15.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/2 - Your Robot/test.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson14.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/Classes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/Classes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/Classes/Main.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/Classes/Main.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/Classes/Main.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/Classes/Main.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/Classes/Robot.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/Classes/Robot.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/Classes/Robot.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/Classes/Robot.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/Classes/Solution.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/Classes/Solution.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/Classes/Solution.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/Classes/Solution.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lession11_Dialog_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lession11_Dialog_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lession11_Dialog_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lession11_Dialog_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lession11_Dialog_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lession11_Dialog_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lession11_Dialog_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lession11_Dialog_2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lesson11_Dialog_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lesson11_Dialog_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lesson11_Dialog_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lesson11_Dialog_3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lesson11_Dialog_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lesson11_Dialog_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lesson11_Dialog_4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lesson11_Dialog_4.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lesson11_Dialog_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lesson11_Dialog_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lesson11_Dialog_5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lesson11_Dialog_5.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lesson11_Dialog_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lesson11_Dialog_6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/LessonDialog/Lesson11_Dialog_6.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/LessonDialog/Lesson11_Dialog_6.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/Objectives.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/Objectives.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/Objectives/Objective_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/Objectives/Objective_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 11/Objectives/Objective_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson11/Objectives/Objective_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Classes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Classes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Classes/Main.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Classes/Main.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Classes/Main.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Classes/Main.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Classes/Robot.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Classes/Robot.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Classes/Robot.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Classes/Robot.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Dialog_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Dialog_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Dialog_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Dialog_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Dialog_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Dialog_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Dialog_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Dialog_2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Dialog_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Dialog_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Dialog_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Dialog_3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Objectives.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Objectives.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Objectives/Objective_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Objectives/Objective_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Objectives/Objective_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Objectives/Objective_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Objectives/Objective_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Objectives/Objective_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Objectives/Objective_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Objectives/Objective_2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Objectives/Objective_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Objectives/Objective_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson 7/Objectives/Objective_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson07/Objectives/Objective_3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonClasses.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonClasses.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonClasses/Main.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonClasses/Main.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonClasses/Main.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonClasses/Main.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonClasses/Robot.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonClasses/Robot.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonClasses/Robot.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonClasses/Robot.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 4.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 5.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonDialog/Dialog 6.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonDialog/Dialog 6.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonObjectives.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonObjectives.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonObjectives/Blue.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonObjectives/Blue.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonObjectives/Blue.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonObjectives/Blue.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonObjectives/SpawnRobot.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonObjectives/SpawnRobot.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 0/LessonObjectives/SpawnRobot.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson00/LessonObjectives/SpawnRobot.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonClass.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonClass.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonClass/Main.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonClass/Main.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonClass/Main.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonClass/Main.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonClass/Robot.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonClass/Robot.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonClass/Robot.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonClass/Robot.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 10.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 10.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 10.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 10.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 11.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 11.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 11.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 11.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 4.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 5.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 6.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 6.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 7.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 7.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 7.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 8.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 8.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 8.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 9.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 9.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonDialog/Dialog 9.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonDialog/Dialog 9.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonObjectives.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonObjectives.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonObjectives/TenRobots.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonObjectives/TenRobots.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 1/LessonObjectives/TenRobots.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson01/LessonObjectives/TenRobots.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/Dialog.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson14.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/Dialog.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonClasses.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonClasses.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonClasses/Box.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonClasses/Box.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonClasses/Box.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonClasses/Box.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonClasses/Main.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonClasses/Main.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonClasses/Main.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonClasses/Main.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonClasses/Robot.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonClasses/Robot.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonClasses/Robot.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonClasses/Robot.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonDialog.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonDialog.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonDialog/Dialog 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonDialog/Dialog 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonDialog/Dialog 1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonDialog/Dialog 1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonDialog/Dialog 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonDialog/Dialog 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonDialog/Dialog 2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonDialog/Dialog 2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonDialog/Dialog 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonDialog/Dialog 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonDialog/Dialog 3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonDialog/Dialog 3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonDialog/Dialog 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonDialog/Dialog 4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonDialog/Dialog 4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonDialog/Dialog 4.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonObjectives.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonObjectives.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonObjectives/CreateBoxVar.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonObjectives/CreateBoxVar.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 2/LessonObjectives/CreateBoxVar.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson02/LessonObjectives/CreateBoxVar.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonClasses.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonClasses.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonClasses/Box.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonClasses/Box.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonClasses/Box.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonClasses/Box.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonClasses/Main.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonClasses/Main.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonClasses/Main.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonClasses/Main.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonClasses/Robot.class.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonClasses/Robot.class.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonClasses/Robot.class.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonClasses/Robot.class.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonDialog.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonDialog.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonDialog/Dialog 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonDialog/Dialog 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonDialog/Dialog 1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonDialog/Dialog 1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonDialog/Dialog 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonDialog/Dialog 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonDialog/Dialog 2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonDialog/Dialog 2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonDialog/Dialog 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonDialog/Dialog 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonDialog/Dialog 3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonDialog/Dialog 3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonObjectives.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonObjectives.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonObjectives/CreateBoxVar.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonObjectives/CreateBoxVar.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 3/LessonObjectives/CreateBoxVar.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Lesson03/LessonObjectives/CreateBoxVar.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Scene 4.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson00.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson00.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson01.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson01.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson02.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson02.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson03.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson03.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson04.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson04.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson05.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson05.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson06.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson06.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson07.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson07.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson08.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson08.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson09.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson09.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson10.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson10.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson11.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson11.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson12.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson12.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson13.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/LessonSOs/Lesson13.asset" afterDir="false" />
+    <list default="true" id="048fc719-8acf-4b1a-857c-9f25d2d339f5" name="Changes" comment="merged main into branch">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Q69IYgpXDY2a9uwBKESepudVtf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -223,8 +41,16 @@
       <updated>1684663084951</updated>
       <workItem from="1684663086116" duration="67000" />
       <workItem from="1686056949899" duration="40000" />
-      <workItem from="1687685862014" duration="658000" />
+      <workItem from="1687685862014" duration="1534000" />
     </task>
+    <task id="LOCAL-00001" summary="merged main into branch">
+      <created>1687686789103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687686789103</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,5 +66,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merged main into branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged main into branch" />
   </component>
 </project>

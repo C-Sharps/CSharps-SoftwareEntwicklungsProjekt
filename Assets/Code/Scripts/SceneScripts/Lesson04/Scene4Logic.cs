@@ -8,14 +8,14 @@ using Unity.VisualScripting;
 using UnityEngine;
 using RoslynCSharp;
 using System.Linq;
-using static Checking;
+using static CheckCorrect;
 
 public class Scene4Logic : MonoBehaviour
 {
     GameObject[] boxes;
 
     private LessonController _controller;
-    private Checking _checking;
+    private CheckCorrect _checkCorrect;
     private GameObject _boxPrefab;
 
     private int i = 0;
@@ -30,7 +30,7 @@ public class Scene4Logic : MonoBehaviour
     {
         _controller = FindObjectOfType<LessonController>();
         
-        _checking = FindObjectOfType<Checking>();
+        _checkCorrect = FindObjectOfType<CheckCorrect>();
 
         _boxPrefab = Resources.Load<GameObject>("Prefabs/Box");
     }
