@@ -215,8 +215,6 @@ namespace Code.Scripts.System.SaveLoad
             saveGame.quality = dropdown.value;
             QualitySettings.SetQualityLevel(saveGame.quality, true);
             Save();
-           
-        }
-        
+        } 
     }
 }

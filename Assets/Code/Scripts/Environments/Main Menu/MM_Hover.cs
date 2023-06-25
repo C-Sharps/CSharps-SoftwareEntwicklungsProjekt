@@ -35,7 +35,6 @@ namespace Code.Scripts.Main_Menu
             transform.GetChild(0).transform.localScale = new Vector3(1f, 1f, 1f);
         }
         
-
         public void OnPointerDown(PointerEventData eventData)
         {
             if (_audioSource != null && isOver)
