@@ -433,24 +433,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.size
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 78e053b99796ff0498a278cd2ed29813, type: 2}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 1404f43803a86604191f4b2c81999c97, type: 2}
+      objectReference: {fileID: 11400000, guid: 32a1b061ebc7f784abda02b7ae0e8aaf, type: 2}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: 31921b4e2e9e6ad4ab68df592a2fd55e, type: 2}
+      objectReference: {fileID: 11400000, guid: 36126319eeb14934bb875046af9d028d, type: 2}
     - target: {fileID: 7615019444570051118, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: pages.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: 8d22983535e1b2c48bdeb4991d53f8f0, type: 2}
+      objectReference: {fileID: 11400000, guid: 4b103a4ff6de7e6499f338ee86d13d86, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.size
       value: 3
