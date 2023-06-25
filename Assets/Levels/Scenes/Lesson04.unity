@@ -478,27 +478,27 @@ PrefabInstance:
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 2c1171a0bedfc5149a59c011a3e41a18, type: 2}
+      objectReference: {fileID: 11400000, guid: 37c20fbe68d0a484fb8c21b9c2e5d2ed, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 2c1171a0bedfc5149a59c011a3e41a18, type: 2}
+      objectReference: {fileID: 11400000, guid: a6e66a385a0437045b8adf20a76f303f, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: 2c1171a0bedfc5149a59c011a3e41a18, type: 2}
+      objectReference: {fileID: 11400000, guid: 45b1e0bdb469a184887ea689b63bb5f0, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: 2c1171a0bedfc5149a59c011a3e41a18, type: 2}
+      objectReference: {fileID: 11400000, guid: b393a51a200c96b4d90a08a305eb5b5a, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.data[4]
       value: 
-      objectReference: {fileID: 11400000, guid: 2c1171a0bedfc5149a59c011a3e41a18, type: 2}
+      objectReference: {fileID: 11400000, guid: 55ef1d6eeef98b242a1d3011f4616208, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonObjectives.Array.data[5]
       value: 
-      objectReference: {fileID: 11400000, guid: 2c1171a0bedfc5149a59c011a3e41a18, type: 2}
+      objectReference: {fileID: 11400000, guid: 6ea13e57385cb9d49889e6e50cf6dea8, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: assemblyReferences.Array.data[0]
       value: 

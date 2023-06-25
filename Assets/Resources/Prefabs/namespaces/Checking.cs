@@ -18,22 +18,22 @@ public class Checking : MonoBehaviour {
         input = String.Concat(input.Where(c => !Char.IsWhiteSpace(c)));
         switch(prompt) {
         case "Objective1":
-            Obj[0] = input.Equals("redSize>yellowSize");
+            Obj[0] = input.Equals("red>blue");
             break;
         case "Objective2":
-            Obj[1] = input.Equals("redSize>=yellowSize");
+            Obj[1] = input.Equals("blue<green");
             break;
         case "Objective3":
-            Obj[2] = input.Equals("redSize<yellowSize");
+            Obj[2] = input.Equals("green==yellow");
             break;
         case "Objective4":
-            Obj[3] = input.Equals("redSize<=yellowSize");
+            Obj[3] = input.Equals("yellow<=red");
             break;
         case "Objective5":
-            Obj[4] = input.Equals("redSize==yellowSize");
+            Obj[4] = input.Equals("yellow!=blue");
             break;
         case "Objective6":
-            Obj[5] = input.Equals("redSize!=yellowSize");
+            Obj[5] = input.Equals("yellow>=black");
             break;
         default:
             

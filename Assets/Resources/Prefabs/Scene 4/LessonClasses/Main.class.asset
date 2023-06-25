@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Main.class
   m_EditorClassIdentifier: 
   className: Main.class
-  classSource: "using UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\r\n\tpublic
-    void Start()\r\n\t{\r\n\t\tCheckCorrectSyntax(\"Objective 1\", \"\");\n\t}\n}"
+  classSource: "using UnityEngine;\r\nusing static Checking;\n\r\npublic class Main
+    : MonoBehaviour\r\n{\r\n\tpublic void Start()\r\n\t{\r\n\t\tCheckCorrectSyntax(\"Objective1\",
+    \"red > blue\");\n\n\t\t\t\t\t\t\n\t}\n}"
   interactable: 1

@@ -13,8 +13,18 @@ MonoBehaviour:
   m_Name: Dialog 3
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: Try using this new constructor to make different boxes! You can adjust
-    them by changing their respective parameters.
+  dialogText: 'Now i want you to rewrite some expressions. You can find them in order
+    as your objectives.
+
+    We have included the static Checking.class which helps
+    us to check your syntax.
+
+
+    You have an example in the Main.cs already to
+    show you how to use the CheckCorrectSyntax() method.
+
+    Good luck and have
+    fun.'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

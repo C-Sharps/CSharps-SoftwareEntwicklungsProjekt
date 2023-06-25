@@ -13,18 +13,17 @@ MonoBehaviour:
   m_Name: Dialog 1
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: 'Now you know what implicit casting of variables is. This will help
-    you with your next task: Making them explicit.
+  dialogText: 'Let''s teach you some basic logic!
 
 
-    But why? Say you want to
-    adjust the size of a box, setting it to
+    What would you use to compare
+    two numbers? For example what would you do to shorten:
 
-    "1".
+    "X is bigger than
+    Y."
 
-    The compiler sees this
-    and interpretes it as a string since you used quotationmarks. When you try to
-    use this for the integer size attribute, your system will crash!'
+
+    I would say "X>Y". It is short, simple and elegant.'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0
