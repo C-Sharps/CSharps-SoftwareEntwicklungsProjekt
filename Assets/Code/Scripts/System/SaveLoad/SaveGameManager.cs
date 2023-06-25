@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
+using Screen = UnityEngine.Device.Screen;
 
 namespace Code.Scripts.System.SaveLoad
 {
@@ -10,7 +11,7 @@ namespace Code.Scripts.System.SaveLoad
     public class SaveGame
     {
         // Game Settings
-        public bool isFullscreen = false;
+        public int displayMode = 0;
         public int resolutionIndex = 2;
         public int fontSize = 3;
         public float volume = 1.0f;
@@ -27,6 +28,12 @@ namespace Code.Scripts.System.SaveLoad
         // Graphic Settings
         public int quality = 5; // Default is Ultra
     }
+
+    public struct Resolution
+    {
+        public int width;
+        public int height;
+    }
     
     public class SaveGameManager : MonoBehaviour
     {
@@ -34,7 +41,7 @@ namespace Code.Scripts.System.SaveLoad
         private string _codePath;
         public bool isLoaded = false;
         private string _saveContent = "";
-
+        
         private readonly float _autoSaveTimer = 60 * 5; // auto saves the settings every 5 minutes
         private float _lastAutoSave = 0f;
 
@@ -43,17 +50,26 @@ namespace Code.Scripts.System.SaveLoad
             "Lesson00", "Lesson01", "Lesson02", "Lesson03", "Lesson04", "Lesson05",
             "Lesson06", "Lesson07", "Lesson08", "Lesson09", "Lesson10", "Lesson11", "Lesson12"
         };
-        
+
+        private Resolution[] _resolutions = new[]
+        {
+            new Resolution() { width = 800, height = 600 }, new Resolution() { width = 1024, height = 768 },
+            new Resolution() { width = 1280, height = 720 }, new Resolution() { width = 1280, height = 800 },
+            new Resolution() { width = 1366, height = 768 }, new Resolution() { width = 1600, height = 900 },
+            new Resolution() { width = 1920, height = 1080 }, new Resolution() { width = 2560, height = 1440 }
+        };
+
         public SaveGame saveGame;
-        
         public AudioSource _sfxAudioSource;
         public AudioSource _musicAudioSource;
         
         private void Start()
         {
             if (FindObjectsOfType<SaveGameManager>().Length > 1)
+            {
                 Destroy(gameObject);
-            
+            }
+
             // Keep SaveGameManager alive between scenes
             DontDestroyOnLoad(gameObject);
             
@@ -132,16 +148,21 @@ namespace Code.Scripts.System.SaveLoad
 
         public void SetResolutionIndex(int index)
         {
+            var resolution = _resolutions[index];
+            Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreenMode);
             saveGame.resolutionIndex = index;
         }
         
-        public void SetFullscreen(bool isFullscreen)
+        public void SetDisplayMode(int displayMode)
         {
-            saveGame.isFullscreen = isFullscreen;
+             Screen.fullScreenMode = (FullScreenMode) displayMode;
+            saveGame.displayMode = displayMode;
         }
-        
+
         public void SetMasterVolume(float volume)
         {
+            _musicAudioSource.volume = volume * saveGame.volume;
+            _sfxAudioSource.volume = volume * saveGame.volume;
             saveGame.volume = volume;
         }
         
@@ -154,6 +175,7 @@ namespace Code.Scripts.System.SaveLoad
         
         public void SetMusicVolume(float musicVolume)
         {
+            _musicAudioSource.volume = musicVolume * saveGame.volume;
             saveGame.musicVolume = musicVolume;
         }
         
@@ -165,6 +187,7 @@ namespace Code.Scripts.System.SaveLoad
         
         public void SetSfxVolume(float sfxVolume)
         {
+            _sfxAudioSource.volume = sfxVolume * saveGame.volume;
             saveGame.sfxVolume = sfxVolume;
         }
         
@@ -208,6 +231,13 @@ namespace Code.Scripts.System.SaveLoad
         public void SetGameSpeed(int gameSpeed)
         {
             saveGame.gameSpeed = gameSpeed;
+        }
+        
+        public void SetQualityLevel(int qualityLevel)
+        {
+            saveGame.quality = qualityLevel;
+            QualitySettings.SetQualityLevel(saveGame.quality, true);
+            Save();
         }
         
         public void SetQualityLevel(Dropdown dropdown)
