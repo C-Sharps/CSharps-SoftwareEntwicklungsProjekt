@@ -10768,14 +10768,14 @@ PrefabInstance:
     - target: {fileID: 4961169583499467446, guid: e125f95700cb3ba4494f6089c591af1b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 774201470}
+      objectReference: {fileID: 1885732358}
     - target: {fileID: 4961169583499467446, guid: e125f95700cb3ba4494f6089c591af1b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4961169583499467446, guid: e125f95700cb3ba4494f6089c591af1b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: ResetGame
       objectReference: {fileID: 0}
     - target: {fileID: 4961169583499467446, guid: e125f95700cb3ba4494f6089c591af1b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
