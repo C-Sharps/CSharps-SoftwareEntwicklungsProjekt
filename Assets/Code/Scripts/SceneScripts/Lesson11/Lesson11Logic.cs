@@ -29,11 +29,8 @@ public class Lesson11Logic : MonoBehaviour
             {
                 var tile = tileHolder.transform.GetChild(x + y * gridSize.x);
 
-                Debug.Log("Checking tile " + tile.name);
-
                 if (!tile.GetComponent<SolarPanel>().IsIntact())
                 {
-                    Debug.Log("Tile " + tile.name + " is still broken!");
                     return false;
                 }
             }

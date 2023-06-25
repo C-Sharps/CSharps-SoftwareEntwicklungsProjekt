@@ -8,6 +8,8 @@ public class CircuitBoard : MonoBehaviour
     public GameObject circuitBoardInterface;
     public GameObject returnButton;
     
+    public GameObject lessonNotFoundWindow;
+
     void Update()
     {
         // check if the circuit board was clicked on
@@ -32,11 +34,21 @@ public class CircuitBoard : MonoBehaviour
         returnButton.SetActive(true);
     }
 
+    public void ShowLessonNotFoundWindow()
+    {
+        lessonNotFoundWindow.SetActive(true);
+    }
+
+    public void CloseLessonNotFoundWindow()
+    {
+        lessonNotFoundWindow.SetActive(false);
+    }
+    
     public void ReturnToMain()
     {
         Application.LoadLevel("0 - Main Menu");
     }
-
+    
     void OnMouseOver()
     {
         GetComponent<MeshRenderer>().material =

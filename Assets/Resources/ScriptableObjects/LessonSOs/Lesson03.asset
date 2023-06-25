@@ -12,11 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson03
   m_EditorClassIdentifier: 
-  lessonName: 3 - Variables II
-  description: Take your box-building skills to the next level! Explore the world
-    of C# variables with an array of new parameters for your boxes. Dive into advanced
-    customization options.
+  lessonName: Variables II
+  description: Have more control over your variables by using explicit data types!
   order: 4
-  nextLesson: 8
+  nextLesson: 4
   isUnlocked: 1
   isCompleted: 0

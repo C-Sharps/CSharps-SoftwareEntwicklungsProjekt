@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson08
   m_EditorClassIdentifier: 
-  lessonName: 8 - Arrays
-  description: Embrace the power of collections with C#! Explore the versatile world
-    of arrays and unlock new dimensions of data storage. Learn how to create, access,
-    and manipulate arrays to store and organize multiple elements efficiently.
+  lessonName: Arrays
+  description: '<b>Coming soon!</b>
+
+
+    Store lots of data in arrays!'
   order: 9
   nextLesson: 0
   isUnlocked: 1

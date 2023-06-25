@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson12
   m_EditorClassIdentifier: 
-  lessonName: 12 - Methods III
-  description: Discover the power of method encapsulation as you delve into access
-    modifiers, allowing you to control the visibility and accessibility of your methods.
-    Explore the art of method composition and learn how to build complex functionalities
-    by combining smaller, reusable methods.
+  lessonName: Methods III
+  description: '<b>Coming soon!</b>
+
+
+    The time has come: write your first methods!'
   order: 13
   nextLesson: 0
   isUnlocked: 1

@@ -12,12 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson02
   m_EditorClassIdentifier: 
-  lessonName: 2 - Variables
-  description: Learn how to create a dynamic box that adapts to your commands by
-    utilizing the magic of variables. Experiment with different parameters to customize
-    the box's dimensions, color, and more. Master the art of manipulating data with
-    variables in this hands-on lesson.
+  lessonName: Variables
+  description: Save tiny bits of information in <i>variables</i>, and use them to
+    customize objects!
   order: 3
-  nextLesson: 4
+  nextLesson: 3
   isUnlocked: 1
   isCompleted: 0

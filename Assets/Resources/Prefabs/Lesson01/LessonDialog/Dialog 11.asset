@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
-  m_Name: Dialog 8
+  m_Name: Dialog 11
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "You might have also noticed these weird keywords like \"public\" and
-    \"void\".\r\nThese are so-called access and return types. \nWe will talk about
-    these later,\r \nwhen we start making the robot do stuff and go places...\r\n\n(like
-    go to the Main.class)"
+  dialogText: "What is that thing before the = you ask? Oh boy, \nyou are as clueless
+    as they come.\r \nWe will cover that in a second. \nFor now, why don't you instantiate
+    10 robots,\nwhile I try to create something to help you understand the concept
+    of\n \n<i>variables</i>.\r"
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

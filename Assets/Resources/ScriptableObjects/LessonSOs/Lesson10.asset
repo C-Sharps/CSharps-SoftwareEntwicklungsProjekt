@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson10
   m_EditorClassIdentifier: 
-  lessonName: 10 - Strings
-  description: ' Unleash the power of text manipulation with C#! Dive into the world
-    of strings and discover how to create, concatenate, and modify textual data.
-    Learn essential string manipulation techniques, including searching, replacing,
-    and formatting.'
+  lessonName: Strings
+  description: '<b>Coming soon!</b>
+
+
+    Make your robot say the darnest things!'
   order: 11
   nextLesson: 0
   isUnlocked: 1

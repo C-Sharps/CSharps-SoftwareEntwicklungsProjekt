@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d71dc5aaa6b224182ddd42e48d4f08, type: 3}
   m_Name: Lesson09
   m_EditorClassIdentifier: 
-  lessonName: 9 - Methods
-  description: Harness the power of modular programming with C#! Discover the art
-    of creating reusable blocks of code through methods. Learn how to encapsulate
-    functionality into organized and self-contained units.
+  lessonName: Methods
+  description: '<b>Coming soon!</b>
+
+
+    Learn how to instruct your robot to do
+    complex tasks without the need to repeat yourself.'
   order: 10
   nextLesson: 0
   isUnlocked: 1
