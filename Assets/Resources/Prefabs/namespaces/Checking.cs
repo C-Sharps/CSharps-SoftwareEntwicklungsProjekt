@@ -16,6 +16,7 @@ public class Checking : MonoBehaviour {
     public static void CheckCorrectSyntax(string prompt, string input) 
     {
         input = String.Concat(input.Where(c => !Char.IsWhiteSpace(c)));
+        
         switch(prompt) {
         case "Objective1":
             Obj[0] = input.Equals("red>blue");
