@@ -27,8 +27,8 @@ namespace Code.Scripts.System.SceneManager
         public GameObject objectiveContainer;
         public GameObject objectiveWindow;
         public Image objectiveIcon;
-        private Vector3 _objectiveClosedPosition = new Vector3(-550f, -105f, 0f);
-        private Vector3 _objectiveOpenPosition= new Vector3(-550f, 100f, 0f);
+        private Vector3 _objectiveClosedPosition = new Vector3(-550f, -155f, 0f);
+        private Vector3 _objectiveOpenPosition= new Vector3(-550f, 125f, 0f);
         
         // Settings Window
         [Header("Settings")]
