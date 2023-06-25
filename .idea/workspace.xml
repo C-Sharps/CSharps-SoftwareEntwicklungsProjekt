@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048fc719-8acf-4b1a-857c-9f25d2d339f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Models/Robot/Robot.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Models/Robot/Robot.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Lesson 7.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Lesson 7/Lesson7Logic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Lesson 7/Lesson7Logic.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/SceneManager/LessonView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Classes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Classes/Main.class.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Classes/Main.class.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Classes/Robot.class.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Classes/Robot.class.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Intro.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Intro.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Objectives.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Objectives/Objective_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Objectives/Objective_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Objectives/Objective_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Objectives/Objective_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Objectives/Objective_3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Objectives/Objective_3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Objectives/Objective_4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Objectives/Objective_4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Page 2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Lesson 7/Page 2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 7.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 7.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharps-SoftwareEntwicklungsProjekt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Models/Robot/Robot.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/Robot/Robot.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Lesson 11.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Lesson 11.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Modules/Legs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Modules/Legs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Robot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Robot/Robot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scene Logic.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scene Logic.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scene Logic/ISceneLogic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scene Logic/ISceneLogic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scenes/Scene_0/Scene0Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scenes/Scene_0/Scene0Logic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scenes/Scene_1/Scene1Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scenes/Scene_1/Scene1Logic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Dialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/Scriptable Objects/Dialog.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/System/DialogManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/System/DialogManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/TutorialSceneScripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/TutorialSceneScripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Scripts/TutorialSceneScripts/ExampleScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Scripts/TutorialSceneScripts/ExampleScript.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 11.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/Lesson 11.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot.prefab" afterDir="false" />
-    </list>
+    <list default="true" id="048fc719-8acf-4b1a-857c-9f25d2d339f5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +33,7 @@
       <updated>1684663084951</updated>
       <workItem from="1684663086116" duration="67000" />
       <workItem from="1686056949899" duration="40000" />
+      <workItem from="1687685862014" duration="314000" />
     </task>
     <servers />
   </component>
