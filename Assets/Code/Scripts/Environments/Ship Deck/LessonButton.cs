@@ -1,7 +1,10 @@
+using System.Linq;
+using Code.Scripts.System.SaveLoad;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using TMPro;
+using UnityEngine.UI;
 
 public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
@@ -12,6 +15,16 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private void Start()
     {
         _id = transform.GetSiblingIndex();
+        
+        var saveGameManager = FindObjectOfType<SaveGameManager>();
+        if (saveGameManager != null)
+        {
+            if (saveGameManager.IsLessonCompleted(LessonManager.GetLesson(_id).name))
+            {
+                GetComponent<Image>().color = Color.green;
+            }
+        }
+        
         GetComponent<UnityEngine.UI.Button>().onClick.AddListener(OnClickLesson);
 
         if (lessonHoverUI == null)
@@ -26,7 +39,14 @@ public class LessonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     private void OnClickLesson()
     {
-        LessonManager.LoadLesson(LessonManager.GetLesson(_id));
+        try
+        {
+            LessonManager.LoadLesson(LessonManager.GetLesson(_id));
+        }
+        catch (UnityException)
+        {
+            FindFirstObjectByType<CircuitBoard>().ShowLessonNotFoundWindow();
+        }
     }
 
     public void OnPointerEnter(PointerEventData eventData)

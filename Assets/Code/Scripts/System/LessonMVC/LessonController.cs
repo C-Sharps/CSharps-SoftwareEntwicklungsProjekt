@@ -10,6 +10,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using System.Data;
+using Code.Scripts.System.SaveLoad;
 using UnityEngine.SceneManagement;
 
 
@@ -143,6 +144,13 @@ using UnityEngine.SceneManagement;
             if (data.IsAllObjectivesComplete())
             {
                 view.OnLessonComplete();
+
+                var saveGameManager = FindObjectOfType<SaveGameManager>();
+                if (saveGameManager != null)
+                {
+                    saveGameManager.CompleteLessonByName(SceneManager.GetActiveScene().name);
+                }
+
                 OnCompleteLesson?.Invoke();
             }
         }

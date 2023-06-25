@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   className: Solution.class
   classSource: "using UnityEngine;\r\n\npublic class Main : MonoBehaviour\n{\r\n   
-    public void Start()\r\n    {\r\n        Robot repairBot = GameObject.FindGameObjectWithTag(\"Player\").GetComponent<Robot>();\r\n\trepairBot.Move(2,3);\n\trepairBot.Repair();\n\trepairBot.Move(5,0);\n\trepairBot.Repair();\n\trepairBot.Move(1,-2);\n\trepairBot.Repair();\n\trepairBot.Move(-4,0);\n\trepairBot.Repair();\n   
+    public void Start()\r\n    {\r\n        Robot repairBot = GameObject.FindGameObjectWithTag(\"Player\").GetComponent<Robot>();\r\n\trepairBot.MoveTo(2,3);\n\trepairBot.Repair();\n\trepairBot.MoveTo(5,0);\n\trepairBot.Repair();\n\trepairBot.MoveTo(1,-2);\n\trepairBot.Repair();\n\trepairBot.MoveTo(-4,0);\n\trepairBot.Repair();\n   
     }\r\n}"
   interactable: 1

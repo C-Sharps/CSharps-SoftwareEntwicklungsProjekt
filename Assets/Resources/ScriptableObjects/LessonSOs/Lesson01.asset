@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Lesson01
   m_EditorClassIdentifier: 
   lessonName: Hello World
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  description: Learn what happened in the introduction lesson, then make a bunch
+    of new friends!
   order: 2
-  nextLesson: 3
+  nextLesson: 2
   isUnlocked: 1
   isCompleted: 0

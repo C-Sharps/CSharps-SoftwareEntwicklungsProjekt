@@ -8,14 +8,13 @@ using UnityEngine.UI;
 public class MM_Handler : MonoBehaviour
 { 
     public GameObject PlanetParent;
+    
+    [Header("Interface")]
+    public GameObject MainMenu;
+    public GameObject OptionsMenu;
   
     void Start()
     {
-      
-        // set the button functions
-        transform.GetChild(1).GetComponent<Button>().onClick.AddListener(StartGame);
-        transform.GetChild(3).GetComponent<Button>().onClick.AddListener(Application.Quit);
-
         if (PlanetParent == null)
         {
             PlanetParent = GameObject.FindGameObjectWithTag("Planets").gameObject;
@@ -33,7 +32,13 @@ public class MM_Handler : MonoBehaviour
         }
     }
     
-    private void StartGame()
+    public void ToggleOptions()
+    {
+        MainMenu.SetActive(!MainMenu.activeSelf);
+        OptionsMenu.SetActive(!OptionsMenu.activeSelf);
+    }
+    
+    public void StartGame()
     {
         // load the ship deck scene
         SceneManager.LoadScene("1 - Ship Deck");

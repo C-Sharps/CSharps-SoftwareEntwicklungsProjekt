@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Lesson05
   m_EditorClassIdentifier: 
   lessonName: Logic
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  description: '<b>Coming soon!</b>
+
+
+    Let the computer do for you what it can
+    do best - calculate!'
   order: 6
   nextLesson: 0
   isUnlocked: 1

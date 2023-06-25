@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Lesson10
   m_EditorClassIdentifier: 
   lessonName: Strings
-  description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+  description: '<b>Coming soon!</b>
+
+
+    Make your robot say the darnest things!'
   order: 11
   nextLesson: 0
   isUnlocked: 1

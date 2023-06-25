@@ -10,21 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c22805eb59ac4330a4ed40267c433cac, type: 3}
-  m_Name: Dialog 1
+  m_Name: Dialog 8
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: 'Now you know what implicit casting of variables is. This will help
-    you with your next task: Making them explicit.
-
-
-    But why? Say you want to
-    adjust the size of a box, setting it to
-
-    "1".
-
-    The compiler sees this
-    and interpretes it as a string since you used quotationmarks. When you try to
-    use this for the integer size attribute, your system will crash!'
+  dialogText: "You might have also noticed these weird keywords like \"public\" and
+    \"void\".\r\nThese are so-called access and return types. \nWe will talk about
+    these later,\r \nwhen we start making the robot do stuff and go places...\r\n\n(like
+    go to the Main.class)."
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0
