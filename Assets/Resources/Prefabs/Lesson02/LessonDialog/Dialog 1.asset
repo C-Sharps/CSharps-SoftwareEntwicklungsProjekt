@@ -27,7 +27,7 @@ MonoBehaviour:
     for true/false
 
 
-    Let us look at the Box.class for something more simple first.'
+    Let us look at the Box.cs for something more simple first.'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

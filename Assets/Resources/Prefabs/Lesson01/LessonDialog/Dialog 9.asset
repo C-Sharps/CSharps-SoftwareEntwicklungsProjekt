@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Dialog 9
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "This is also a class and in C#, the Main(string[] args) method is
-    a special case.\r\n\nIn this editor, we will call it Start to simplify things.\r\nThey
+  dialogText: "This is also a class and in C#, the Main(string[] args) function is
+    a special case.\n\nIn this editor, we will call it Start to simplify things.\nThey
     are called upon when the code is started and should include everything you want
     to run or call\r when starting your program.\r"
   dialogType: 0

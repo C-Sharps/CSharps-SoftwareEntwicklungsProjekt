@@ -13,10 +13,18 @@ MonoBehaviour:
   m_Name: Dialog 1
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "Hey, Atlas here! This is what's know as a 'class'. \r\nThink of it
-    as your robot's blueprint.\r\nYou can use this blueprint to make yourself a robot!
-    \r\nI have restricted access to this file for now,\r\nas you don't need to change
-    anything yet.\r"
+  dialogText: 'Hey, Atlas here! This is what''s know as a ''class''.
+
+    Think of
+    it as your robot''s blueprint.
+
+    You can use this blueprint to make yourself
+    a robot!
+
+    I have restricted access to this file for now,
+
+    as you don''t
+    need to change anything yet.'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

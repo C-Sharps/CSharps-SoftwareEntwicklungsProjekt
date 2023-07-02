@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Dialog 10
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "You already know what this function does, now you know why it does
-    them.\r\nYou call the Robot(Color32 color) method and instantiate a new Robot
-    object.\r"
+  dialogText: 'You already know what this function does, now you know why it does
+    them.
+
+    You call the Robot(Color color) method and instantiate a new Robot
+    object.'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0
