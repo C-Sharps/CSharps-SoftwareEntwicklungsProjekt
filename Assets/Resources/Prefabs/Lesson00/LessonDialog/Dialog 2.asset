@@ -13,11 +13,19 @@ MonoBehaviour:
   m_Name: Dialog 2
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "Robot() is a method, basically a move or function your Robot can do.\r\nYou
-    can tell it's a method by looking at it's name: \r\nRobot(). Every function has
-    a () at the end,\r\nwhere you can define parameters, or inputs your method needs
-    to work. \r\nIn this case it's a constructor, a method that can create a new
-    object from a class.\r"
+  dialogText: 'Robot() is a function your Robot can do.
+
+    You can tell it''s a
+    function by looking at it''s name:
+
+    Robot(). Every function has a () at the
+    end,
+
+    where you can define parameters, or inputs your function needs to work.
+
+    In
+    this case it''s a constructor, a function that can create a new object from a
+    class.'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

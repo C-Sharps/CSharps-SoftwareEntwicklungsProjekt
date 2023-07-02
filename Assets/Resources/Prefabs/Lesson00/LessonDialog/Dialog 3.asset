@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Dialog 3
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "Click on the Main.class to continue, \r\nafter making yourself familiar
-    with this class, especially the Robot() method.\r"
+  dialogText: 'Click on the Main.cs to continue,
+
+    after making yourself familiar
+    with this class, especially the Robot() function.'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

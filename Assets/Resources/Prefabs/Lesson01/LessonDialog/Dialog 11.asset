@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogName: 
   dialogText: "What is that thing before the = you ask? Oh boy, \nyou are as clueless
-    as they come.\r \nWe will cover that in a second. \nFor now, why don't you instantiate
+    as they come.\nWe will cover that in a second.\nFor now, why don't you instantiate
     10 robots,\nwhile I try to create something to help you understand the concept
-    of\n \n<i>variables</i>.\r"
+    of\n\n<i>variables</i>."
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

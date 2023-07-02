@@ -13,12 +13,25 @@ MonoBehaviour:
   m_Name: Dialog 5
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "Let's build your first robot. Remember that Robot() function? \r\nWe're
+  dialogText: 'Let''s build your first robot. Remember that Robot() function?
+
+    We''re
     going to use it here. To make a new object, simply write the following expression:
-    \r\n\nclassName objectName (you can choose this one) = new className(parameters)\n\nYou
-    can try following Colors: Color.green, Color.blue, Color.green, Color.black.\n\nTry
-    it out yourself and feel free to look back at your blueprint.\n(The next page
-    has an example, if you get stuck)"
+
+
+    className
+    objectName (you can choose this one) = new className(parameters)
+
+
+    You can
+    try following Colors: Color.green, Color.blue, Color.green, Color.black.
+
+
+    Try
+    it out yourself and feel free to look back at your blueprint.
+
+    (The next
+    page has an example, if you get stuck)'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dialog 6
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "The only thing defined in the Robot class is the \r\npublic Robot(Color32
-    Color) {...}\r\nmethod. This is something special, notice how its name is the
-    same as the Robot.class?\r\n\nThat is only the case for constructors, or methods
-    that, when called upon, instantiate a new object.\r\n(Instantiate means create,
+  dialogText: "The only thing defined in the Robot class is the \npublic Robot(Color
+    Color) {...}\nfunction. This is something special, notice how its name is the
+    same as the Robot.cs?\n\nThat is only the case for constructors, or functions
+    that, when called upon, instantiate a new object.\n(Instantiate means create,
     for nerds)\r."
   dialogType: 0
   isCompleted: 0

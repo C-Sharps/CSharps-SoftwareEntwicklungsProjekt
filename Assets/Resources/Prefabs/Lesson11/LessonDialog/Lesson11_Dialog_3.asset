@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogName: 
   dialogText: "<u>Parameters</u> let you pass values into a method to be processed.
-    Remember <i>robot.Print(\u201CHello World\u201D)</i>? \r\n\r\nThe method <i>Print()</i>
+    Remember <i>robot.Print(\u201CHello World\u201D)</i>?\n\r\nThe method <i>Print()</i>
     has one parameter of type <i>string</i>. In this case, you put in the string
     \u201CHello World\u201D, and your robot processed it to put out the words \u201CHello
-    World\u201D.\r\n\nYou can do the same with different types besides <i>strings</i>,
+    World\u201D.\n\nYou can do the same with different types besides <i>strings</i>,
     like <i>integers</i>, <i>float</i>, but also <i>boolean</i> values."
   dialogType: 0
   isCompleted: 0

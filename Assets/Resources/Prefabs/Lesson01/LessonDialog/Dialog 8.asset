@@ -13,10 +13,19 @@ MonoBehaviour:
   m_Name: Dialog 8
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "You might have also noticed these weird keywords like \"public\" and
-    \"void\".\r\nThese are so-called access and return types. \nWe will talk about
-    these later,\r \nwhen we start making the robot do stuff and go places...\r\n\n(like
-    go to the Main.class)."
+  dialogText: 'You might have also noticed these weird keywords like "public" and
+    "void".
+
+    These are so-called access and return types.
+
+    We will talk about
+    these later,
+
+    when we start making the robot do stuff and go places...
+
+
+    (like
+    go to the Main.cs).'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

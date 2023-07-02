@@ -13,8 +13,12 @@ MonoBehaviour:
   m_Name: Dialog 4
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "This is where the magic happens. \r\nWhenever you click the start
-    button, \r\nthe code below will be executed. Now let's get to it!\r"
+  dialogText: 'This is where the magic happens.
+
+    Whenever you click the start
+    button,
+
+    the code below will be executed. Now let''s get to it!'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

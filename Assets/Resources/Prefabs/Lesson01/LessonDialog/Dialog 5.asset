@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dialog 5
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "On the topic of functions, in C#, they are also called methods.\r\nThese
-    code blocks contain a series of statements.\r\n\nA program causes the statements
-    to be executed by calling the method\r\nand specifying any required method arguments.\r\nIn
-    C#, every executed instruction is performed in the context of a method.\r"
+  dialogText: "On the topic of functions, these code blocks contain a series of statements.\r\n\nA
+    program causes the statements to be executed by calling the method\r\nand specifying
+    any required arguments.\r\nIn C#, every executed instruction is performed in
+    the context of a function.\r"
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0

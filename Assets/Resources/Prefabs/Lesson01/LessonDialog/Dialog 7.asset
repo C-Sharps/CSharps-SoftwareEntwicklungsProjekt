@@ -13,10 +13,16 @@ MonoBehaviour:
   m_Name: Dialog 7
   m_EditorClassIdentifier: 
   dialogName: 
-  dialogText: "The parts in () are what's known as parameters,\r\nthey are what needs
-    to be provided when calling the method.\r\nThese inputs can be used inside the
-    method, for example:\r\nColor is used to change the robot's color attribute.
-    \r"
+  dialogText: 'The parts in () are what''s known as parameters,
+
+    they are what
+    needs to be provided when calling the function.
+
+    These inputs can be used
+    inside the function, for example:
+
+    Color is used to change the robot''s color
+    attribute.'
   dialogType: 0
   isCompleted: 0
   objectiveIndex: 0
