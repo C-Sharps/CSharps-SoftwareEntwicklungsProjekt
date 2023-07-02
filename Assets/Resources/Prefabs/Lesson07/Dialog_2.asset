@@ -24,16 +24,8 @@ MonoBehaviour:
     Robot.Move(Direction)
 
 
-    There are the following
-    Directions the Robot can move towards:
-
-    Direction.North
-
-    Direction.East
-
-    Direction.South
-
-    Direction.East'
+    You can use <i>Robot.Move(Direction.Forward)</i>
+    to let the robot move, well, forward.'
   dialogType: 0
   isCompleted: 1
   objectiveIndex: 0
