@@ -11230,7 +11230,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 22ffc738519fc874ba01f1b4feb67880, type: 2}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7615019444570051121, guid: a28a57cc14db78b42bc13dd9e722c60d, type: 3}
       propertyPath: lessonClasses.Array.data[0]
